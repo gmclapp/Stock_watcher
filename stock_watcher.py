@@ -8,9 +8,9 @@ import pandas_datareader.data as web
 import json
 import sys
 import os
-import sanitize_inputs as si
+import sanitize_inputs as si # version 0.3.0
 
-__version__ = '0.7.2'
+__version__ = '0.8.0'
 #os.system("mode con cols=60 lines=60")
 
 # Hide all warnings
@@ -809,7 +809,9 @@ while(True):
                           'Get dividends for current positions',
                           'Edit target exposure',
                           'Edit dividend target',
-                          'Clear console']
+                          'Clear console',
+                          'About',
+                          'Back']
             selection = selections[si.select(selections)]
             if selection == 'Get all dividends':
                 get_dividends(watch_list, force_all=True)
@@ -838,6 +840,13 @@ while(True):
             elif selection == 'Clear console':
                 print('\033[2J')
                 # console command to clear console and return to (0,0)
+            elif selection == 'About':
+                print("Version: {}\nSanitize inputs version: {}" \
+                      .format(__version__,si.__version__))
+                
+            elif selection == 'Back':
+                pass
+                
 
         elif selection == 'Save':
             watch_list.save_positions()
