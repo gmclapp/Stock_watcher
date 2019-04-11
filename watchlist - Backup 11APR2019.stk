@@ -1,0 +1,3760 @@
+[
+    {
+        "portfolio value": 35811.328584553674,
+        "exposure target": 0.025,
+        "dividend target": 0.0325,
+        "average yield": 0.0467863122152546
+    },
+    [
+        {
+            "ticker": "AAPL",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2017-10-20",
+                    "price": 156.74,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2017-10-30",
+                    "price": 166.23,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "s",
+                    "date": "2017-11-28",
+                    "price": 173.12,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "b",
+                    "date": "2017-12-7",
+                    "price": 169.6864,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-1-4",
+                    "price": 173.34,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-1-29",
+                    "price": 168.5299,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-2-15",
+                    "price": 171.2064,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-15",
+                    "price": 151.1737,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-1-18",
+                    "price": 156.9374,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-3-27",
+                    "price": 188.9542,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 5
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-4-8",
+                    "price": 199.9801,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 5
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2017-11-10",
+                    "amount": 0.63,
+                    "shares": 10,
+                    "total": 6.3
+                },
+                {
+                    "date": "2018-2-9",
+                    "amount": 0.63,
+                    "shares": 15,
+                    "total": 9.45
+                },
+                {
+                    "date": "2018-5-11",
+                    "amount": 0.73,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-8-10",
+                    "amount": 0.73,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-11-8",
+                    "amount": 0.73,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2019-2-8",
+                    "amount": 0.73,
+                    "shares": 0,
+                    "total": 0.0
+                }
+            ],
+            "cost basis": 0,
+            "current shares": 0,
+            "last price": 200.52000427246094,
+            "last price date": "2019-4-11",
+            "last dividend": 0.73,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "ABBV",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-11-8",
+                    "price": 87.9365,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 9
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-12-4",
+                    "price": 94.63,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 9
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-23",
+                    "price": 88.8042,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-2-25",
+                    "price": 80.1541,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2019-1-14",
+                    "amount": 1.07,
+                    "shares": 0,
+                    "total": 0.0
+                }
+            ],
+            "cost basis": 82.80109999999999,
+            "current shares": 30,
+            "last price": 81.95999908447266,
+            "last price date": "2019-4-11",
+            "last dividend": 1.07,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "AMGN",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-6-4",
+                    "price": 183.5014,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-7-9",
+                    "price": 193.2077,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-2-1",
+                    "price": 187.3724,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 5
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2018-8-16",
+                    "amount": 1.32,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-11-15",
+                    "amount": 1.32,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2019-2-14",
+                    "amount": 1.45,
+                    "shares": 5,
+                    "total": 7.25
+                }
+            ],
+            "cost basis": 148.08720000000005,
+            "current shares": 5,
+            "last price": 193.22999572753906,
+            "last price date": "2019-4-11",
+            "last dividend": 1.45,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "ASTI",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-10-3",
+                    "price": 0.054,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 300
+                }
+            ],
+            "dividends": [],
+            "cost basis": 0.0705,
+            "current shares": 300,
+            "last price": 0.0019000000320374966,
+            "last price date": "2019-4-11"
+        },
+        {
+            "ticker": "AXGT",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2017-9-26",
+                    "price": 6.6294,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-1-11",
+                    "price": 2.38,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 200
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-6-1",
+                    "price": 2.035,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 220
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-6-5",
+                    "price": 1.815,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 200
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-6-6",
+                    "price": 4.21,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 200
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-24",
+                    "price": 0.9463,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 100
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-2-15",
+                    "price": 1.2334,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 100
+                }
+            ],
+            "dividends": [],
+            "cost basis": 0,
+            "current shares": 0,
+            "last price": 1.0989999771118164,
+            "last price date": "2019-4-11"
+        },
+        {
+            "ticker": "AXP",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-1-31",
+                    "price": 98.85,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-6-1",
+                    "price": 98.75,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2018-4-5",
+                    "amount": 0.35,
+                    "shares": 20,
+                    "total": 7.0
+                },
+                {
+                    "date": "2018-7-5",
+                    "amount": 0.35,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-10-4",
+                    "amount": 0.39,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2019-1-3",
+                    "amount": 0.39,
+                    "shares": 0,
+                    "total": 0.0
+                }
+            ],
+            "cost basis": 0,
+            "current shares": 0,
+            "last price": 110.71829986572266,
+            "last price date": "2019-4-11",
+            "last dividend": 0.39,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "BA",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2017-10-20",
+                    "price": 260.17,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-2-1",
+                    "price": 359.131,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-2-2",
+                    "price": 353.9,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-2-9",
+                    "price": 336.3806,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-3-14",
+                    "price": 376.3808,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 1
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-4-9",
+                    "price": 369.3825,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 2
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2017-11-9",
+                    "amount": 1.42,
+                    "shares": 10,
+                    "total": 14.2
+                },
+                {
+                    "date": "2018-2-8",
+                    "amount": 1.71,
+                    "shares": 10,
+                    "total": 17.1
+                },
+                {
+                    "date": "2018-5-10",
+                    "amount": 1.71,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-8-9",
+                    "amount": 1.71,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-11-8",
+                    "amount": 1.71,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2019-2-7",
+                    "amount": 2.055,
+                    "shares": 0,
+                    "total": 0.0
+                }
+            ],
+            "cost basis": 93.10993333333359,
+            "current shares": 3,
+            "last price": 368.5968017578125,
+            "last price date": "2019-4-11",
+            "last dividend": 2.055,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "BBY",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-1-4",
+                    "price": 66.38,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 25
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-1-19",
+                    "price": 76.8417,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 25
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-2-28",
+                    "price": 72.6269,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-5-16",
+                    "price": 78.804,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-6-4",
+                    "price": 69.5223,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-6-28",
+                    "price": 74.177,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-10",
+                    "price": 56.0481,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-1-18",
+                    "price": 58.807,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-24",
+                    "price": 57.1175,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-2-12",
+                    "price": 59.9639,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-2-27",
+                    "price": 69.0295,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-3-14",
+                    "price": 68.2909,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-3-22",
+                    "price": 72.7691,
+                    "commission": 4.95,
+                    "fees": 0.02,
+                    "shares": 20
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-3-27",
+                    "price": 70.8907,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 12
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2018-3-21",
+                    "amount": 0.45,
+                    "shares": 30,
+                    "total": 13.5
+                },
+                {
+                    "date": "2018-6-13",
+                    "amount": 0.45,
+                    "shares": 30,
+                    "total": 13.5
+                },
+                {
+                    "date": "2018-9-17",
+                    "amount": 0.45,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-12-10",
+                    "amount": 0.45,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2019-3-19",
+                    "amount": 0.5,
+                    "shares": 20,
+                    "total": 10.0
+                }
+            ],
+            "cost basis": -13.877925000000014,
+            "current shares": 12,
+            "last price": 74.2750015258789,
+            "last price date": "2019-4-11",
+            "last dividend": 0.5,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "BGG",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-6-8",
+                    "price": 18.74,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-8-24",
+                    "price": 20.5815,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-11-8",
+                    "price": 15.5076,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 25
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-12-14",
+                    "price": 13.4521,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-1-8",
+                    "price": 13.9519,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-29",
+                    "price": 12.0881,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2018-6-14",
+                    "amount": 0.14,
+                    "shares": 50,
+                    "total": 7.000000000000001
+                },
+                {
+                    "date": "2018-9-17",
+                    "amount": 0.14,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-12-17",
+                    "amount": 0.14,
+                    "shares": 55,
+                    "total": 7.700000000000001
+                },
+                {
+                    "date": "2019-3-18",
+                    "amount": 0.14,
+                    "shares": 75,
+                    "total": 10.500000000000002
+                }
+            ],
+            "cost basis": 11.596346666666669,
+            "current shares": 75,
+            "last price": 12.75,
+            "last price date": "2019-4-11",
+            "last dividend": 0.14,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "BKE",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2019-1-4",
+                    "price": 19.4551,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 25
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-10",
+                    "price": 17.761,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-1-14",
+                    "price": 18.5717,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-16",
+                    "price": 17.6484,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2019-1-10",
+                    "amount": 1.25,
+                    "shares": 40,
+                    "total": 50.0
+                },
+                {
+                    "date": "2019-4-11",
+                    "amount": 0.25,
+                    "shares": 40,
+                    "total": 10.0
+                }
+            ],
+            "cost basis": 17.471075000000003,
+            "current shares": 40,
+            "last price": 18.184999465942383,
+            "last price date": "2019-4-11",
+            "last dividend": 0.25,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "BKS",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-10-3",
+                    "price": 5.5699,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 120
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-10-4",
+                    "price": 6.705,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 120
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-12-21",
+                    "price": 6.206,
+                    "commission": 4.95,
+                    "fees": 4.95,
+                    "shares": 40
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-1-2",
+                    "price": 7.2659,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-17",
+                    "price": 6.0373,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 150
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-1-18",
+                    "price": 6.5051,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 150
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-29",
+                    "price": 6.005,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 80
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-2-15",
+                    "price": 6.2645,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 80
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-3-7",
+                    "price": 5.015,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 150
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-3-14",
+                    "price": 5.6113,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 150
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-3-22",
+                    "price": 5.6282,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 300
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-4-9",
+                    "price": 5.3289,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 200
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2018-10-12",
+                    "amount": 0.15,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2019-1-3",
+                    "amount": 0.15,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2019-4-4",
+                    "amount": 0.15,
+                    "shares": 300,
+                    "total": 45.0
+                }
+            ],
+            "cost basis": 4.820214,
+            "current shares": 500,
+            "last price": 5.305300235748291,
+            "last price date": "2019-4-11",
+            "last dividend": 0.15,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "CBL",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-6-8",
+                    "price": 5.66,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 200
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-7-9",
+                    "price": 5.773,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 200
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-9-25",
+                    "price": 4.2,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 100
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-12-18",
+                    "price": 2.276,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 75
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-3-22",
+                    "price": 1.9056,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 500
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2018-6-29",
+                    "amount": 0.2,
+                    "shares": 200,
+                    "total": 40.0
+                },
+                {
+                    "date": "2018-9-28",
+                    "amount": 0.2,
+                    "shares": 100,
+                    "total": 20.0
+                },
+                {
+                    "date": "2018-12-28",
+                    "amount": 0.075,
+                    "shares": 175,
+                    "total": 13.125
+                },
+                {
+                    "date": "2019-3-29",
+                    "amount": 0.075,
+                    "shares": 675,
+                    "total": 50.625
+                }
+            ],
+            "cost basis": 2.091851851851852,
+            "current shares": 675,
+            "last price": 1.475000023841858,
+            "last price date": "2019-4-11",
+            "last dividend": 0.075,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "CVX",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-11-15",
+                    "price": 113.8665,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-11-28",
+                    "price": 117.8508,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-12-14",
+                    "price": 113.989,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-2-1",
+                    "price": 118.6578,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 7
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-2-15",
+                    "price": 119.4748,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 8
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2018-11-15",
+                    "amount": 1.12,
+                    "shares": 15,
+                    "total": 16.8
+                },
+                {
+                    "date": "2019-2-14",
+                    "amount": 1.19,
+                    "shares": 8,
+                    "total": 9.52
+                }
+            ],
+            "cost basis": 0,
+            "current shares": 0,
+            "last price": 126.04000091552734,
+            "last price date": "2019-4-11",
+            "last dividend": 1.19,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "DFS",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-10-31",
+                    "price": 69.813,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-11-26",
+                    "price": 70.515,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-7",
+                    "price": 61.1064,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 7
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-2-21",
+                    "price": 71.23,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 7
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2018-11-20",
+                    "amount": 0.4,
+                    "shares": 20,
+                    "total": 8.0
+                },
+                {
+                    "date": "2019-2-20",
+                    "amount": 0.4,
+                    "shares": 7,
+                    "total": 2.8000000000000003
+                }
+            ],
+            "cost basis": 0,
+            "current shares": 0,
+            "last price": 75.0999984741211,
+            "last price date": "2019-4-11",
+            "last dividend": 0.4,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "ECSIF",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-3-8",
+                    "price": 1.1,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 1200
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-6-1",
+                    "price": 1.05,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 1200
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-6-7",
+                    "price": 1.0295,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 1200
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-6-13",
+                    "price": 0.88,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 800
+                }
+            ],
+            "dividends": [],
+            "cost basis": 1.00465,
+            "current shares": 2000,
+            "last price": 0.27160000801086426,
+            "last price date": "2019-4-11"
+        },
+        {
+            "ticker": "F",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-1-22",
+                    "price": 12.04,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 150
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-1-29",
+                    "price": 11.1652,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 180
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-2-15",
+                    "price": 10.745,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 100
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-4-25",
+                    "price": 11.02,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 100
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-5-22",
+                    "price": 11.615,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 180
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-5-30",
+                    "price": 11.545,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 150
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-6-19",
+                    "price": 11.76,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 200
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-8-31",
+                    "price": 9.6364,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 75
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-9-7",
+                    "price": 9.38,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 100
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-9-19",
+                    "price": 9.7647,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 175
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-9-24",
+                    "price": 9.5457,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 175
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-9-26",
+                    "price": 9.3369,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-10-5",
+                    "price": 9.1242,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-10-29",
+                    "price": 9.524,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-10-31",
+                    "price": 9.5832,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 120
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-11-12",
+                    "price": 9.4601,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-11-15",
+                    "price": 9.2779,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-12-3",
+                    "price": 9.6842,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 150
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-12-4",
+                    "price": 9.4266,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 150
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-12-10",
+                    "price": 8.4536,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-12-18",
+                    "price": 8.6339,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-2-22",
+                    "price": 8.6799,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 90
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-2-26",
+                    "price": 8.894,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 90
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-3-14",
+                    "price": 8.563,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 90
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-3-19",
+                    "price": 8.774,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 90
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2018-1-29",
+                    "amount": 0.15,
+                    "shares": 330,
+                    "total": 49.5
+                },
+                {
+                    "date": "2018-4-19",
+                    "amount": 0.15,
+                    "shares": 430,
+                    "total": 64.5
+                },
+                {
+                    "date": "2018-7-20",
+                    "amount": 0.15,
+                    "shares": 200,
+                    "total": 30.0
+                },
+                {
+                    "date": "2018-10-22",
+                    "amount": 0.15,
+                    "shares": 475,
+                    "total": 71.25
+                },
+                {
+                    "date": "2019-1-30",
+                    "amount": 0.15,
+                    "shares": 305,
+                    "total": 45.75
+                },
+                {
+                    "date": "2019-3-28",
+                    "amount": 0.15,
+                    "shares": 305,
+                    "total": 45.75
+                }
+            ],
+            "cost basis": 9.344714754098366,
+            "current shares": 305,
+            "last price": 9.364999771118164,
+            "last price date": "2019-4-11",
+            "last dividend": 0.15,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "FB",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-3-22",
+                    "price": 169.8014,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-5-2",
+                    "price": 175.6257,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-9-26",
+                    "price": 162.6759,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-9-26",
+                    "price": 168.7671,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-10-3",
+                    "price": 160.7884,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-2-1",
+                    "price": 168.325,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-3-19",
+                    "price": 163.0644,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 9
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-3-21",
+                    "price": 164.4791,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 9
+                }
+            ],
+            "dividends": [],
+            "cost basis": 0,
+            "current shares": 0,
+            "last price": 178,
+            "last price date": "2019-4-11"
+        },
+        {
+            "ticker": "FCAU",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2019-2-26",
+                    "price": 14.875,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 80
+                }
+            ],
+            "dividends": [],
+            "cost basis": 14.936875,
+            "current shares": 80,
+            "last price": 15.734999656677246,
+            "last price date": "2019-4-11",
+            "last dividend": 0,
+            "last yield date": "2019-2-26"
+        },
+        {
+            "ticker": "FTSSF",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-12-3",
+                    "price": 0.34,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 2265
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-11",
+                    "price": 0.1338,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 2500
+                }
+            ],
+            "dividends": [],
+            "cost basis": 0.23389296956977965,
+            "current shares": 4765,
+            "last price": 0.13300000131130219,
+            "last price date": "2019-4-11"
+        },
+        {
+            "ticker": "GD",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2017-8-18",
+                    "price": 199.3367,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "s",
+                    "date": "2017-10-11",
+                    "price": 212.62,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-1-22",
+                    "price": 208.52,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-1-29",
+                    "price": 226.3223,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-3-14",
+                    "price": 221.25,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-5-22",
+                    "price": 204.764,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-6-1",
+                    "price": 203.0185,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-6-5",
+                    "price": 202.129,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-9-19",
+                    "price": 205.5288,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-12-3",
+                    "price": 185.9199,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-4-9",
+                    "price": 171.0971,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2017-10-5",
+                    "amount": 0.84,
+                    "shares": 10,
+                    "total": 8.4
+                },
+                {
+                    "date": "2018-1-18",
+                    "amount": 0.84,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-4-12",
+                    "amount": 0.93,
+                    "shares": 10,
+                    "total": 9.3
+                },
+                {
+                    "date": "2018-7-5",
+                    "amount": 0.93,
+                    "shares": 20,
+                    "total": 18.6
+                },
+                {
+                    "date": "2018-10-4",
+                    "amount": 0.93,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2019-1-17",
+                    "amount": 0.93,
+                    "shares": 10,
+                    "total": 9.3
+                },
+                {
+                    "date": "2019-4-11",
+                    "amount": 1.02,
+                    "shares": 20,
+                    "total": 20.4
+                }
+            ],
+            "cost basis": 168.01690000000005,
+            "current shares": 20,
+            "last price": 169.1750030517578,
+            "last price date": "2019-4-11",
+            "last dividend": 1.02,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "GE",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2017-10-24",
+                    "price": 22.1,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 80
+                },
+                {
+                    "b/s": "b",
+                    "date": "2017-12-6",
+                    "price": 17.64,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-6-1",
+                    "price": 14.065,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 120
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-6-4",
+                    "price": 14.0551,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 120
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-6-21",
+                    "price": 12.645,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-10-5",
+                    "price": 13.1535,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-2-22",
+                    "price": 10.07,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-2-25",
+                    "price": 11.1153,
+                    "commission": 4.95,
+                    "fees": 0.01,
+                    "shares": 50
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-3-7",
+                    "price": 9.18,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 120
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-3-7",
+                    "price": 9.3534,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 120
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2017-12-6",
+                    "amount": 0.12,
+                    "shares": 120,
+                    "total": 14.399999999999999
+                },
+                {
+                    "date": "2017-12-26",
+                    "amount": 0.12,
+                    "shares": 120,
+                    "total": 14.399999999999999
+                },
+                {
+                    "date": "2018-2-23",
+                    "amount": 0.12,
+                    "shares": 120,
+                    "total": 14.399999999999999
+                },
+                {
+                    "date": "2018-6-15",
+                    "amount": 0.12,
+                    "shares": 120,
+                    "total": 14.399999999999999
+                },
+                {
+                    "date": "2018-9-14",
+                    "amount": 0.12,
+                    "shares": 170,
+                    "total": 20.4
+                },
+                {
+                    "date": "2018-12-19",
+                    "amount": 0.01,
+                    "shares": 120,
+                    "total": 1.2
+                },
+                {
+                    "date": "2019-3-8",
+                    "amount": 0.01,
+                    "shares": 120,
+                    "total": 1.2
+                }
+            ],
+            "cost basis": 19.195033333333324,
+            "current shares": 120,
+            "last price": 9.204999923706055,
+            "last price date": "2019-4-11",
+            "last dividend": 0.01,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "GM",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2017-7-27",
+                    "price": 35.786,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "s",
+                    "date": "2017-9-5",
+                    "price": 37.2074,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-6-19",
+                    "price": 41.9665,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-8-31",
+                    "price": 36.1844,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-10-5",
+                    "price": 34.1047,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-10-9",
+                    "price": 32.8561,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-10-29",
+                    "price": 34.0858,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-10-31",
+                    "price": 35.778,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-11-26",
+                    "price": 37.9738,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-11-28",
+                    "price": 36.6162,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-12-3",
+                    "price": 39.0279,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-10",
+                    "price": 34.89,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-1-11",
+                    "price": 37.6339,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2017-9-6",
+                    "amount": 0.38,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2017-9-7",
+                    "amount": 0.38,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2017-12-7",
+                    "amount": 0.38,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-3-8",
+                    "amount": 0.38,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-6-7",
+                    "amount": 0.38,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-9-6",
+                    "amount": 0.38,
+                    "shares": 45,
+                    "total": 17.1
+                },
+                {
+                    "date": "2018-12-6",
+                    "amount": 0.38,
+                    "shares": 30,
+                    "total": 11.4
+                },
+                {
+                    "date": "2019-3-7",
+                    "amount": 0.38,
+                    "shares": 30,
+                    "total": 11.4
+                }
+            ],
+            "cost basis": 31.647100000000027,
+            "current shares": 30,
+            "last price": 39.555599212646484,
+            "last price date": "2019-4-11",
+            "last dividend": 0.38,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "GME",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-6-8",
+                    "price": 14.515,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 100
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-6-19",
+                    "price": 15.5343,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 100
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-12-4",
+                    "price": 13.7621,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 65
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-1-4",
+                    "price": 14.541,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 65
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-2-1",
+                    "price": 11.3461,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 45
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2018-6-11",
+                    "amount": 0.38,
+                    "shares": 100,
+                    "total": 38.0
+                },
+                {
+                    "date": "2018-9-17",
+                    "amount": 0.38,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-12-10",
+                    "amount": 0.38,
+                    "shares": 65,
+                    "total": 24.7
+                },
+                {
+                    "date": "2019-3-14",
+                    "amount": 0.38,
+                    "shares": 45,
+                    "total": 17.1
+                }
+            ],
+            "cost basis": 6.292577777777775,
+            "current shares": 45,
+            "last price": 9.9399995803833,
+            "last price date": "2019-4-11",
+            "last dividend": 0.38,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "IBM",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2017-11-20",
+                    "price": 150.66,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 12
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-4-18",
+                    "price": 148.8,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 7
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-6-1",
+                    "price": 141.9335,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 19
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-6-18",
+                    "price": 144.2384,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-9-19",
+                    "price": 149.6775,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-10-29",
+                    "price": 118.57,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-11-12",
+                    "price": 121.343,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-2-6",
+                    "price": 135.6462,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-2-22",
+                    "price": 139.0497,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-3-11",
+                    "price": 137.155,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2018-2-8",
+                    "amount": 1.5,
+                    "shares": 12,
+                    "total": 18.0
+                },
+                {
+                    "date": "2018-5-9",
+                    "amount": 1.57,
+                    "shares": 19,
+                    "total": 29.830000000000002
+                },
+                {
+                    "date": "2018-8-9",
+                    "amount": 1.57,
+                    "shares": 20,
+                    "total": 31.400000000000002
+                },
+                {
+                    "date": "2018-11-8",
+                    "amount": 1.57,
+                    "shares": 10,
+                    "total": 15.700000000000001
+                },
+                {
+                    "date": "2019-2-7",
+                    "amount": 1.57,
+                    "shares": 10,
+                    "total": 15.700000000000001
+                }
+            ],
+            "cost basis": 125.30564999999997,
+            "current shares": 10,
+            "last price": 143.36000061035156,
+            "last price date": "2019-4-11",
+            "last dividend": 1.57,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "INTC",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-1-8",
+                    "price": 44.4,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-4-12",
+                    "price": 52.3639,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-9-24",
+                    "price": 46.7825,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-10-2",
+                    "price": 48.4738,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-10-12",
+                    "price": 44.62,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 14
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-10-26",
+                    "price": 45.2875,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 14
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-2-6",
+                    "price": 50.3283,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-2-19",
+                    "price": 51.5234,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2018-2-6",
+                    "amount": 0.3,
+                    "shares": 40,
+                    "total": 12.0
+                },
+                {
+                    "date": "2018-5-4",
+                    "amount": 0.3,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-8-6",
+                    "amount": 0.3,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-11-6",
+                    "amount": 0.3,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2019-2-6",
+                    "amount": 0.315,
+                    "shares": 20,
+                    "total": 6.3
+                }
+            ],
+            "cost basis": 0,
+            "current shares": 0,
+            "last price": 55.775001525878906,
+            "last price date": "2019-4-11",
+            "last dividend": 0.315,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "JNJ",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2019-2-4",
+                    "price": 133.3636,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 5
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-3-14",
+                    "price": 138.48,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 5
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2019-2-25",
+                    "amount": 0.9,
+                    "shares": 5,
+                    "total": 4.5
+                }
+            ],
+            "cost basis": 0,
+            "current shares": 0,
+            "last price": 135.42999267578125,
+            "last price date": "2019-4-11",
+            "last dividend": 0.9,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "JPM",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2017-9-11",
+                    "price": 89.3426,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2017-9-20",
+                    "price": 95.03,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "b",
+                    "date": "2017-9-25",
+                    "price": 93.7462,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2017-10-11",
+                    "price": 96.8572,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-2-15",
+                    "price": 104.8637,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 12
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2017-10-5",
+                    "amount": 0.56,
+                    "shares": 20,
+                    "total": 11.200000000000001
+                },
+                {
+                    "date": "2018-1-4",
+                    "amount": 0.56,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-4-5",
+                    "amount": 0.56,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-7-5",
+                    "amount": 0.56,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-10-4",
+                    "amount": 0.8,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2019-1-3",
+                    "amount": 0.8,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2019-4-4",
+                    "amount": 0.8,
+                    "shares": 12,
+                    "total": 9.600000000000001
+                }
+            ],
+            "cost basis": 89.67886666666665,
+            "current shares": 12,
+            "last price": 106.48500061035156,
+            "last price date": "2019-4-11",
+            "last dividend": 0.8,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "KO",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2019-2-15",
+                    "price": 45.95,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 14
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2019-3-14",
+                    "amount": 0.4,
+                    "shares": 14,
+                    "total": 5.6000000000000005
+                }
+            ],
+            "cost basis": 45.90357142857143,
+            "current shares": 14,
+            "last price": 46.59000015258789,
+            "last price date": "2019-4-11",
+            "last dividend": 0.4,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "MCBC",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2019-2-4",
+                    "price": 9.9407,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 70
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-2-19",
+                    "price": 10.6429,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 70
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-3-21",
+                    "price": 10.0706,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 70
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2019-2-11",
+                    "amount": 0.07,
+                    "shares": 70,
+                    "total": 4.9
+                }
+            ],
+            "cost basis": 9.369114285714288,
+            "current shares": 70,
+            "last price": 10.649999618530273,
+            "last price date": "2019-4-11",
+            "last dividend": 0.07,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "PRGO",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2019-1-10",
+                    "price": 44.5234,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-3-4",
+                    "price": 50.355,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-3-11",
+                    "price": 47.4713,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-4-8",
+                    "price": 51.53,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2019-2-28",
+                    "amount": 0.19,
+                    "shares": 20,
+                    "total": 3.8
+                }
+            ],
+            "cost basis": 0,
+            "current shares": 0,
+            "last price": 50.900001525878906,
+            "last price date": "2019-4-11",
+            "last dividend": 0.19,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "QCOM",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-2-6",
+                    "price": 62.89,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-5-23",
+                    "price": 57.4461,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-6-1",
+                    "price": 58.2142,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 60
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-6-4",
+                    "price": 58.3053,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 60
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-7-27",
+                    "price": 56.9084,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 60
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-11-26",
+                    "price": 55.5961,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-12-10",
+                    "price": 57.684,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-17",
+                    "price": 54.7054,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-24",
+                    "price": 51.3961,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-3-11",
+                    "price": 54.5724,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-3-26",
+                    "price": 57.3338,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2018-2-27",
+                    "amount": 0.57,
+                    "shares": 20,
+                    "total": 11.399999999999999
+                },
+                {
+                    "date": "2018-5-29",
+                    "amount": 0.62,
+                    "shares": 60,
+                    "total": 37.2
+                },
+                {
+                    "date": "2018-9-4",
+                    "amount": 0.62,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-12-6",
+                    "amount": 0.62,
+                    "shares": 50,
+                    "total": 31.0
+                },
+                {
+                    "date": "2019-3-6",
+                    "amount": 0.62,
+                    "shares": 80,
+                    "total": 49.6
+                }
+            ],
+            "cost basis": 44.874999999999986,
+            "current shares": 20,
+            "last price": 56.720001220703125,
+            "last price date": "2019-4-11",
+            "last dividend": 0.62,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "STX",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-1-4",
+                    "price": 42.55,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-1-19",
+                    "price": 52.3135,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-2-15",
+                    "price": 51.6541,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-3-22",
+                    "price": 59.6429,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-3-26",
+                    "price": 57.28,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-4-11",
+                    "price": 59.5496,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-4-25",
+                    "price": 58.54,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-5-30",
+                    "price": 58.9343,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-6-4",
+                    "price": 56.653,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-7-9",
+                    "price": 58.7124,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-9-24",
+                    "price": 49.626,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-4",
+                    "price": 37.2376,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 12
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-1-7",
+                    "price": 38.681,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 12
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-2-22",
+                    "price": 46.316,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 35
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-2-25",
+                    "price": 48.1779,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 35
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-2-27",
+                    "price": 47.156,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-3-22",
+                    "price": 48.2757,
+                    "commission": 4.95,
+                    "fees": 0.02,
+                    "shares": 20
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-3-27",
+                    "price": 46.6181,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-4-1",
+                    "price": 47.8679,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2018-3-20",
+                    "amount": 0.63,
+                    "shares": 40,
+                    "total": 25.2
+                },
+                {
+                    "date": "2018-6-19",
+                    "amount": 0.63,
+                    "shares": 50,
+                    "total": 31.5
+                },
+                {
+                    "date": "2018-9-18",
+                    "amount": 0.63,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-12-18",
+                    "amount": 0.63,
+                    "shares": 50,
+                    "total": 31.5
+                },
+                {
+                    "date": "2019-3-19",
+                    "amount": 0.63,
+                    "shares": 70,
+                    "total": 44.1
+                }
+            ],
+            "cost basis": 26.08869400000001,
+            "current shares": 50,
+            "last price": 50.07500076293945,
+            "last price date": "2019-4-11",
+            "last dividend": 0.63,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "T",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2017-10-20",
+                    "price": 35.72,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "b",
+                    "date": "2017-10-25",
+                    "price": 33.71,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-2-9",
+                    "price": 35.9541,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 70
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-5-22",
+                    "price": 32.739,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 70
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-6-1",
+                    "price": 32.434,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 70
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-10-31",
+                    "price": 30.4355,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 70
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-11-12",
+                    "price": 31.0401,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 70
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-12-10",
+                    "price": 29.426,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 70
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-12-14",
+                    "price": 30.156,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 70
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-3",
+                    "price": 29.306,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2018-1-9",
+                    "amount": 0.5,
+                    "shares": 70,
+                    "total": 35.0
+                },
+                {
+                    "date": "2018-4-9",
+                    "amount": 0.5,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-7-9",
+                    "amount": 0.5,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-10-9",
+                    "amount": 0.5,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2019-1-9",
+                    "amount": 0.51,
+                    "shares": 10,
+                    "total": 5.1
+                },
+                {
+                    "date": "2019-4-9",
+                    "amount": 0.51,
+                    "shares": 10,
+                    "total": 5.1
+                }
+            ],
+            "cost basis": 13.420100000000108,
+            "current shares": 10,
+            "last price": 32.19499969482422,
+            "last price date": "2019-4-11",
+            "last dividend": 0.51,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "TGT",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2017-10-12",
+                    "price": 59.78,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "b",
+                    "date": "2017-11-15",
+                    "price": 55.07,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-1-19",
+                    "price": 77.62,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-1-29",
+                    "price": 77.1118,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-6-1",
+                    "price": 73.225,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-11-28",
+                    "price": 71.21,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-10",
+                    "price": 67.809,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-1-30",
+                    "price": 71.8001,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-2-12",
+                    "price": 70.7847,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-3-5",
+                    "price": 75.7445,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2017-11-14",
+                    "amount": 0.62,
+                    "shares": 20,
+                    "total": 12.4
+                },
+                {
+                    "date": "2018-2-20",
+                    "amount": 0.62,
+                    "shares": 30,
+                    "total": 18.6
+                },
+                {
+                    "date": "2018-5-15",
+                    "amount": 0.62,
+                    "shares": 30,
+                    "total": 18.6
+                },
+                {
+                    "date": "2018-8-14",
+                    "amount": 0.64,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-11-20",
+                    "amount": 0.64,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2019-2-19",
+                    "amount": 0.64,
+                    "shares": 30,
+                    "total": 19.2
+                }
+            ],
+            "cost basis": 0,
+            "current shares": 0,
+            "last price": 80.68000030517578,
+            "last price date": "2019-4-11",
+            "last dividend": 0.64,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "TSLA",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2019-2-19",
+                    "price": 306.6586,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 3
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-2-28",
+                    "price": 316.3329,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 3
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-3-5",
+                    "price": 272.249,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 3
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-4-3",
+                    "price": 294.932,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 3
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-4-4",
+                    "price": 266.8426,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 3
+                }
+            ],
+            "dividends": [],
+            "cost basis": 236.13530000000003,
+            "current shares": 3,
+            "last price": 267.9200134277344,
+            "last price date": "2019-4-11"
+        },
+        {
+            "ticker": "TWTR",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2019-2-26",
+                    "price": 31.495,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-3-21",
+                    "price": 32.295,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
+                }
+            ],
+            "dividends": [],
+            "cost basis": 0,
+            "current shares": 0,
+            "last price": 34.61000061035156,
+            "last price date": "2019-4-11",
+            "last dividend": 0,
+            "last yield date": "2019-2-26"
+        },
+        {
+            "ticker": "VZ",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2017-9-12",
+                    "price": 46.706,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 25
+                },
+                {
+                    "b/s": "s",
+                    "date": "2017-10-11",
+                    "price": 49.15,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 25
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-3-6",
+                    "price": 48.3465,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 25
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-5-30",
+                    "price": 48.5639,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 25
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-6-5",
+                    "price": 47.9758,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 25
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-7-11",
+                    "price": 51.565,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 25
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2017-10-6",
+                    "amount": 0.59,
+                    "shares": 25,
+                    "total": 14.75
+                },
+                {
+                    "date": "2018-1-9",
+                    "amount": 0.59,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-4-9",
+                    "amount": 0.59,
+                    "shares": 25,
+                    "total": 14.75
+                },
+                {
+                    "date": "2018-7-9",
+                    "amount": 0.59,
+                    "shares": 25,
+                    "total": 14.75
+                },
+                {
+                    "date": "2018-10-9",
+                    "amount": 0.6025,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2019-1-9",
+                    "amount": 0.6025,
+                    "shares": 0,
+                    "total": 0.0
+                }
+            ],
+            "cost basis": 0,
+            "current shares": 0,
+            "last price": 58.650001525878906,
+            "last price date": "2019-4-11",
+            "last dividend": 0.603,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "WDC",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-1-8",
+                    "price": 81.18,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 25
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-1-19",
+                    "price": 85.7501,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 25
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-5-7",
+                    "price": 78.9558,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 7
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-5-30",
+                    "price": 87.0887,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 7
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-6-4",
+                    "price": 84.1983,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-6-25",
+                    "price": 77.5418,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 8
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-8-9",
+                    "price": 66.35,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 5
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-11-28",
+                    "price": 46.5082,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-10",
+                    "price": 39.9695,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 25
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-1-29",
+                    "price": 42.62,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 25
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-2-6",
+                    "price": 48.0897,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-2-28",
+                    "price": 46.9821,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-3-4",
+                    "price": 52.3921,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-3-5",
+                    "price": 50.826,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2018-3-28",
+                    "amount": 0.5,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-6-28",
+                    "amount": 0.5,
+                    "shares": 23,
+                    "total": 11.5
+                },
+                {
+                    "date": "2018-9-27",
+                    "amount": 0.5,
+                    "shares": 28,
+                    "total": 14.0
+                },
+                {
+                    "date": "2018-12-27",
+                    "amount": 0.5,
+                    "shares": 43,
+                    "total": 21.5
+                },
+                {
+                    "date": "2019-3-28",
+                    "amount": 0.5,
+                    "shares": 48,
+                    "total": 24.0
+                }
+            ],
+            "cost basis": 58.562731250000006,
+            "current shares": 48,
+            "last price": 51.08000183105469,
+            "last price date": "2019-4-11",
+            "last dividend": 0.5,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "WMT",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2017-9-29",
+                    "price": 78.56,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 25
+                },
+                {
+                    "b/s": "s",
+                    "date": "2017-10-10",
+                    "price": 84.685,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 25
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-6-11",
+                    "price": 84.076,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-6-28",
+                    "price": 87.0201,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2017-12-7",
+                    "amount": 0.51,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-3-8",
+                    "amount": 0.52,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-5-10",
+                    "amount": 0.52,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-8-9",
+                    "amount": 0.52,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-12-6",
+                    "amount": 0.52,
+                    "shares": 0,
+                    "total": 0.0
+                }
+            ],
+            "cost basis": 0,
+            "current shares": 0,
+            "last price": 99.87000274658203,
+            "last price date": "2019-4-11",
+            "last dividend": 0.53,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "WOR",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2017-10-12",
+                    "price": 43.83,
+                    "commission": 4.95,
+                    "fees": 0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "s",
+                    "date": "2017-10-20",
+                    "price": 45.49,
+                    "commission": 4.95,
+                    "fees": 0,
+                    "shares": 30
+                },
+                {
+                    "b/s": "b",
+                    "date": "2017-11-16",
+                    "price": 40.2429,
+                    "commission": 4.95,
+                    "fees": 0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-01-02",
+                    "price": 44.9022,
+                    "commission": 4.95,
+                    "fees": 0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-04-11",
+                    "price": 42.6925,
+                    "commission": 4.95,
+                    "fees": 0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-4-18",
+                    "price": 46.4219,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-5-3",
+                    "price": 43.93,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-5-16",
+                    "price": 47.9137,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-6-13",
+                    "price": 47.5932,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 40
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-9-11",
+                    "price": 44.393,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 4
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-9-19",
+                    "price": 46.255,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 4
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-1-30",
+                    "price": 36.6565,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-2-5",
+                    "price": 37.4601,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2017-12-14",
+                    "amount": 0.21,
+                    "shares": 40,
+                    "total": 8.4
+                },
+                {
+                    "date": "2018-3-14",
+                    "amount": 0.21,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-6-14",
+                    "amount": 0.21,
+                    "shares": 40,
+                    "total": 8.4
+                },
+                {
+                    "date": "2018-9-13",
+                    "amount": 0.23,
+                    "shares": 44,
+                    "total": 10.120000000000001
+                },
+                {
+                    "date": "2018-12-13",
+                    "amount": 0.23,
+                    "shares": 40,
+                    "total": 9.200000000000001
+                },
+                {
+                    "date": "2019-3-14",
+                    "amount": 0.23,
+                    "shares": 40,
+                    "total": 9.200000000000001
+                }
+            ],
+            "cost basis": 32.37855,
+            "current shares": 40,
+            "last price": 39.5,
+            "last price date": "2019-4-11",
+            "last dividend": 0.23,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "XLNX",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-4-12",
+                    "price": 69.69,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-6-1",
+                    "price": 70.5978,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "b",
+                    "date": "2018-6-4",
+                    "price": 69.7112,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                },
+                {
+                    "b/s": "s",
+                    "date": "2018-7-30",
+                    "price": 73.3318,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 50
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2018-5-14",
+                    "amount": 0.36,
+                    "shares": 50,
+                    "total": 18.0
+                },
+                {
+                    "date": "2018-8-7",
+                    "amount": 0.36,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2018-11-9",
+                    "amount": 0.36,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2019-2-5",
+                    "amount": 0.36,
+                    "shares": 0,
+                    "total": 0.0
+                }
+            ],
+            "cost basis": 0,
+            "current shares": 0,
+            "last price": 131.60000610351562,
+            "last price date": "2019-4-11",
+            "last dividend": 0.36,
+            "last yield date": "2019-4-11"
+        },
+        {
+            "ticker": "XOM",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2018-11-15",
+                    "price": 77.176,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 9
+                }
+            ],
+            "dividends": [
+                {
+                    "date": "2019-2-8",
+                    "amount": 0.82,
+                    "shares": 9,
+                    "total": 7.38
+                }
+            ],
+            "cost basis": 76.906,
+            "current shares": 9,
+            "last price": 81.9749984741211,
+            "last price date": "2019-4-11",
+            "last dividend": 0.82,
+            "last yield date": "2019-4-11"
+        }
+    ]
+]
