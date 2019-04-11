@@ -580,7 +580,7 @@ def div_exp_composite_indicator(watch_list, ind_dict):
         exp_score = exp_pos["Score"]
         exposure = (position["current shares"] * position["last price"])\
                   /watch_list.meta_data["portfolio value"]
-        comp_score = div_score * mf.activate(exposure, watch_list.meta_data["exposure target"],0.03) + exp_score
+        comp_score = div_score * mf.deactivate(exposure, watch_list.meta_data["exposure target"],0.03) + exp_score
 ##        print("Ticker: {}\nDiv score: {:<7.2f}%\nExp_score: {:<7.2f}%\nComposite score: {:<7.2f}"\
 ##              .format(position['ticker'],div_score*100,exp_score*100,comp_score*100))
         if comp_score > 0:
