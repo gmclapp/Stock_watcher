@@ -1,9 +1,9 @@
 [
     {
-        "portfolio value": 35818.07882964797,
+        "portfolio value": 35811.328584553674,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.04677749490609591
+        "average yield": 0.0467863122152546
     },
     [
         {
@@ -765,6 +765,12 @@
                     "amount": 1.25,
                     "shares": 40,
                     "total": 50.0
+                },
+                {
+                    "date": "2019-4-11",
+                    "amount": 0.25,
+                    "shares": 40,
+                    "total": 10.0
                 }
             ],
             "cost basis": 17.471075000000003,
@@ -886,6 +892,12 @@
                     "amount": 0.15,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2019-4-4",
+                    "amount": 0.15,
+                    "shares": 300,
+                    "total": 45.0
                 }
             ],
             "cost basis": 4.820214,
@@ -1633,6 +1645,12 @@
                     "amount": 0.93,
                     "shares": 10,
                     "total": 9.3
+                },
+                {
+                    "date": "2019-4-11",
+                    "amount": 1.02,
+                    "shares": 20,
+                    "total": 20.4
                 }
             ],
             "cost basis": 168.01690000000005,
@@ -2364,6 +2382,12 @@
                     "amount": 0.8,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2019-4-4",
+                    "amount": 0.8,
+                    "shares": 12,
+                    "total": 9.600000000000001
                 }
             ],
             "cost basis": 89.67886666666665,
@@ -2931,6 +2955,12 @@
                 },
                 {
                     "date": "2019-1-9",
+                    "amount": 0.51,
+                    "shares": 10,
+                    "total": 5.1
+                },
+                {
+                    "date": "2019-4-9",
                     "amount": 0.51,
                     "shares": 10,
                     "total": 5.1

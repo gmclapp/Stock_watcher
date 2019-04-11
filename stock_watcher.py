@@ -878,8 +878,8 @@ while(True):
                 print('\033[2J')
                 # console command to clear console and return to (0,0)
             elif selection == 'About':
-                print("Version: {}\nSanitize inputs version: {}" \
-                      .format(__version__,si.__version__))
+                print("\nVersion: {}\nSanitize inputs version: {}\nMisc_functions version: {}\n" \
+                      .format(__version__,si.__version__,mf.__version__))
                 
             elif selection == 'Back':
                 pass
