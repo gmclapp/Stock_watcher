@@ -1,9 +1,9 @@
 [
     {
-        "portfolio value": 35381.80624990212,
+        "portfolio value": 35765.699880274944,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.06501307433976364
+        "average yield": 0.0641586773831185
     },
     [
         {
@@ -138,10 +138,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 205.61000061035156,
-            "last price date": "2019-4-29",
+            "last price": 212.4197998046875,
+            "last price date": "2019-5-2",
             "last dividend": 0.73,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "ABBV",
@@ -195,10 +195,10 @@
             ],
             "cost basis": 81.7311,
             "current shares": 30,
-            "last price": 80.1050033569336,
-            "last price date": "2019-4-29",
+            "last price": 78.5,
+            "last price date": "2019-5-2",
             "last dividend": 1.07,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "AMGN",
@@ -250,10 +250,10 @@
             ],
             "cost basis": 148.08720000000005,
             "current shares": 5,
-            "last price": 180.05999755859375,
-            "last price date": "2019-4-29",
+            "last price": 176.36000061035156,
+            "last price date": "2019-5-2",
             "last dividend": 1.45,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "ASTI",
@@ -270,8 +270,8 @@
             "dividends": [],
             "cost basis": 0.0705,
             "current shares": 300,
-            "last price": 0.0013000000035390258,
-            "last price date": "2019-4-29"
+            "last price": 0.0010999999940395355,
+            "last price date": "2019-5-2"
         },
         {
             "ticker": "AXGT",
@@ -336,8 +336,8 @@
             "dividends": [],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 1.187000036239624,
-            "last price date": "2019-4-29"
+            "last price": 1.090000033378601,
+            "last price date": "2019-5-2"
         },
         {
             "ticker": "AXP",
@@ -393,10 +393,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 117.3926010131836,
-            "last price date": "2019-4-29",
+            "last price": 117.58999633789062,
+            "last price date": "2019-5-2",
             "last dividend": 0.39,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "BA",
@@ -490,10 +490,10 @@
             ],
             "cost basis": 93.10993333333359,
             "current shares": 3,
-            "last price": 384.3905944824219,
-            "last price date": "2019-4-29",
+            "last price": 376.5450134277344,
+            "last price date": "2019-5-2",
             "last dividend": 2.055,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "BBY",
@@ -653,10 +653,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 73.66999816894531,
-            "last price date": "2019-4-29",
+            "last price": 74.83000183105469,
+            "last price date": "2019-5-2",
             "last dividend": 0.5,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "BGG",
@@ -716,6 +716,14 @@
                     "commission": 4.95,
                     "fees": 0.0,
                     "shares": 30
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-5-2",
+                    "price": 12.0221,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
                 }
             ],
             "dividends": [
@@ -744,12 +752,12 @@
                     "total": 10.500000000000002
                 }
             ],
-            "cost basis": 10.045311111111117,
-            "current shares": 45,
-            "last price": 12.420000076293945,
-            "last price date": "2019-4-29",
+            "cost basis": 10.90202666666667,
+            "current shares": 75,
+            "last price": 12.010000228881836,
+            "last price date": "2019-5-2",
             "last dividend": 0.14,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "BKE",
@@ -803,10 +811,10 @@
             ],
             "cost basis": 17.221075000000003,
             "current shares": 40,
-            "last price": 18.510000228881836,
-            "last price date": "2019-4-29",
+            "last price": 18.360000610351562,
+            "last price date": "2019-5-2",
             "last dividend": 0.25,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "BKS",
@@ -930,10 +938,10 @@
             ],
             "cost basis": 4.730214,
             "current shares": 500,
-            "last price": 5.039999961853027,
-            "last price date": "2019-4-29",
+            "last price": 4.8144001960754395,
+            "last price date": "2019-5-2",
             "last dividend": 0.15,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "CBL",
@@ -1015,10 +1023,10 @@
             ],
             "cost basis": 1.7399574468085104,
             "current shares": 1175,
-            "last price": 1.0399999618530273,
-            "last price date": "2019-4-29",
+            "last price": 1.090000033378601,
+            "last price date": "2019-5-2",
             "last dividend": 0.075,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "CVX",
@@ -1088,10 +1096,10 @@
             ],
             "cost basis": 105.76212499999998,
             "current shares": 12,
-            "last price": 117.81500244140625,
-            "last price date": "2019-4-29",
+            "last price": 117.94999694824219,
+            "last price date": "2019-5-2",
             "last dividend": 1.19,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "DFS",
@@ -1145,10 +1153,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 81.62000274658203,
-            "last price date": "2019-4-29",
+            "last price": 81.78500366210938,
+            "last price date": "2019-5-2",
             "last dividend": 0.4,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "ECSIF",
@@ -1189,8 +1197,8 @@
             "dividends": [],
             "cost basis": 1.00465,
             "current shares": 2000,
-            "last price": 0.22470000386238098,
-            "last price date": "2019-4-29"
+            "last price": 0.2451000064611435,
+            "last price date": "2019-5-2"
         },
         {
             "ticker": "F",
@@ -1450,10 +1458,10 @@
             ],
             "cost basis": 7.875007407407417,
             "current shares": 135,
-            "last price": 10.266799926757812,
-            "last price date": "2019-4-29",
+            "last price": 10.279999732971191,
+            "last price date": "2019-5-2",
             "last dividend": 0.15,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "FB",
@@ -1526,8 +1534,8 @@
             "dividends": [],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 193.3300018310547,
-            "last price date": "2019-4-29"
+            "last price": 193.4425048828125,
+            "last price date": "2019-5-2"
         },
         {
             "ticker": "FCAU",
@@ -1559,10 +1567,10 @@
             ],
             "cost basis": 14.570114285714288,
             "current shares": 140,
-            "last price": 15.444999694824219,
-            "last price date": "2019-4-29",
+            "last price": 15.15999984741211,
+            "last price date": "2019-5-2",
             "last dividend": 0.732,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "FTSSF",
@@ -1587,8 +1595,8 @@
             "dividends": [],
             "cost basis": 0.23389296956977965,
             "current shares": 4765,
-            "last price": 0.12409999966621399,
-            "last price date": "2019-4-29"
+            "last price": 0.11924000084400177,
+            "last price date": "2019-5-2"
         },
         {
             "ticker": "GD",
@@ -1736,10 +1744,10 @@
             ],
             "cost basis": 159.31300000000016,
             "current shares": 10,
-            "last price": 179.00250244140625,
-            "last price date": "2019-4-29",
+            "last price": 175.15499877929688,
+            "last price date": "2019-5-2",
             "last dividend": 1.02,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "GE",
@@ -1887,10 +1895,10 @@
             ],
             "cost basis": 18.581633333333325,
             "current shares": 120,
-            "last price": 9.619999885559082,
-            "last price date": "2019-4-29",
+            "last price": 10.260000228881836,
+            "last price date": "2019-5-2",
             "last dividend": 0.01,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "GM",
@@ -2006,6 +2014,14 @@
                     "commission": 4.95,
                     "fees": 0.0,
                     "shares": 30
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-5-2",
+                    "price": 38.7765,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 30
                 }
             ],
             "dividends": [
@@ -2058,12 +2074,12 @@
                     "total": 11.4
                 }
             ],
-            "cost basis": 0,
-            "current shares": 0,
-            "last price": 40.06999969482422,
-            "last price date": "2019-4-29",
+            "cost basis": 30.369600000000027,
+            "current shares": 30,
+            "last price": 38.77000045776367,
+            "last price date": "2019-5-2",
             "last dividend": 0.38,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "GME",
@@ -2145,10 +2161,10 @@
             ],
             "cost basis": 8.028966666666665,
             "current shares": 120,
-            "last price": 8.84000015258789,
-            "last price date": "2019-4-29",
+            "last price": 8.675000190734863,
+            "last price date": "2019-5-2",
             "last dividend": 0.38,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "IBM",
@@ -2284,10 +2300,10 @@
             ],
             "cost basis": 122.70964999999997,
             "current shares": 10,
-            "last price": 139.1699981689453,
-            "last price date": "2019-4-29",
+            "last price": 141.24000549316406,
+            "last price date": "2019-5-2",
             "last dividend": 1.57,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "INTC",
@@ -2391,10 +2407,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 51.59000015258789,
-            "last price date": "2019-4-29",
+            "last price": 51.18000030517578,
+            "last price date": "2019-5-2",
             "last dividend": 0.315,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "JNJ",
@@ -2426,10 +2442,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 140.1300048828125,
-            "last price date": "2019-4-29",
+            "last price": 141.25999450683594,
+            "last price date": "2019-5-2",
             "last dividend": 0.9,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "JPM",
@@ -2529,10 +2545,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 116.13999938964844,
-            "last price date": "2019-4-29",
+            "last price": 115.38999938964844,
+            "last price date": "2019-5-2",
             "last dividend": 0.8,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "KO",
@@ -2556,10 +2572,10 @@
             ],
             "cost basis": 45.90357142857143,
             "current shares": 14,
-            "last price": 48.349998474121094,
-            "last price date": "2019-4-29",
+            "last price": 48.54499816894531,
+            "last price date": "2019-5-2",
             "last dividend": 0.4,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "MCBC",
@@ -2599,10 +2615,10 @@
             ],
             "cost basis": 9.369114285714288,
             "current shares": 70,
-            "last price": 10.25,
-            "last price date": "2019-4-29",
+            "last price": 10.149999618530273,
+            "last price date": "2019-5-2",
             "last dividend": 0.07,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "PRGO",
@@ -2658,10 +2674,10 @@
             ],
             "cost basis": 40.489300000000014,
             "current shares": 20,
-            "last price": 51.29999923706055,
-            "last price date": "2019-4-29",
+            "last price": 49.310001373291016,
+            "last price date": "2019-5-2",
             "last dividend": 0.19,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "QCOM",
@@ -2797,10 +2813,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 86.70999908447266,
-            "last price date": "2019-4-29",
+            "last price": 89.02359771728516,
+            "last price date": "2019-5-2",
             "last dividend": 0.62,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "STX",
@@ -2964,6 +2980,14 @@
                     "commission": 4.95,
                     "fees": 0.0,
                     "shares": 25
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-5-2",
+                    "price": 48.9979,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 25
                 }
             ],
             "dividends": [
@@ -2998,12 +3022,12 @@
                     "total": 44.1
                 }
             ],
-            "cost basis": 33.091796000000016,
-            "current shares": 75,
-            "last price": 45.22999954223633,
-            "last price date": "2019-4-29",
+            "cost basis": 25.039744000000013,
+            "current shares": 50,
+            "last price": 48.91999816894531,
+            "last price date": "2019-5-2",
             "last dividend": 0.63,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "T",
@@ -3129,10 +3153,10 @@
             ],
             "cost basis": 12.910100000000108,
             "current shares": 10,
-            "last price": 31.040000915527344,
-            "last price date": "2019-4-29",
+            "last price": 30.850000381469727,
+            "last price date": "2019-5-2",
             "last dividend": 0.51,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "TERP",
@@ -3149,10 +3173,10 @@
             "dividends": [],
             "cost basis": 13.5007,
             "current shares": 60,
-            "last price": 13.614999771118164,
-            "last price date": "2019-4-29",
+            "last price": 13.529999732971191,
+            "last price date": "2019-5-2",
             "last dividend": 0.201,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "TGT",
@@ -3278,10 +3302,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 77.63999938964844,
-            "last price date": "2019-4-29",
+            "last price": 76.3499984741211,
+            "last price date": "2019-5-2",
             "last dividend": 0.64,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "TSLA",
@@ -3338,8 +3362,8 @@
             "dividends": [],
             "cost basis": 237.95030000000003,
             "current shares": 5,
-            "last price": 238.5,
-            "last price date": "2019-4-29"
+            "last price": 238.38999938964844,
+            "last price date": "2019-5-2"
         },
         {
             "ticker": "TWTR",
@@ -3364,8 +3388,8 @@
             "dividends": [],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 39.40999984741211,
-            "last price date": "2019-4-29",
+            "last price": 39.59000015258789,
+            "last price date": "2019-5-2",
             "last dividend": 0,
             "last yield date": "2019-2-26"
         },
@@ -3475,10 +3499,10 @@
             ],
             "cost basis": 49.63716666666667,
             "current shares": 30,
-            "last price": 57,
-            "last price date": "2019-4-29",
+            "last price": 57.18000030517578,
+            "last price date": "2019-5-2",
             "last dividend": 0.603,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "WDC",
@@ -3602,6 +3626,22 @@
                     "commission": 4.95,
                     "fees": 0.0,
                     "shares": 20
+                },
+                {
+                    "b/s": "b",
+                    "date": "2019-4-30",
+                    "price": 48.919,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2019-5-2",
+                    "price": 51.0325,
+                    "commission": 4.95,
+                    "fees": 0.0,
+                    "shares": 20
                 }
             ],
             "dividends": [
@@ -3636,12 +3676,12 @@
                     "total": 24.0
                 }
             ],
-            "cost basis": 61.42796785714286,
+            "cost basis": 59.91832500000002,
             "current shares": 28,
-            "last price": 51.400001525878906,
-            "last price date": "2019-4-29",
+            "last price": 51.040000915527344,
+            "last price date": "2019-5-2",
             "last dividend": 0.5,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "WMT",
@@ -3719,10 +3759,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 101.21489715576172,
-            "last price date": "2019-4-29",
+            "last price": 101.41999816894531,
+            "last price date": "2019-5-2",
             "last dividend": 0.53,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "WOR",
@@ -3872,10 +3912,10 @@
             ],
             "cost basis": 32.37855,
             "current shares": 40,
-            "last price": 39.97999954223633,
-            "last price date": "2019-4-29",
+            "last price": 39.349998474121094,
+            "last price date": "2019-5-2",
             "last dividend": 0.23,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "XLNX",
@@ -3941,10 +3981,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 117.89610290527344,
-            "last price date": "2019-4-29",
+            "last price": 119.08000183105469,
+            "last price date": "2019-5-2",
             "last dividend": 0.36,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         },
         {
             "ticker": "XOM",
@@ -3984,10 +4024,10 @@
             ],
             "cost basis": 76.43926363636363,
             "current shares": 11,
-            "last price": 79.84500122070312,
-            "last price date": "2019-4-29",
+            "last price": 78.05999755859375,
+            "last price date": "2019-5-2",
             "last dividend": 0.82,
-            "last yield date": "2019-4-29"
+            "last yield date": "2019-5-2"
         }
     ]
 ]
