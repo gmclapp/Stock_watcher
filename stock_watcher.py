@@ -9,8 +9,9 @@ import json
 import sys
 import os
 import sanitize_inputs as si # version 0.3.0
+import misc_functions as mf # version 0.2.6
 
-__version__ = '0.8.0'
+__version__ = '0.8.1'
 #os.system("mode con cols=60 lines=60")
 
 # Hide all warnings
@@ -223,7 +224,9 @@ def view(pos):
         
         last_close = pos["last price"]
         print("Current price: ${:<7.2f}\n".format(last_close))
-        
+    current_value = last_close*pos["current shares"]
+    exp = current_value/watch_list.meta_data["portfolio value"]
+    print("Position value: ${:<7.2f} (Exposure: {:<7.2f}%)\n".format(current_value,exp*100)) 
     print("Transactions:")
     for t in pos["transactions"]:
         print("{}: {} {} @ ${:<7.4f}".format(t['date'],t['b/s'].upper(),
@@ -414,7 +417,7 @@ def edit(watch_list):
     watch_list.calc_cost_basis()
     
                                 
-def last_transaction_indicator(watch_list, ind_dict):
+def last_transaction_indicator(watch_list, ind_dict,force_all=False):
     indicator = False
     score = 0
     today = dt.date.today()
@@ -430,7 +433,7 @@ def last_transaction_indicator(watch_list, ind_dict):
         score = 0
         try:
             #df = get_quoteDF(position["ticker"],position,today)
-            get_quoteDF(position["ticker"],position,today)
+            get_quoteDF(position["ticker"],position,today,force_all)
             last_close = position["last price"]
 
             last_t = position["transactions"][-1]
@@ -541,7 +544,7 @@ def div_yield_indicator(watch_list, ind_dict):
                              "Score":score,
                              "Direction":direction.upper()})
         except KeyError:
-            print("No dividend fetch date for {}\n".format(position["ticker"]))
+            #print("No dividend fetch date for {}\n".format(position["ticker"]))
             score = 0 - watch_list.meta_data["dividend target"]
             direction = 'SELL'
             ind_dict["High Dividend Yield"].append \
@@ -550,7 +553,7 @@ def div_yield_indicator(watch_list, ind_dict):
                              "Direction":direction.upper()})
             continue
         except TypeError:
-            print("No dividends for this position")
+            #print("No dividends for this position")
             continue
         except:
             #pass
@@ -558,6 +561,36 @@ def div_yield_indicator(watch_list, ind_dict):
 
     print("\033[1A\033[K", end='')
     print("\033[1A\033[K", end='')
+    return(watch_list, ind_dict)
+
+def div_exp_composite_indicator(watch_list, ind_dict):
+    for index,position in enumerate(watch_list.position_list):
+        for ind_pos in ind_dict["High Dividend Yield"]:
+            if ind_pos["Ticker"] == position["ticker"]:
+                break
+            else:
+                pass
+        for exp_pos in ind_dict["Over-exposure"]:
+            if exp_pos["Ticker"] == position["ticker"]:
+                break
+            else:
+                pass
+
+        div_score = ind_pos["Score"]
+        exp_score = exp_pos["Score"]
+        exposure = (position["current shares"] * position["last price"])\
+                  /watch_list.meta_data["portfolio value"]
+        comp_score = div_score * mf.deactivate(exposure, watch_list.meta_data["exposure target"],0.03) + exp_score
+##        print("Ticker: {}\nDiv score: {:<7.2f}%\nExp_score: {:<7.2f}%\nComposite score: {:<7.2f}"\
+##              .format(position['ticker'],div_score*100,exp_score*100,comp_score*100))
+        if comp_score > 0:
+            direction = 'Buy'
+        else:
+            direction = 'Sell'
+        ind_dict["Dividend Yield and Exposure composite"].append \
+                           ({"Ticker":position['ticker'],
+                             "Score":comp_score,
+                             "Direction":direction.upper()})
     return(watch_list, ind_dict)
 
 def parse_date(date):
@@ -655,7 +688,7 @@ def get_divDF(ticker,position,date):
         # Preceding line is the last date on which the yield was fetched.
         return(div_df)
     except IndexError:
-        print("No dividends for",position["ticker"],'\n')
+        #print("No dividends for",position["ticker"],'\n')
         return(None)
     except Exception as ex:
         print(ex)
@@ -687,6 +720,23 @@ def get_quoteDF(ticker, position, date, force=False):
         except:
             print("No response from yahoo-finance")
             return(None)
+
+def print_indicator(ind_dict, ind,ind_format="{:<7.2f}%",score_scale=1):
+    '''This function prints an indicator.
+    ind_dict = The dictionary containing indicator data
+    ind = The key of the indicator that one desires to print
+    ind_format = The format in which the score is desired to be printed
+    score_scale = a multiplier for the score. ie percentage scores might pass 100'''
+    
+    for i,indicator in enumerate(ind_dict[ind]):
+        if i > 9:
+            break
+        else:
+            string = "{:<6} Score: "+ind_format+" Advise: {}"
+            print(string.format\
+                  (indicator["Ticker"],
+                   indicator["Score"]*score_scale,
+                   indicator["Direction"].upper()))
         
 watch_list = positions()
 
@@ -741,29 +791,30 @@ while(True):
                         pass
                 
         elif selection == 'Indicators':
+            print("Force?")
+            force_sel = ['Yes',
+                          'No']
+            force_sel = force_sel[si.select(force_sel)]
+            if force_sel == 'Yes':
+                force = True
+            else:
+                force = False
             ind_dict = {"Last Transaction":[], # Looks for opportunities to reverse the last transaction recorded
                         "Matched Transactions":[], # Looks for opportunities to improve cost-basis
                         "High Dividend Yield":[], # Looks for high dividend yields with respect to a specified target
-                        "Portfolio Yield":[], # Looks for opportunities to increase the average dividend yield of the portfolio
                         "Recent Passed Dividend":[], # Looks for opportunities in response to recent or upcoming ex-dates
-                        "Over-exposure":[]} # Looks for opportunities to improve exposure with respect to a specified target
+                        "Over-exposure":[], # Looks for opportunities to improve exposure with respect to a specified target
+                        "Dividend Yield and Exposure composite":[]} # Weighs dividend target against exposure target and makes a recommendation
                 
             print("\nWorking on \"Last Transaction\" indicator.\n")
             watch_list, ind_dict = last_transaction_indicator(watch_list,
-                                                              ind_dict)
+                                                              ind_dict,force)
             print("\033[1A\033[K", end='')    
             print("Done checking.\n")
 
             ind_dict["Last Transaction"].sort(key=lambda x: x["Score"],
                                               reverse=True)
-            for i,indicator in enumerate(ind_dict["Last Transaction"]):
-                if i > 9:
-                    break
-                else:
-                    print("{:<6} Score: ${:<7.2f} Advise: {}".format\
-                          (indicator["Ticker"],
-                           indicator["Score"],
-                           indicator["Direction"].upper()))
+            print_indicator(ind_dict, "Last Transaction",ind_format="${:<7.2f}",score_scale=1)
 
             print("\nWorking on \"Over-exposure\" indicator.\n")
             watch_list, ind_dict = over_exposure_indicator(watch_list,
@@ -773,14 +824,7 @@ while(True):
             print("Exposure target: {:<7.2f}% (Position value: ${:<7.2f})".format\
                   (watch_list.meta_data["exposure target"]*100,
                    watch_list.meta_data["portfolio value"]*watch_list.meta_data["exposure target"]))
-            for i,indicator in enumerate(ind_dict["Over-exposure"]):
-                if i > 9:
-                    break
-                else:
-                    print("{:<6} Score: {:<7.2f}% Advise: {}".format\
-                          (indicator["Ticker"],
-                           indicator["Score"]*100,
-                           indicator["Direction"].upper()))
+            print_indicator(ind_dict, "Over-exposure",ind_format="{:<7.2f}%",score_scale=100)
             
             print("\nWorking on \"Dividend Yield\" indicator.\n")
             watch_list, ind_dict = div_yield_indicator(watch_list,ind_dict)
@@ -788,16 +832,17 @@ while(True):
             ind_dict["High Dividend Yield"].sort(key=lambda x: abs(x["Score"]),
                                                  reverse=True)
             print("Dividend target: {:<7.2f}%".format(watch_list.meta_data["dividend target"]*100))
-            for i,indicator in enumerate(ind_dict["High Dividend Yield"]):
-                if i > 9:
-                    break
-                else:
-                    print("{:<6} Score: {:<7.2f}% Advise: {}".format\
-                          (indicator["Ticker"],
-                           indicator["Score"]*100,
-                           indicator["Direction"].upper()))
+            print_indicator(ind_dict, "High Dividend Yield",ind_format="{:<7.2f}%",score_scale=100)
+
             print("\n",end='')
-            
+
+            print("Working on \"Exposure-dividend composite\" indicator.\n")
+            watch_list, ind_dict = div_exp_composite_indicator(watch_list,ind_dict)
+            ind_dict["Dividend Yield and Exposure composite"].sort(key=lambda x: abs(x["Score"]),
+                                                 reverse=True)
+            print_indicator(ind_dict, "Dividend Yield and Exposure composite",ind_format="{:<7.2f}",score_scale=100)
+
+            print("\n",end='')
             for indicator in ind_dict["Recent Passed Dividend"]:
                 pass
         elif selection == 'Edit':
@@ -841,8 +886,8 @@ while(True):
                 print('\033[2J')
                 # console command to clear console and return to (0,0)
             elif selection == 'About':
-                print("Version: {}\nSanitize inputs version: {}" \
-                      .format(__version__,si.__version__))
+                print("\nVersion: {}\nSanitize inputs version: {}\nMisc_functions version: {}\n" \
+                      .format(__version__,si.__version__,mf.__version__))
                 
             elif selection == 'Back':
                 pass
