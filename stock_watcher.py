@@ -417,7 +417,7 @@ def edit(watch_list):
     watch_list.calc_cost_basis()
     
                                 
-def last_transaction_indicator(watch_list, ind_dict):
+def last_transaction_indicator(watch_list, ind_dict,force_all=False):
     indicator = False
     score = 0
     today = dt.date.today()
@@ -433,7 +433,7 @@ def last_transaction_indicator(watch_list, ind_dict):
         score = 0
         try:
             #df = get_quoteDF(position["ticker"],position,today)
-            get_quoteDF(position["ticker"],position,today)
+            get_quoteDF(position["ticker"],position,today,force_all)
             last_close = position["last price"]
 
             last_t = position["transactions"][-1]
@@ -791,6 +791,14 @@ while(True):
                         pass
                 
         elif selection == 'Indicators':
+            print("Force?")
+            force_sel = ['Yes',
+                          'No']
+            force_sel = force_sel[si.select(force_sel)]
+            if force_sel == 'Yes':
+                force = True
+            else:
+                force = False
             ind_dict = {"Last Transaction":[], # Looks for opportunities to reverse the last transaction recorded
                         "Matched Transactions":[], # Looks for opportunities to improve cost-basis
                         "High Dividend Yield":[], # Looks for high dividend yields with respect to a specified target
@@ -800,7 +808,7 @@ while(True):
                 
             print("\nWorking on \"Last Transaction\" indicator.\n")
             watch_list, ind_dict = last_transaction_indicator(watch_list,
-                                                              ind_dict)
+                                                              ind_dict,force)
             print("\033[1A\033[K", end='')    
             print("Done checking.\n")
 
