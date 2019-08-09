@@ -56,7 +56,8 @@ class positions():
                                        'last price':price,
                                        'last price date':date,
                                        'last dividend':0,
-                                       'last yield date':date})
+                                       'last yield date':date,
+                                       'track':1})
 
     def enter_dividend(self, ticker, date, amount, shares):
         exists_flag = False
@@ -226,7 +227,8 @@ def view(pos):
         print("Current price: ${:<7.2f}\n".format(last_close))
     current_value = last_close*pos["current shares"]
     exp = current_value/watch_list.meta_data["portfolio value"]
-    print("Position value: ${:<7.2f} (Exposure: {:<7.2f}%)\n".format(current_value,exp*100)) 
+    print("Position value: ${:<7.2f} (Exposure: {:<7.2f}%)\n".format(current_value,exp*100))
+    print("Tracking: {}".format(pos["track"]))
     print("Transactions:")
     for t in pos["transactions"]:
         print("{}: {} {} @ ${:<7.4f}".format(t['date'],t['b/s'].upper(),
@@ -393,6 +395,7 @@ def edit(watch_list):
     elif edit_sel == 'Tickers':
         tick_options = ['Edit symbol',
                         'Delete symbol',
+                        'Track/Untrack symbol',
                         'Back']
         
         print("Which ticker would you like to edit?")
@@ -412,6 +415,16 @@ def edit(watch_list):
                         watch_list.position_list.pop(i)
                     elif edit_sel == 'Back':
                         pass
+                    elif edit_sel == 'Track/Untrack symbol':
+                        tick_edit_options = ['Track',
+                                         'Untrack']
+                        tick_edit_sel = tick_edit_options[si.select(tick_edit_options)]
+                        if tick_edit_sel == 'Track':
+                            pos["track"]=True
+                        elif tick_edit_sel == 'Untrack':
+                            pos["track"]=False
+                    
+            
     elif edit_sel == 'Back':
         return()
     watch_list.calc_cost_basis()
@@ -423,62 +436,63 @@ def last_transaction_indicator(watch_list, ind_dict,force_all=False):
     today = dt.date.today()
 
     for index, position in enumerate(watch_list.position_list):
-        # The next few lines print progress indication
-        print("\033[1A\033[K", end='')
-        # \033[K = Erase to the end of line
-        # \033[1A = moves the cursor up 1 line.
-        print("{}/{}".format(index,len(watch_list.position_list),end=''))
-        
-        indicator = False
-        score = 0
-        try:
-            #df = get_quoteDF(position["ticker"],position,today)
-            get_quoteDF(position["ticker"],position,today,force_all)
-            last_close = position["last price"]
+        if position["track"]:
+            # The next few lines print progress indication
+            print("\033[1A\033[K", end='')
+            # \033[K = Erase to the end of line
+            # \033[1A = moves the cursor up 1 line.
+            print("{}/{}".format(index,len(watch_list.position_list),end=''))
+            
+            indicator = False
+            score = 0
+            try:
+                #df = get_quoteDF(position["ticker"],position,today)
+                get_quoteDF(position["ticker"],position,today,force_all)
+                last_close = position["last price"]
 
-            last_t = position["transactions"][-1]
+                last_t = position["transactions"][-1]
 
-            # test for indicator
-            if last_t['b/s'].lower() == 'b':
-                # Note that this logic assumes a $4.95 commission and $0 fee.
-                if (float(last_t['price'])
-                    +(4.95/last_t['shares']) < float(last_close)):
-                    
-                    indicator = True
-                    score = (last_close - last_t['price']) * last_t['shares']
-                    direction = last_t['b/s']
+                # test for indicator
+                if last_t['b/s'].lower() == 'b':
+                    # Note that this logic assumes a $4.95 commission and $0 fee.
+                    if (float(last_t['price'])
+                        +(4.95/last_t['shares']) < float(last_close)):
+                        
+                        indicator = True
+                        score = (last_close - last_t['price']) * last_t['shares']
+                        direction = last_t['b/s']
+                    else:
+                        direction = 'N/A'
+       
+                elif last_t['b/s'].lower() == 's':
+                    # Note that this logic assumes a $4.95 commission and $0 fee.
+                    if (float(last_t['price']) > float(last_close)
+                        +(4.95/last_t['shares'])):
+                        
+                        indicator = True
+                        score = (last_t['price'] - last_close) * last_t['shares']
+                        direction = last_t['b/s']
+                    else:
+                        direction = 'N/A'
+                if direction.lower() == 'b':
+                    direction = 'SELL'
+                elif direction.lower() == 's':
+                    direction = 'BUY'
                 else:
-                    direction = 'N/A'
-   
-            elif last_t['b/s'].lower() == 's':
-                # Note that this logic assumes a $4.95 commission and $0 fee.
-                if (float(last_t['price']) > float(last_close)
-                    +(4.95/last_t['shares'])):
+                    pass
                     
-                    indicator = True
-                    score = (last_t['price'] - last_close) * last_t['shares']
-                    direction = last_t['b/s']
-                else:
-                    direction = 'N/A'
-            if direction.lower() == 'b':
-                direction = 'SELL'
-            elif direction.lower() == 's':
-                direction = 'BUY'
+            except:
+                print("Indicator failed.")
+            if indicator:
+                ind_dict["Last Transaction"].append \
+                               ({"Ticker":position['ticker'],
+                                 "Score":score,
+                                 "Direction":direction.upper()})
             else:
                 pass
-                
-        except:
-            print("Indicator failed.")
-        if indicator:
-            ind_dict["Last Transaction"].append \
-                           ({"Ticker":position['ticker'],
-                             "Score":score,
-                             "Direction":direction.upper()})
-        else:
-            pass
 
-    print("\033[1A\033[K", end='')
-    print("\033[1A\033[K", end='')
+        print("\033[1A\033[K", end='')
+        print("\033[1A\033[K", end='')
     return(watch_list, ind_dict)
 
 def over_exposure_indicator(watch_list, ind_dict):
@@ -487,25 +501,26 @@ def over_exposure_indicator(watch_list, ind_dict):
     direction = 's'
     
     for index,position in enumerate(watch_list.position_list):
-        # The next few lines print progress indication
-        print("\033[1A\033[K", end='')
-        # \033[K = Erase to the end of line
-        # \033[1A = moves the cursor up 1 line.
-        print("{}/{}".format(index,len(watch_list.position_list),end=''))
+        if position["track"]:
+            # The next few lines print progress indication
+            print("\033[1A\033[K", end='')
+            # \033[K = Erase to the end of line
+            # \033[1A = moves the cursor up 1 line.
+            print("{}/{}".format(index,len(watch_list.position_list),end=''))
 
-        pos_exp = (position["current shares"] * position["last price"])\
-                  /watch_list.meta_data["portfolio value"]
-        score = watch_list.meta_data["exposure target"] - pos_exp
-        if score > 0:
-            direction = 'BUY'
-        elif score < 0:
-            direction = 'SELL'
-        else:
-            direction = 'N/A'
-        ind_dict["Over-exposure"].append \
-                       ({"Ticker":position['ticker'],
-                         "Score":score,
-                         "Direction":direction.upper()})
+            pos_exp = (position["current shares"] * position["last price"])\
+                      /watch_list.meta_data["portfolio value"]
+            score = watch_list.meta_data["exposure target"] - pos_exp
+            if score > 0:
+                direction = 'BUY'
+            elif score < 0:
+                direction = 'SELL'
+            else:
+                direction = 'N/A'
+            ind_dict["Over-exposure"].append \
+                           ({"Ticker":position['ticker'],
+                             "Score":score,
+                             "Direction":direction.upper()})
         
     print("\033[1A\033[K", end='')
     print("\033[1A\033[K", end='')
@@ -519,45 +534,46 @@ def div_yield_indicator(watch_list, ind_dict):
     last_year = dt.date(today.year-1,1,1)
 
     for index,position in enumerate(watch_list.position_list):
-        # The next few lines print progress indication
-        print("\033[1A\033[K", end='')
-        # \033[K = Erase to the end of line
-        # \033[1A = moves the cursor up 1 line.
-        print("{}/{}".format(index,len(watch_list.position_list),end=''))
-    
-        try:
-            last_close = position["last price"]
+        if position["track"]:
+            # The next few lines print progress indication
+            print("\033[1A\033[K", end='')
+            # \033[K = Erase to the end of line
+            # \033[1A = moves the cursor up 1 line.
+            print("{}/{}".format(index,len(watch_list.position_list),end=''))
+        
+            try:
+                last_close = position["last price"]
 
-            dividend = get_last_dividend(position)
+                dividend = get_last_dividend(position)
 
-            score = (dividend/last_close)*4 # assumes quarterly dividend.
-            # Score is compared to the dividend target.
-            score = score - watch_list.meta_data["dividend target"]
-            if score > 0:
-                direction = 'BUY'
-            elif score < 0:
+                score = (dividend/last_close)*4 # assumes quarterly dividend.
+                # Score is compared to the dividend target.
+                score = score - watch_list.meta_data["dividend target"]
+                if score > 0:
+                    direction = 'BUY'
+                elif score < 0:
+                    direction = 'SELL'
+                else:
+                    direction = 'N/A'
+                ind_dict["High Dividend Yield"].append \
+                               ({"Ticker":position['ticker'],
+                                 "Score":score,
+                                 "Direction":direction.upper()})
+            except KeyError:
+                #print("No dividend fetch date for {}\n".format(position["ticker"]))
+                score = 0 - watch_list.meta_data["dividend target"]
                 direction = 'SELL'
-            else:
-                direction = 'N/A'
-            ind_dict["High Dividend Yield"].append \
-                           ({"Ticker":position['ticker'],
-                             "Score":score,
-                             "Direction":direction.upper()})
-        except KeyError:
-            #print("No dividend fetch date for {}\n".format(position["ticker"]))
-            score = 0 - watch_list.meta_data["dividend target"]
-            direction = 'SELL'
-            ind_dict["High Dividend Yield"].append \
-                           ({"Ticker":position['ticker'],
-                             "Score":score,
-                             "Direction":direction.upper()})
-            continue
-        except TypeError:
-            #print("No dividends for this position")
-            continue
-        except:
-            #pass
-            raise
+                ind_dict["High Dividend Yield"].append \
+                               ({"Ticker":position['ticker'],
+                                 "Score":score,
+                                 "Direction":direction.upper()})
+                continue
+            except TypeError:
+                #print("No dividends for this position")
+                continue
+            except:
+                #pass
+                raise
 
     print("\033[1A\033[K", end='')
     print("\033[1A\033[K", end='')
@@ -565,32 +581,33 @@ def div_yield_indicator(watch_list, ind_dict):
 
 def div_exp_composite_indicator(watch_list, ind_dict):
     for index,position in enumerate(watch_list.position_list):
-        for ind_pos in ind_dict["High Dividend Yield"]:
-            if ind_pos["Ticker"] == position["ticker"]:
-                break
-            else:
-                pass
-        for exp_pos in ind_dict["Over-exposure"]:
-            if exp_pos["Ticker"] == position["ticker"]:
-                break
-            else:
-                pass
+        if position["track"]:
+            for ind_pos in ind_dict["High Dividend Yield"]:
+                if ind_pos["Ticker"] == position["ticker"]:
+                    break
+                else:
+                    pass
+            for exp_pos in ind_dict["Over-exposure"]:
+                if exp_pos["Ticker"] == position["ticker"]:
+                    break
+                else:
+                    pass
 
-        div_score = ind_pos["Score"]
-        exp_score = exp_pos["Score"]
-        exposure = (position["current shares"] * position["last price"])\
-                  /watch_list.meta_data["portfolio value"]
-        comp_score = div_score * mf.deactivate(exposure, watch_list.meta_data["exposure target"],0.03) + exp_score
-##        print("Ticker: {}\nDiv score: {:<7.2f}%\nExp_score: {:<7.2f}%\nComposite score: {:<7.2f}"\
-##              .format(position['ticker'],div_score*100,exp_score*100,comp_score*100))
-        if comp_score > 0:
-            direction = 'Buy'
-        else:
-            direction = 'Sell'
-        ind_dict["Dividend Yield and Exposure composite"].append \
-                           ({"Ticker":position['ticker'],
-                             "Score":comp_score,
-                             "Direction":direction.upper()})
+            div_score = ind_pos["Score"]
+            exp_score = exp_pos["Score"]
+            exposure = (position["current shares"] * position["last price"])\
+                      /watch_list.meta_data["portfolio value"]
+            comp_score = div_score * mf.deactivate(exposure, watch_list.meta_data["exposure target"],0.03) + exp_score
+    ##        print("Ticker: {}\nDiv score: {:<7.2f}%\nExp_score: {:<7.2f}%\nComposite score: {:<7.2f}"\
+    ##              .format(position['ticker'],div_score*100,exp_score*100,comp_score*100))
+            if comp_score > 0:
+                direction = 'Buy'
+            else:
+                direction = 'Sell'
+            ind_dict["Dividend Yield and Exposure composite"].append \
+                               ({"Ticker":position['ticker'],
+                                 "Score":comp_score,
+                                 "Direction":direction.upper()})
     return(watch_list, ind_dict)
 
 def parse_date(date):
