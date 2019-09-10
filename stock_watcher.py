@@ -437,11 +437,10 @@ def last_transaction_indicator(watch_list, ind_dict,force_all=False):
 
     for index, position in enumerate(watch_list.position_list):
         # The next few lines print progress indication
-##        print("\033[1A\033[K", end='')
+        print("\033[1A\033[K", end='')
         # \033[K = Erase to the end of line
         # \033[1A = moves the cursor up 1 line.
         print("{}/{}".format(index,len(watch_list.position_list),end=''))
-        print("{}: Tracking: {}".format(position["ticker"],position["track"]))
         if position["track"]:
             
             indicator = False
