@@ -598,8 +598,7 @@ def div_exp_composite_indicator(watch_list, ind_dict):
             exposure = (position["current shares"] * position["last price"])\
                       /watch_list.meta_data["portfolio value"]
             comp_score = div_score * mf.deactivate(exposure, watch_list.meta_data["exposure target"],0.03) + exp_score
-    ##        print("Ticker: {}\nDiv score: {:<7.2f}%\nExp_score: {:<7.2f}%\nComposite score: {:<7.2f}"\
-    ##              .format(position['ticker'],div_score*100,exp_score*100,comp_score*100))
+
             if comp_score > 0:
                 direction = 'Buy'
             else:
@@ -608,6 +607,28 @@ def div_exp_composite_indicator(watch_list, ind_dict):
                                ({"Ticker":position['ticker'],
                                  "Score":comp_score,
                                  "Direction":direction.upper()})
+    return(watch_list, ind_dict)
+
+def cost_basis_indicator(watch_list, ind_dict):
+    for index,position in enumerate(watch_list.position_list):
+        if position["track"]:
+            try:
+                score = position["last price"] - position["cost basis"]
+                if score > 0:
+                    if position["current shares"] == 0:
+                        score = 0
+                    direction = 'SELL'
+                elif score < 0:
+                    direction = 'BUY'
+                else:
+                    direction = 'N/A'
+                ind_dict["Cost Basis"].append \
+                               ({"Ticker":position['ticker'],
+                                 "Score":score,
+                                 "Direction":direction.upper()})
+            except:
+                print("Unhandled exception")
+                
     return(watch_list, ind_dict)
 
 def parse_date(date):
@@ -821,7 +842,8 @@ while(True):
                         "High Dividend Yield":[], # Looks for high dividend yields with respect to a specified target
                         "Recent Passed Dividend":[], # Looks for opportunities in response to recent or upcoming ex-dates
                         "Over-exposure":[], # Looks for opportunities to improve exposure with respect to a specified target
-                        "Dividend Yield and Exposure composite":[]} # Weighs dividend target against exposure target and makes a recommendation
+                        "Dividend Yield and Exposure composite":[], # Weighs dividend target against exposure target and makes a recommendation
+                        "Cost Basis":[]}# Looks at the last price compared to the cost basis of a position
                 
             print("\nWorking on \"Last Transaction\" indicator.\n")
             watch_list, ind_dict = last_transaction_indicator(watch_list,
@@ -860,6 +882,13 @@ while(True):
             print_indicator(ind_dict, "Dividend Yield and Exposure composite",ind_format="{:<7.2f}",score_scale=100)
 
             print("\n",end='')
+            print("Working on \"Cost Basis\" indicator.\n")
+            watch_list, ind_dict = cost_basis_indicator(watch_list, ind_dict)
+            ind_dict["Cost Basis"].sort(key=lambda x: abs(x["Score"]),
+                                                 reverse=True)
+            print_indicator(ind_dict, "Cost Basis",ind_format="{:<7.2f}",score_scale=1)
+            print("\n",end='')
+            
             for indicator in ind_dict["Recent Passed Dividend"]:
                 pass
         elif selection == 'Edit':
