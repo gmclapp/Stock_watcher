@@ -775,21 +775,19 @@ def print_indicator(ind_dict, ind,ind_format="{:<7.2f}%",score_scale=1):
                   (indicator["Ticker"],
                    indicator["Score"]*score_scale,
                    indicator["Direction"].upper()))
-        
-watch_list = positions()
 
-#style.use("fivethirtyeight")
+def stock_watcher():     
+    watch_list = positions()
 
-print('\033[2J') # Clear the terminal
-watch_list.load_positions()
-watch_list.calc_cost_basis()
-watch_list.sort_open_positions()
-watch_list.calc_portfolio_value()
-watch_list.calc_average_yield()
-today = dt.date.today()
+    print('\033[2J') # Clear the terminal
+    watch_list.load_positions()
+    watch_list.calc_cost_basis()
+    watch_list.sort_open_positions()
+    watch_list.calc_portfolio_value()
+    watch_list.calc_average_yield()
+    today = dt.date.today()
 
-while(True):
-    try:
+    while(True):
         selections = ['Order',
                       'View',
                       'Indicators',
@@ -953,8 +951,13 @@ while(True):
                 pass
             break
         
+
+
+if __name__ == "__main__":
+
+    try:
+        stock_watcher()
     except:
         print("Unexpected error:",sys.exc_info())
-##        time.sleep(60)
-        continue
-##        raise
+        time.sleep(60)
+
