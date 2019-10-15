@@ -206,7 +206,7 @@ def order(watch_list):
                            fee)
     watch_list.calc_cost_basis()
 
-def view(pos):
+def view(watch_list, pos):
     try:
         pos_yield = (pos["last dividend"]/pos["last price"])*4
     except KeyError:
@@ -822,7 +822,7 @@ def stock_watcher():
             else:
                 for pos in watch_list.position_list:
                     if pos["ticker"] == view_pos:
-                        view(pos)
+                        view(watch_list, pos)
                     else:
                         pass
                 
