@@ -314,11 +314,11 @@ def edit(watch_list):
                     pos["transactions"][i]['price'] = price
                 elif e_choice == 'Commission':
                     commission = si.get_real_number("Enter commission.\n>>>",
-                                                    lower=0)
+                                                    lower=-0.01)
                     pos["transactions"][i]['commission'] = commission
                 elif e_choice == 'Fees':
                     fees = si.get_real_number("Enter fees.\n>>>",
-                                                    lower=0)
+                                                    lower=-0.01)
                     pos["transactions"][i]['fees'] = fees
                 elif e_choice == 'Delete transaction':
                     pos["transactions"].pop(i)
