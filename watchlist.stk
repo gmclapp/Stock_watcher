@@ -1,9 +1,9 @@
 [
     {
-        "portfolio value": 44510.07483248963,
+        "portfolio value": 45651.34399625269,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.06652336602765452
+        "average yield": 0.06468769025162556
     },
     [
         {
@@ -166,10 +166,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 241.2100067138672,
-            "last price date": "2019-10-22",
+            "last price": 239.9600067138672,
+            "last price date": "2019-10-23",
             "last dividend": 0.77,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -254,8 +254,8 @@
             ],
             "cost basis": 78.71915555555556,
             "current shares": 45,
-            "last price": 78.47949981689453,
-            "last price date": "2019-10-22",
+            "last price": 77.87000274658203,
+            "last price date": "2019-10-23",
             "last dividend": 1.07,
             "last yield date": "2019-10-22",
             "track": true
@@ -378,10 +378,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 204.27999877929688,
-            "last price date": "2019-10-22",
+            "last price": 204.8300018310547,
+            "last price date": "2019-10-23",
             "last dividend": 1.45,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -399,8 +399,8 @@
             "dividends": [],
             "cost basis": 0.0705,
             "current shares": 300,
-            "last price": 0.00019999999494757503,
-            "last price date": "2019-10-22",
+            "last price": 9.999999747378752e-05,
+            "last price date": "2019-10-23",
             "track": true
         },
         {
@@ -466,8 +466,8 @@
             "dividends": [],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 5.489999771118164,
-            "last price date": "2019-10-22",
+            "last price": 5.519999980926514,
+            "last price date": "2019-10-23",
             "track": true
         },
         {
@@ -530,8 +530,8 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 118.93499755859375,
-            "last price date": "2019-10-22",
+            "last price": 118.61000061035156,
+            "last price date": "2019-10-23",
             "last dividend": 0.43,
             "last yield date": "2019-10-22",
             "track": true
@@ -728,10 +728,10 @@
             ],
             "cost basis": 230.34387777777795,
             "current shares": 9,
-            "last price": 336.2099914550781,
-            "last price date": "2019-10-22",
+            "last price": 337,
+            "last price date": "2019-10-23",
             "last dividend": 2.055,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -764,10 +764,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 31.030000686645508,
-            "last price date": "2019-10-22",
+            "last price": 31.200000762939453,
+            "last price date": "2019-10-23",
             "last dividend": 0.18,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -998,8 +998,8 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 71.5999984741211,
-            "last price date": "2019-10-22",
+            "last price": 72.4000015258789,
+            "last price date": "2019-10-23",
             "last dividend": 0.5,
             "last yield date": "2019-10-22",
             "track": true
@@ -1152,10 +1152,10 @@
             ],
             "cost basis": 12.423860000000003,
             "current shares": 75,
-            "last price": 6.309999942779541,
-            "last price date": "2019-10-22",
+            "last price": 6.409999847412109,
+            "last price date": "2019-10-23",
             "last dividend": 0.05,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -1248,8 +1248,8 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 21.2450008392334,
-            "last price date": "2019-10-22",
+            "last price": 21.790000915527344,
+            "last price date": "2019-10-23",
             "last dividend": 0.25,
             "last yield date": "2019-10-22",
             "track": true
@@ -1508,8 +1508,8 @@
             ],
             "cost basis": 2.0573925925925924,
             "current shares": 675,
-            "last price": 1.559999942779541,
-            "last price date": "2019-10-22",
+            "last price": 1.5299999713897705,
+            "last price date": "2019-10-23",
             "last dividend": 0.075,
             "last yield date": "2019-10-22",
             "track": true
@@ -1544,8 +1544,8 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 66.05999755859375,
-            "last price date": "2019-10-22",
+            "last price": 66.55999755859375,
+            "last price date": "2019-10-23",
             "last dividend": 0.5,
             "last yield date": "2019-10-22",
             "track": true
@@ -1662,10 +1662,10 @@
             ],
             "cost basis": 94.86311666666666,
             "current shares": 12,
-            "last price": 116.79499816894531,
-            "last price date": "2019-10-22",
+            "last price": 117.80000305175781,
+            "last price date": "2019-10-23",
             "last dividend": 1.19,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -1764,10 +1764,10 @@
             ],
             "cost basis": 75.09384000000001,
             "current shares": 20,
-            "last price": 80.91999816894531,
-            "last price date": "2019-10-22",
+            "last price": 81.1500015258789,
+            "last price date": "2019-10-23",
             "last dividend": 0.44,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -2066,8 +2066,8 @@
             ],
             "cost basis": 8.501950877192986,
             "current shares": 285,
-            "last price": 9.010000228881836,
-            "last price date": "2019-10-22",
+            "last price": 9.069999694824219,
+            "last price date": "2019-10-23",
             "last dividend": 0.15,
             "last yield date": "2019-10-22",
             "track": true
@@ -2143,8 +2143,8 @@
             "dividends": [],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 189.7299041748047,
-            "last price date": "2019-10-22",
+            "last price": 182.33999633789062,
+            "last price date": "2019-10-23",
             "track": true
         },
         {
@@ -2207,8 +2207,8 @@
             ],
             "cost basis": 12.416373684210525,
             "current shares": 190,
-            "last price": 13.239999771118164,
-            "last price date": "2019-10-22",
+            "last price": 13.199999809265137,
+            "last price date": "2019-10-23",
             "last dividend": 1.451,
             "last yield date": "2019-10-22",
             "track": true
@@ -2252,8 +2252,8 @@
             "dividends": [],
             "cost basis": 0.23013641133263382,
             "current shares": 4765,
-            "last price": 0.11777999997138977,
-            "last price date": "2019-10-22",
+            "last price": 0.1166900023818016,
+            "last price date": "2019-10-23",
             "track": true
         },
         {
@@ -2408,8 +2408,8 @@
             ],
             "cost basis": 158.29300000000015,
             "current shares": 10,
-            "last price": 176.91000366210938,
-            "last price date": "2019-10-22",
+            "last price": 179.8800048828125,
+            "last price date": "2019-10-23",
             "last dividend": 1.02,
             "last yield date": "2019-10-22",
             "track": true
@@ -2612,10 +2612,10 @@
             ],
             "cost basis": 18.213799999999992,
             "current shares": 120,
-            "last price": 8.65999984741211,
-            "last price date": "2019-10-22",
+            "last price": 9.0600004196167,
+            "last price date": "2019-10-23",
             "last dividend": 0.01,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -2862,10 +2862,10 @@
             ],
             "cost basis": 27.977177777777797,
             "current shares": 45,
-            "last price": 35.755001068115234,
-            "last price date": "2019-10-22",
+            "last price": 36.310001373291016,
+            "last price date": "2019-10-23",
             "last dividend": 0.38,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -2988,8 +2988,8 @@
             ],
             "cost basis": 7.471544827586204,
             "current shares": 145,
-            "last price": 6.065000057220459,
-            "last price date": "2019-10-22",
+            "last price": 6.389999866485596,
+            "last price date": "2019-10-23",
             "last dividend": 0.38,
             "last yield date": "2019-10-22",
             "track": true
@@ -3040,10 +3040,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 39.380001068115234,
-            "last price date": "2019-10-22",
+            "last price": 40.040000915527344,
+            "last price date": "2019-10-23",
             "last dividend": 0.375,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": 1
         },
         {
@@ -3224,10 +3224,10 @@
             ],
             "cost basis": 124.09422608695654,
             "current shares": 23,
-            "last price": 131.97999572753906,
-            "last price date": "2019-10-22",
+            "last price": 133.9600067138672,
+            "last price date": "2019-10-23",
             "last dividend": 1.62,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -3376,10 +3376,10 @@
             ],
             "cost basis": 36.860075000000016,
             "current shares": 40,
-            "last price": 52.130001068115234,
-            "last price date": "2019-10-22",
+            "last price": 52.0099983215332,
+            "last price date": "2019-10-23",
             "last dividend": 0.315,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -3488,10 +3488,10 @@
             ],
             "cost basis": 126.67584761904763,
             "current shares": 21,
-            "last price": 129.80999755859375,
-            "last price date": "2019-10-22",
+            "last price": 129.1999969482422,
+            "last price date": "2019-10-23",
             "last dividend": 0.95,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -3636,10 +3636,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 123.2699966430664,
-            "last price date": "2019-10-22",
+            "last price": 124.79000091552734,
+            "last price date": "2019-10-23",
             "last dividend": 0.9,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -3705,8 +3705,8 @@
             "dividends": [],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 0.14100000262260437,
-            "last price date": "2019-10-22",
+            "last price": 0.14800000190734863,
+            "last price date": "2019-10-23",
             "track": true
         },
         {
@@ -3753,10 +3753,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 27.78499984741211,
-            "last price date": "2019-10-22",
+            "last price": 28.5,
+            "last price date": "2019-10-23",
             "last dividend": 0.4,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -3795,8 +3795,8 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 54.23720169067383,
-            "last price date": "2019-10-22",
+            "last price": 53.849998474121094,
+            "last price date": "2019-10-23",
             "last dividend": 0.4,
             "last yield date": "2019-10-22",
             "track": true
@@ -3899,10 +3899,10 @@
             ],
             "cost basis": 8.249328571428569,
             "current shares": 70,
-            "last price": 10.399999618530273,
-            "last price date": "2019-10-22",
+            "last price": 10.430000305175781,
+            "last price date": "2019-10-23",
             "last dividend": 0.07,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -3951,10 +3951,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 139.14999389648438,
-            "last price date": "2019-10-22",
+            "last price": 136.3699951171875,
+            "last price date": "2019-10-23",
             "last dividend": 0.46,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -3972,10 +3972,10 @@
             "dividends": [],
             "cost basis": 9.055833333333334,
             "current shares": 60,
-            "last price": 8.202500343322754,
-            "last price date": "2019-10-16",
+            "last price": 8.359999656677246,
+            "last price date": "2019-10-23",
             "last dividend": 0.139,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": 1
         },
         {
@@ -4084,10 +4084,10 @@
             ],
             "cost basis": 40.673724137931046,
             "current shares": 29,
-            "last price": 54.290000915527344,
-            "last price date": "2019-10-22",
+            "last price": 54.13999938964844,
+            "last price date": "2019-10-23",
             "last dividend": 0.21,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -4284,10 +4284,10 @@
             ],
             "cost basis": -16.011640000000035,
             "current shares": 10,
-            "last price": 78.41999816894531,
-            "last price date": "2019-10-22",
+            "last price": 78.47000122070312,
+            "last price date": "2019-10-23",
             "last dividend": 0.62,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -4564,10 +4564,10 @@
             ],
             "cost basis": -11.485131999999966,
             "current shares": 25,
-            "last price": 55.70000076293945,
-            "last price date": "2019-10-22",
+            "last price": 55.86000061035156,
+            "last price date": "2019-10-23",
             "last dividend": 0.63,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -4740,8 +4740,8 @@
             ],
             "cost basis": 23.66940000000005,
             "current shares": 25,
-            "last price": 38.095001220703125,
-            "last price date": "2019-10-22",
+            "last price": 38.16999816894531,
+            "last price date": "2019-10-23",
             "last dividend": 0.51,
             "last yield date": "2019-10-22",
             "track": true
@@ -4808,8 +4808,8 @@
             ],
             "cost basis": 12.48704,
             "current shares": 50,
-            "last price": 16.864999771118164,
-            "last price date": "2019-10-22",
+            "last price": 16.475000381469727,
+            "last price date": "2019-10-23",
             "last dividend": 0.201,
             "last yield date": "2019-10-22",
             "track": true
@@ -4966,10 +4966,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 113.94999694824219,
-            "last price date": "2019-10-22",
+            "last price": 113.19000244140625,
+            "last price date": "2019-10-23",
             "last dividend": 0.66,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -5099,8 +5099,8 @@
             "dividends": [],
             "cost basis": 182.04689999999997,
             "current shares": 3,
-            "last price": 253.7899932861328,
-            "last price date": "2019-10-22",
+            "last price": 255.5800018310547,
+            "last price date": "2019-10-23",
             "track": true
         },
         {
@@ -5126,8 +5126,8 @@
             "dividends": [],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 39.44020080566406,
-            "last price date": "2019-10-22",
+            "last price": 38.810001373291016,
+            "last price date": "2019-10-23",
             "last dividend": 0,
             "last yield date": "2019-2-26",
             "track": true
@@ -5284,8 +5284,8 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 60.834999084472656,
-            "last price date": "2019-10-22",
+            "last price": 60.77000045776367,
+            "last price date": "2019-10-23",
             "last dividend": 0.615,
             "last yield date": "2019-10-22",
             "track": true
@@ -5548,10 +5548,10 @@
             ],
             "cost basis": 39.927555,
             "current shares": 20,
-            "last price": 59.310001373291016,
-            "last price date": "2019-10-22",
+            "last price": 58.86000061035156,
+            "last price date": "2019-10-23",
             "last dividend": 0.5,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -5642,10 +5642,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 119.7699966430664,
-            "last price date": "2019-10-22",
+            "last price": 119.58000183105469,
+            "last price date": "2019-10-23",
             "last dividend": 0.53,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -5848,10 +5848,10 @@
             ],
             "cost basis": 32.06186000000001,
             "current shares": 75,
-            "last price": 35.27000045776367,
-            "last price date": "2019-10-22",
+            "last price": 35.720001220703125,
+            "last price date": "2019-10-23",
             "last dividend": 0.24,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -5962,10 +5962,10 @@
             ],
             "cost basis": 90.36478333333335,
             "current shares": 30,
-            "last price": 96.16999816894531,
-            "last price date": "2019-10-22",
+            "last price": 95.9800033569336,
+            "last price date": "2019-10-23",
             "last dividend": 0.37,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         },
         {
@@ -6026,10 +6026,10 @@
             ],
             "cost basis": 74.67463181818181,
             "current shares": 22,
-            "last price": 68.8499984741211,
-            "last price date": "2019-10-22",
+            "last price": 69.08999633789062,
+            "last price date": "2019-10-23",
             "last dividend": 0.87,
-            "last yield date": "2019-10-22",
+            "last yield date": "2019-10-23",
             "track": true
         }
     ]
