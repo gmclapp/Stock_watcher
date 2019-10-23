@@ -543,8 +543,20 @@ def div_yield_indicator(watch_list, ind_dict):
         
             try:
                 last_close = position["last price"]
-
-                dividend = get_last_dividend(position)
+                try:
+                    # Calculate the number of days since the last dividend was paid.
+                    delta = int((today - parse_date(position["dividends"][-1]["date"])).days)
+                except IndexError:
+                    # No dividends are recorded for this position
+                    pass
+                
+                # If a company hasn't paid a dividend in more than 90 days, they
+                # have stopped paying quarterly dividends.
+                if delta > 90:
+                    # This position no longer pays quarterly dividends
+                    dividend = 0
+                else:          
+                    dividend = get_last_dividend(position)
 
                 score = (dividend/last_close)*4 # assumes quarterly dividend.
                 # Score is compared to the dividend target.
