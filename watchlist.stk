@@ -1,9 +1,9 @@
 [
     {
-        "portfolio value": 32743.352699784475,
+        "portfolio value": 41400.511458037334,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.08917474110765757
+        "average yield": 0.07492854292740325
     },
     [
         {
@@ -216,14 +216,26 @@
                     "amount": 0.77,
                     "shares": 5,
                     "total": 3.85
+                },
+                {
+                    "date": "2020-5-8",
+                    "amount": 0.82,
+                    "shares": 3,
+                    "total": 2.46
+                },
+                {
+                    "date": "2020-2-7",
+                    "amount": 0.77,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": -40.50473333333335,
             "current shares": 3,
-            "last price": 316.5899963378906,
-            "last price date": "2020-5-12",
-            "last dividend": 0.77,
-            "last yield date": "2020-2-6",
+            "last price": 326.80999755859375,
+            "last price date": "2020-6-5",
+            "last dividend": 0.82,
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -370,14 +382,20 @@
                     "amount": 1.18,
                     "shares": 45,
                     "total": 53.099999999999994
+                },
+                {
+                    "date": "2020-4-14",
+                    "amount": 1.18,
+                    "shares": 3,
+                    "total": 3.54
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 90.80000305175781,
-            "last price date": "2020-5-12",
+            "last price": 93.48999786376953,
+            "last price date": "2020-6-5",
             "last dividend": 1.18,
-            "last yield date": "2020-3-30",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -516,14 +534,26 @@
                     "amount": 1.45,
                     "shares": 5,
                     "total": 7.25
+                },
+                {
+                    "date": "2020-5-15",
+                    "amount": 1.6,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2020-2-13",
+                    "amount": 1.6,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 242.99000549316406,
-            "last price date": "2020-5-12",
-            "last dividend": 1.45,
-            "last yield date": "2020-2-11",
+            "last price": 220.9199981689453,
+            "last price date": "2020-6-5",
+            "last dividend": 1.6,
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -542,7 +572,7 @@
             "cost basis": 0.0705,
             "current shares": 300,
             "last price": 9.999999747378752e-05,
-            "last price date": "2020-5-12",
+            "last price date": "2020-6-5",
             "track": true
         },
         {
@@ -683,13 +713,21 @@
                     "commission": 0.0,
                     "fees": 0.01,
                     "shares": 100
+                },
+                {
+                    "b/s": "b",
+                    "date": "2020-5-28",
+                    "price": 3.335,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 200
                 }
             ],
             "dividends": [],
-            "cost basis": 0,
-            "current shares": 0,
-            "last price": 3.240000009536743,
-            "last price date": "2020-5-12",
+            "cost basis": 0.9407899999999992,
+            "current shares": 200,
+            "last price": 3.2084999084472656,
+            "last price date": "2020-6-5",
             "track": true
         },
         {
@@ -760,14 +798,20 @@
                     "amount": 0.43,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2020-4-2",
+                    "amount": 0.43,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 85.44999694824219,
-            "last price date": "2020-5-12",
+            "last price": 110.48999786376953,
+            "last price date": "2020-6-5",
             "last dividend": 0.43,
-            "last yield date": "2020-3-30",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -948,6 +992,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 8
+                },
+                {
+                    "b/s": "s",
+                    "date": "2020-5-28",
+                    "price": 152.36,
+                    "commission": 0.0,
+                    "fees": 0.01,
+                    "shares": 6
                 }
             ],
             "dividends": [
@@ -1012,12 +1064,12 @@
                     "total": 10.275
                 }
             ],
-            "cost basis": 155.72066470588243,
-            "current shares": 17,
-            "last price": 129.9344940185547,
-            "last price date": "2020-5-12",
+            "cost basis": 157.55284545454555,
+            "current shares": 11,
+            "last price": 202.1699981689453,
+            "last price date": "2020-6-5",
             "last dividend": 2.055,
-            "last yield date": "2020-5-12",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -1076,14 +1128,26 @@
                     "amount": 0.18,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2020-6-4",
+                    "amount": 0.18,
+                    "shares": 35,
+                    "total": 6.3
+                },
+                {
+                    "date": "2020-3-5",
+                    "amount": 0.18,
+                    "shares": 20,
+                    "total": 3.5999999999999996
                 }
             ],
             "cost basis": 29.639357142857143,
             "current shares": 35,
-            "last price": 22.354999542236328,
-            "last price date": "2020-5-12",
+            "last price": 28.024200439453125,
+            "last price date": "2020-6-5",
             "last dividend": 0.18,
-            "last yield date": "2020-3-2",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -1322,14 +1386,20 @@
                     "amount": 0.5,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2020-3-18",
+                    "amount": 0.55,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 78.19999694824219,
-            "last price date": "2020-5-12",
-            "last dividend": 0.5,
-            "last yield date": "2020-3-12",
+            "last price": 81.93000030517578,
+            "last price date": "2020-6-5",
+            "last dividend": 0.55,
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -1494,6 +1564,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 100
+                },
+                {
+                    "b/s": "b",
+                    "date": "2020-5-28",
+                    "price": 1.7677,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 100
                 }
             ],
             "dividends": [
@@ -1540,12 +1618,12 @@
                     "total": 25.0
                 }
             ],
-            "cost basis": 6.526038,
-            "current shares": 250,
-            "last price": 1.940000057220459,
-            "last price date": "2020-5-12",
+            "cost basis": 5.166512857142857,
+            "current shares": 350,
+            "last price": 1.899999976158142,
+            "last price date": "2020-6-5",
             "last dividend": 0.05,
-            "last yield date": "2020-3-12",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -1646,6 +1724,14 @@
                     "commission": 0.0,
                     "fees": 0.02,
                     "shares": 45
+                },
+                {
+                    "b/s": "b",
+                    "date": "2020-5-28",
+                    "price": 15.059,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 45
                 }
             ],
             "dividends": [
@@ -1680,12 +1766,12 @@
                     "total": 69.75
                 }
             ],
-            "cost basis": 0,
-            "current shares": 0,
-            "last price": 14.989999771118164,
-            "last price date": "2020-5-12",
+            "cost basis": 8.954355555555559,
+            "current shares": 45,
+            "last price": 17.979999542236328,
+            "last price date": "2020-6-5",
             "last dividend": 1.25,
-            "last yield date": "2020-3-30",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -1966,10 +2052,10 @@
             ],
             "cost basis": 1.7445142857142855,
             "current shares": 875,
-            "last price": 0.23010000586509705,
-            "last price date": "2020-5-12",
+            "last price": 0.2897000014781952,
+            "last price date": "2020-6-5",
             "last dividend": 0.075,
-            "last yield date": "2020-2-13",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -2050,14 +2136,20 @@
                     "amount": 0.5,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2020-4-22",
+                    "amount": 0.5,
+                    "shares": 20,
+                    "total": 10.0
                 }
             ],
             "cost basis": 53.79949999999999,
             "current shares": 20,
-            "last price": 63.5,
-            "last price date": "2020-5-12",
+            "last price": 68.20500183105469,
+            "last price date": "2020-6-5",
             "last dividend": 0.5,
-            "last yield date": "2020-4-21",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -2158,6 +2250,22 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 12
+                },
+                {
+                    "b/s": "b",
+                    "date": "2020-5-28",
+                    "price": 92.03,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 15
+                },
+                {
+                    "b/s": "s",
+                    "date": "2020-6-5",
+                    "price": 100.38,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 15
                 }
             ],
             "dividends": [
@@ -2190,14 +2298,26 @@
                     "amount": 1.19,
                     "shares": 12,
                     "total": 14.28
+                },
+                {
+                    "date": "2020-5-18",
+                    "amount": 1.29,
+                    "shares": 12,
+                    "total": 15.48
+                },
+                {
+                    "date": "2020-2-14",
+                    "amount": 1.29,
+                    "shares": 12,
+                    "total": 15.48
                 }
             ],
-            "cost basis": 90.70835,
+            "cost basis": 80.27085000000001,
             "current shares": 12,
-            "last price": 93.08000183105469,
-            "last price date": "2020-5-12",
-            "last dividend": 1.19,
-            "last yield date": "2020-2-13",
+            "last price": 100.38999938964844,
+            "last price date": "2020-6-5",
+            "last dividend": 1.29,
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -2314,14 +2434,26 @@
                     "amount": 0.44,
                     "shares": 20,
                     "total": 8.8
+                },
+                {
+                    "date": "2020-5-20",
+                    "amount": 0.44,
+                    "shares": 20,
+                    "total": 8.8
+                },
+                {
+                    "date": "2020-2-19",
+                    "amount": 0.44,
+                    "shares": 20,
+                    "total": 8.8
                 }
             ],
             "cost basis": 74.06329000000002,
             "current shares": 20,
-            "last price": 40.7400016784668,
-            "last price date": "2020-5-12",
+            "last price": 63.625,
+            "last price date": "2020-6-5",
             "last dividend": 0.44,
-            "last yield date": "2020-2-18",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -2366,14 +2498,26 @@
                     "amount": 0.14,
                     "shares": 50,
                     "total": 7.000000000000001
+                },
+                {
+                    "date": "2020-5-29",
+                    "amount": 0.16,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2020-2-28",
+                    "amount": 0.16,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 42.43000030517578,
-            "last price date": "2020-5-12",
-            "last dividend": 0.14,
-            "last yield date": "2020-2-26",
+            "last price": 48.810001373291016,
+            "last price date": "2020-6-5",
+            "last dividend": 0.16,
+            "last yield date": "2020-6-5",
             "track": 1
         },
         {
@@ -2706,6 +2850,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 200
+                },
+                {
+                    "b/s": "s",
+                    "date": "2020-5-28",
+                    "price": 5.941,
+                    "commission": 0.0,
+                    "fees": 0.01,
+                    "shares": 150
                 }
             ],
             "dividends": [
@@ -2770,12 +2922,12 @@
                     "total": 42.75
                 }
             ],
-            "cost basis": 8.680151724137936,
-            "current shares": 435,
-            "last price": 5.126500129699707,
-            "last price date": "2020-5-12",
+            "cost basis": 10.121775438596497,
+            "current shares": 285,
+            "last price": 7.170000076293945,
+            "last price date": "2020-6-5",
             "last dividend": 0.15,
-            "last yield date": "2020-4-27",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -2865,8 +3017,8 @@
             "dividends": [],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 212.63999938964844,
-            "last price date": "2020-5-12",
+            "last price": 229.91009521484375,
+            "last price date": "2020-6-5",
             "track": true
         },
         {
@@ -2941,14 +3093,20 @@
                     "amount": 1.451,
                     "shares": 190,
                     "total": 275.69
+                },
+                {
+                    "date": "2020-4-20",
+                    "amount": 0.7,
+                    "shares": 190,
+                    "total": 133.0
                 }
             ],
             "cost basis": 12.260247368421053,
             "current shares": 190,
-            "last price": 8.270000457763672,
-            "last price date": "2020-5-12",
-            "last dividend": 1.451,
-            "last yield date": "2020-2-13",
+            "last price": 10.48900032043457,
+            "last price date": "2020-6-5",
+            "last dividend": 0.7,
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -3006,8 +3164,8 @@
             "dividends": [],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 0.11180000007152557,
-            "last price date": "2020-5-12",
+            "last price": 0.10540000349283218,
+            "last price date": "2020-6-5",
             "track": true
         },
         {
@@ -3124,6 +3282,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 3
+                },
+                {
+                    "b/s": "b",
+                    "date": "2020-6-5",
+                    "price": 162.4332,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 4
                 }
             ],
             "dividends": [
@@ -3186,14 +3352,20 @@
                     "amount": 1.02,
                     "shares": 10,
                     "total": 10.2
+                },
+                {
+                    "date": "2020-4-8",
+                    "amount": 1.1,
+                    "shares": 3,
+                    "total": 3.3000000000000003
                 }
             ],
-            "cost basis": 63.66176666666714,
-            "current shares": 3,
-            "last price": 134.5,
-            "last price date": "2020-5-12",
-            "last dividend": 1.02,
-            "last yield date": "2020-3-30",
+            "cost basis": 120.1025857142859,
+            "current shares": 7,
+            "last price": 161.3699951171875,
+            "last price date": "2020-6-5",
+            "last dividend": 1.1,
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -3366,6 +3538,14 @@
                     "commission": 0.0,
                     "fees": 0.01,
                     "shares": 40
+                },
+                {
+                    "b/s": "b",
+                    "date": "2020-5-28",
+                    "price": 6.8808,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 40
                 }
             ],
             "dividends": [
@@ -3428,14 +3608,20 @@
                     "amount": 0.01,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2020-3-6",
+                    "amount": 0.01,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
-            "cost basis": 0,
-            "current shares": 0,
-            "last price": 6.189000129699707,
-            "last price date": "2020-5-12",
+            "cost basis": 29.825449999999954,
+            "current shares": 40,
+            "last price": 8.152000427246094,
+            "last price date": "2020-6-5",
             "last dividend": 0.01,
-            "last yield date": "2020-2-6",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -3672,6 +3858,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 30
+                },
+                {
+                    "b/s": "s",
+                    "date": "2020-6-5",
+                    "price": 30.025,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 25
                 }
             ],
             "dividends": [
@@ -3740,14 +3934,20 @@
                     "amount": 0.38,
                     "shares": 55,
                     "total": 20.9
+                },
+                {
+                    "date": "2020-3-5",
+                    "amount": 0.38,
+                    "shares": 35,
+                    "total": 13.3
                 }
             ],
-            "cost basis": 24.028707692307712,
-            "current shares": 65,
-            "last price": 23.03580093383789,
-            "last price date": "2020-5-12",
+            "cost basis": 20.281025000000035,
+            "current shares": 40,
+            "last price": 29.885000228881836,
+            "last price date": "2020-6-5",
             "last dividend": 0.38,
-            "last yield date": "2020-3-2",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -3889,7 +4089,7 @@
             "last price": 5.828499794006348,
             "last price date": "2020-4-27",
             "last dividend": 0.38,
-            "last yield date": "2020-2-13",
+            "last yield date": "2020-6-5",
             "track": false
         },
         {
@@ -3936,13 +4136,26 @@
                     "shares": 3
                 }
             ],
-            "dividends": [],
+            "dividends": [
+                {
+                    "date": "2020-6-3",
+                    "amount": 1.5,
+                    "shares": 3,
+                    "total": 4.5
+                },
+                {
+                    "date": "2020-3-11",
+                    "amount": 1.5,
+                    "shares": 0,
+                    "total": 0.0
+                }
+            ],
             "cost basis": 194.04809999999995,
             "current shares": 3,
-            "last price": 238.0399932861328,
-            "last price date": "2020-5-12",
-            "last dividend": 1.36,
-            "last yield date": "2020-3-2",
+            "last price": 251.6999969482422,
+            "last price date": "2020-6-5",
+            "last dividend": 1.5,
+            "last yield date": "2020-6-5",
             "track": 1
         },
         {
@@ -4017,14 +4230,26 @@
                     "amount": 0.375,
                     "shares": 90,
                     "total": 33.75
+                },
+                {
+                    "date": "2020-5-21",
+                    "amount": 0.02,
+                    "shares": 90,
+                    "total": 1.8
+                },
+                {
+                    "date": "2020-3-4",
+                    "amount": 0.38,
+                    "shares": 90,
+                    "total": 34.2
                 }
             ],
             "cost basis": 35.35547777777778,
             "current shares": 90,
-            "last price": 20.405000686645508,
-            "last price date": "2020-5-12",
-            "last dividend": 0.38,
-            "last yield date": "2020-3-12",
+            "last price": 25.55500030517578,
+            "last price date": "2020-6-5",
+            "last dividend": 0.02,
+            "last yield date": "2020-6-5",
             "track": 1
         },
         {
@@ -4213,6 +4438,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2020-5-28",
+                    "price": 125.98,
+                    "commission": 0.0,
+                    "fees": 0.01,
+                    "shares": 5
                 }
             ],
             "dividends": [
@@ -4263,14 +4496,26 @@
                     "amount": 1.62,
                     "shares": 11,
                     "total": 17.82
+                },
+                {
+                    "date": "2020-5-7",
+                    "amount": 1.63,
+                    "shares": 20,
+                    "total": 32.599999999999994
+                },
+                {
+                    "date": "2020-2-7",
+                    "amount": 1.62,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
-            "cost basis": 98.31125999999996,
-            "current shares": 20,
-            "last price": 123.53710174560547,
-            "last price date": "2020-5-12",
-            "last dividend": 1.62,
-            "last yield date": "2020-2-6",
+            "cost basis": 89.08767999999995,
+            "current shares": 15,
+            "last price": 132.10000610351562,
+            "last price date": "2020-6-5",
+            "last dividend": 1.63,
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -4469,14 +4714,26 @@
                     "amount": 0.315,
                     "shares": 20,
                     "total": 6.3
+                },
+                {
+                    "date": "2020-5-6",
+                    "amount": 0.33,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2020-2-6",
+                    "amount": 0.33,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 59.875,
-            "last price date": "2020-5-12",
-            "last dividend": 0.315,
-            "last yield date": "2020-2-6",
+            "last price": 63.78499984741211,
+            "last price date": "2020-6-5",
+            "last dividend": 0.33,
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -4593,6 +4850,14 @@
                     "commission": 0.0,
                     "fees": 0.01,
                     "shares": 6
+                },
+                {
+                    "b/s": "b",
+                    "date": "2020-6-5",
+                    "price": 147.4276,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 10
                 }
             ],
             "dividends": [
@@ -4619,14 +4884,26 @@
                     "amount": 0.95,
                     "shares": 6,
                     "total": 5.699999999999999
+                },
+                {
+                    "date": "2020-5-22",
+                    "amount": 1.01,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2020-2-24",
+                    "amount": 0.95,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
-            "cost basis": 0,
-            "current shares": 0,
-            "last price": 149.83999633789062,
-            "last price date": "2020-5-12",
-            "last dividend": 0.95,
-            "last yield date": "2020-2-20",
+            "cost basis": 119.90102000000005,
+            "current shares": 10,
+            "last price": 148.1300048828125,
+            "last price date": "2020-6-5",
+            "last dividend": 1.01,
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -4781,14 +5058,20 @@
                     "amount": 0.9,
                     "shares": 11,
                     "total": 9.9
+                },
+                {
+                    "date": "2020-4-3",
+                    "amount": 0.9,
+                    "shares": 11,
+                    "total": 9.9
                 }
             ],
             "cost basis": 99.7632,
             "current shares": 11,
-            "last price": 88.87999725341797,
-            "last price date": "2020-5-12",
+            "last price": 109.87000274658203,
+            "last price date": "2020-6-5",
             "last dividend": 0.9,
-            "last yield date": "2020-3-30",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -4865,13 +5148,21 @@
                     "commission": 0.0,
                     "fees": 0.01,
                     "shares": 3500
+                },
+                {
+                    "b/s": "b",
+                    "date": "2020-5-28",
+                    "price": 0.1133,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 3500
                 }
             ],
             "dividends": [],
-            "cost basis": 0,
-            "current shares": 0,
-            "last price": 0.12148000299930573,
-            "last price date": "2020-5-12",
+            "cost basis": 0.5118085714285715,
+            "current shares": 3500,
+            "last price": 0.11490000039339066,
+            "last price date": "2020-6-5",
             "track": true
         },
         {
@@ -4920,14 +5211,26 @@
                     "amount": 0.4,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2020-5-28",
+                    "amount": 0.4,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2020-3-12",
+                    "amount": 0.4,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 29.450000762939453,
-            "last price date": "2020-5-12",
+            "last price": 31.979999542236328,
+            "last price date": "2020-6-5",
             "last dividend": 0.4,
-            "last yield date": "2020-2-11",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -4948,6 +5251,14 @@
                     "commission": 4.95,
                     "fees": 0.0,
                     "shares": 14
+                },
+                {
+                    "b/s": "b",
+                    "date": "2020-6-5",
+                    "price": 48.8083,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 25
                 }
             ],
             "dividends": [
@@ -4974,14 +5285,20 @@
                     "amount": 0.4,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2020-3-13",
+                    "amount": 0.41,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
-            "cost basis": 0,
-            "current shares": 0,
-            "last price": 45.5625,
-            "last price date": "2020-5-12",
-            "last dividend": 0.4,
-            "last yield date": "2020-2-26",
+            "cost basis": 47.411716000000006,
+            "current shares": 25,
+            "last price": 48.619998931884766,
+            "last price date": "2020-6-5",
+            "last dividend": 0.41,
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -5106,14 +5423,20 @@
                     "amount": 0.08,
                     "shares": 20,
                     "total": 1.6
+                },
+                {
+                    "date": "2020-5-11",
+                    "amount": 0.08,
+                    "shares": 50,
+                    "total": 4.0
                 }
             ],
             "cost basis": 5.125859999999997,
             "current shares": 50,
-            "last price": 6.744999885559082,
-            "last price date": "2020-5-12",
+            "last price": 8.12399959564209,
+            "last price date": "2020-6-5",
             "last dividend": 0.08,
-            "last yield date": "2020-4-27",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -5134,6 +5457,14 @@
                     "commission": 0.0,
                     "fees": 0.02,
                     "shares": 10
+                },
+                {
+                    "b/s": "b",
+                    "date": "2020-5-28",
+                    "price": 189.13,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 5
                 }
             ],
             "dividends": [
@@ -5142,14 +5473,26 @@
                     "amount": 1.25,
                     "shares": 10,
                     "total": 12.5
+                },
+                {
+                    "date": "2020-5-29",
+                    "amount": 1.25,
+                    "shares": 5,
+                    "total": 6.25
+                },
+                {
+                    "date": "2020-2-28",
+                    "amount": 1.25,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
-            "cost basis": 0,
-            "current shares": 0,
-            "last price": 181.93499755859375,
-            "last price date": "2020-5-12",
+            "cost basis": 176.027,
+            "current shares": 5,
+            "last price": 198.24000549316406,
+            "last price date": "2020-6-5",
             "last dividend": 1.25,
-            "last yield date": "2020-2-26",
+            "last yield date": "2020-6-5",
             "track": 1
         },
         {
@@ -5162,15 +5505,30 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 10
+                },
+                {
+                    "b/s": "s",
+                    "date": "2020-6-5",
+                    "price": 167.27,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 5
                 }
             ],
-            "dividends": [],
-            "cost basis": 147.975,
-            "current shares": 10,
-            "last price": 146.69500732421875,
-            "last price date": "2020-5-12",
-            "last dividend": 0,
-            "last yield date": "2020-3-11",
+            "dividends": [
+                {
+                    "date": "2020-5-21",
+                    "amount": 1.47,
+                    "shares": 10,
+                    "total": 14.7
+                }
+            ],
+            "cost basis": 128.68,
+            "current shares": 5,
+            "last price": 166.67999267578125,
+            "last price date": "2020-6-5",
+            "last dividend": 1.47,
+            "last yield date": "2020-6-5",
             "track": 1
         },
         {
@@ -5269,14 +5627,26 @@
                     "amount": 0.51,
                     "shares": 7,
                     "total": 3.5700000000000003
+                },
+                {
+                    "date": "2020-5-20",
+                    "amount": 0.51,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2020-2-19",
+                    "amount": 0.51,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 185.32000732421875,
-            "last price date": "2020-5-12",
+            "last price": 184.85000610351562,
+            "last price date": "2020-6-5",
             "last dividend": 0.51,
-            "last yield date": "2020-2-18",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -5299,13 +5669,20 @@
                     "shares": 60
                 }
             ],
-            "dividends": [],
+            "dividends": [
+                {
+                    "date": "2020-3-30",
+                    "amount": 0.139,
+                    "shares": 0,
+                    "total": 0.0
+                }
+            ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 7.269999980926514,
-            "last price date": "2020-5-12",
+            "last price": 9.029999732971191,
+            "last price date": "2020-6-5",
             "last dividend": 0.139,
-            "last yield date": "2020-2-18",
+            "last yield date": "2020-6-5",
             "track": 1
         },
         {
@@ -5464,14 +5841,26 @@
                     "amount": 0.21,
                     "shares": 39,
                     "total": 8.19
+                },
+                {
+                    "date": "2020-5-28",
+                    "amount": 0.225,
+                    "shares": 30,
+                    "total": 6.75
+                },
+                {
+                    "date": "2020-2-27",
+                    "amount": 0.225,
+                    "shares": 30,
+                    "total": 6.75
                 }
             ],
             "cost basis": 38.752733333333325,
             "current shares": 30,
-            "last price": 53.57500076293945,
-            "last price date": "2020-5-12",
-            "last dividend": 0.21,
-            "last yield date": "2020-2-24",
+            "last price": 56.56480026245117,
+            "last price date": "2020-6-5",
+            "last dividend": 0.225,
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -5686,14 +6075,26 @@
                     "amount": 0.62,
                     "shares": 10,
                     "total": 6.2
+                },
+                {
+                    "date": "2020-6-3",
+                    "amount": 0.65,
+                    "shares": 10,
+                    "total": 6.5
+                },
+                {
+                    "date": "2020-3-4",
+                    "amount": 0.62,
+                    "shares": 10,
+                    "total": 6.2
                 }
             ],
             "cost basis": -21.727040000000034,
             "current shares": 10,
-            "last price": 80.98999786376953,
-            "last price date": "2020-5-12",
-            "last dividend": 0.62,
-            "last yield date": "2020-3-2",
+            "last price": 88.38999938964844,
+            "last price date": "2020-6-5",
+            "last dividend": 0.65,
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -5762,14 +6163,26 @@
                     "amount": 1.02,
                     "shares": 10,
                     "total": 10.2
+                },
+                {
+                    "date": "2020-5-15",
+                    "amount": 1.02,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2020-2-14",
+                    "amount": 1.02,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 194,
-            "last price date": "2020-5-12",
+            "last price": 230.48500061035156,
+            "last price date": "2020-6-5",
             "last dividend": 1.02,
-            "last yield date": "2020-2-6",
+            "last yield date": "2020-6-5",
             "track": 1
         },
         {
@@ -5782,13 +6195,21 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 10
+                },
+                {
+                    "b/s": "s",
+                    "date": "2020-6-5",
+                    "price": 89.11,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 10
                 }
             ],
             "dividends": [],
-            "cost basis": 65.3585,
-            "current shares": 10,
-            "last price": 74.69000244140625,
-            "last price date": "2020-5-12",
+            "cost basis": 0,
+            "current shares": 0,
+            "last price": 88.38999938964844,
+            "last price date": "2020-6-5",
             "last dividend": 0,
             "last yield date": "2020-3-11",
             "track": 1
@@ -6035,6 +6456,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 25
+                },
+                {
+                    "b/s": "b",
+                    "date": "2020-6-5",
+                    "price": 54.52,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 10
                 }
             ],
             "dividends": [
@@ -6085,14 +6514,20 @@
                     "amount": 0.65,
                     "shares": 25,
                     "total": 16.25
+                },
+                {
+                    "date": "2020-3-24",
+                    "amount": 0.65,
+                    "shares": 25,
+                    "total": 16.25
                 }
             ],
-            "cost basis": -19.260431999999966,
-            "current shares": 25,
-            "last price": 49.59000015258789,
-            "last price date": "2020-5-12",
+            "cost basis": 1.8196914285714545,
+            "current shares": 35,
+            "last price": 54.54999923706055,
+            "last price date": "2020-6-5",
             "last dividend": 0.65,
-            "last yield date": "2020-3-23",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -6345,14 +6780,20 @@
                     "amount": 0.52,
                     "shares": 25,
                     "total": 13.0
+                },
+                {
+                    "date": "2020-4-8",
+                    "amount": 0.52,
+                    "shares": 50,
+                    "total": 26.0
                 }
             ],
             "cost basis": 21.52775000000003,
             "current shares": 50,
-            "last price": 29.360000610351562,
-            "last price date": "2020-5-12",
+            "last price": 32.54499816894531,
+            "last price date": "2020-6-5",
             "last dividend": 0.52,
-            "last yield date": "2020-3-30",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -6441,14 +6882,26 @@
                     "amount": 0.201,
                     "shares": 50,
                     "total": 10.05
+                },
+                {
+                    "date": "2020-5-29",
+                    "amount": 0.201,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2020-3-26",
+                    "amount": 0.201,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 19.100000381469727,
-            "last price date": "2020-5-12",
+            "last price": 18.670000076293945,
+            "last price date": "2020-6-5",
             "last dividend": 0.201,
-            "last yield date": "2020-2-26",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -6605,14 +7058,26 @@
                     "amount": 0.66,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2020-5-19",
+                    "amount": 0.66,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2020-2-18",
+                    "amount": 0.66,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 121.55999755859375,
-            "last price date": "2020-5-12",
+            "last price": 121.9574966430664,
+            "last price date": "2020-6-5",
             "last dividend": 0.66,
-            "last yield date": "2020-2-14",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -6750,8 +7215,8 @@
             "dividends": [],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 828.0501098632812,
-            "last price date": "2020-5-12",
+            "last price": 869.97998046875,
+            "last price date": "2020-6-5",
             "track": true
         },
         {
@@ -6793,8 +7258,8 @@
             "dividends": [],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 29.235000610351562,
-            "last price date": "2020-5-12",
+            "last price": 35.560001373291016,
+            "last price date": "2020-6-5",
             "last dividend": 0,
             "last yield date": "2019-2-26",
             "track": true
@@ -6983,14 +7448,20 @@
                     "amount": 0.615,
                     "shares": 30,
                     "total": 18.45
+                },
+                {
+                    "date": "2020-4-9",
+                    "amount": 0.615,
+                    "shares": 30,
+                    "total": 18.45
                 }
             ],
             "cost basis": 50.11166666666668,
             "current shares": 30,
-            "last price": 56.125,
-            "last price date": "2020-5-12",
+            "last price": 57.625,
+            "last price date": "2020-6-5",
             "last dividend": 0.615,
-            "last yield date": "2020-3-30",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -7293,14 +7764,20 @@
                     "amount": 0.5,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2020-4-2",
+                    "amount": 0.5,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 41.810001373291016,
-            "last price date": "2020-5-12",
+            "last price": 48.529998779296875,
+            "last price date": "2020-6-5",
             "last dividend": 0.5,
-            "last yield date": "2020-3-30",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -7393,14 +7870,26 @@
                     "amount": 0.53,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2020-5-7",
+                    "amount": 0.54,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2020-3-19",
+                    "amount": 0.54,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 125.07160186767578,
-            "last price date": "2020-5-12",
-            "last dividend": 0.53,
-            "last yield date": "2020-3-2",
+            "last price": 121.58999633789062,
+            "last price date": "2020-6-5",
+            "last dividend": 0.54,
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -7637,14 +8126,20 @@
                     "amount": 0.24,
                     "shares": 60,
                     "total": 14.399999999999999
+                },
+                {
+                    "date": "2020-3-12",
+                    "amount": 0.24,
+                    "shares": 52,
+                    "total": 12.48
                 }
             ],
             "cost basis": 28.09511538461539,
             "current shares": 52,
-            "last price": 25.93000030517578,
-            "last price date": "2020-5-12",
+            "last price": 35.720001220703125,
+            "last price date": "2020-6-5",
             "last dividend": 0.24,
-            "last yield date": "2020-3-11",
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -7795,14 +8290,20 @@
                     "amount": 0.37,
                     "shares": 11,
                     "total": 4.07
+                },
+                {
+                    "date": "2020-5-12",
+                    "amount": 0.38,
+                    "shares": 11,
+                    "total": 4.18
                 }
             ],
             "cost basis": 56.784845454545454,
             "current shares": 11,
-            "last price": 86.12999725341797,
-            "last price date": "2020-5-12",
-            "last dividend": 0.37,
-            "last yield date": "2020-4-27",
+            "last price": 96.91000366210938,
+            "last price date": "2020-6-5",
+            "last dividend": 0.38,
+            "last yield date": "2020-6-5",
             "track": true
         },
         {
@@ -7895,14 +8396,20 @@
                     "amount": 0.87,
                     "shares": 37,
                     "total": 32.19
+                },
+                {
+                    "date": "2020-5-12",
+                    "amount": 0.87,
+                    "shares": 37,
+                    "total": 32.19
                 }
             ],
             "cost basis": 67.6040918918919,
             "current shares": 37,
-            "last price": 45.06999969482422,
-            "last price date": "2020-5-12",
+            "last price": 52.470001220703125,
+            "last price date": "2020-6-5",
             "last dividend": 0.87,
-            "last yield date": "2020-4-27",
+            "last yield date": "2020-6-5",
             "track": true
         }
     ]
