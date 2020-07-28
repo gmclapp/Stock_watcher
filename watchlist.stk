@@ -1,9 +1,9 @@
 [
     {
-        "portfolio value": 41838.59561643039,
+        "portfolio value": 42281.74403041211,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.05797708943766299
+        "average yield": 0.05653692994027381
     },
     [
         {
@@ -1443,7 +1443,7 @@
             "track": true
         },
         {
-            "ticker": "BGG",
+            "ticker": "BGGSQ",
             "transactions": [
                 {
                     "b/s": "b",
@@ -1668,8 +1668,8 @@
             ],
             "cost basis": 6.365758,
             "current shares": 250,
-            "last price": 0.7807999849319458,
-            "last price date": "2020-7-16",
+            "last price": 0.21930000185966492,
+            "last price date": "2020-7-28",
             "last dividend": 0.05,
             "last yield date": "2020-6-5",
             "track": true
