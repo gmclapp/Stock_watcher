@@ -104,3 +104,4 @@ venv.bak/
 .mypy_cache/
 misc_functions.py
 sanitize_inputs.py
+*.kra~
