@@ -1,9 +1,9 @@
 [
     {
-        "portfolio value": 53107.64147928357,
+        "portfolio value": 54125.7608140707,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.047596163745777006
+        "average yield": 0.04634983346687342
     },
     [
         {
@@ -3417,7 +3417,7 @@
             "track": true
         },
         {
-            "ticker": "FCAU",
+            "ticker": "STLA",
             "transactions": [
                 {
                     "b/s": "b",
