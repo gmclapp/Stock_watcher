@@ -125,7 +125,11 @@ class positions():
             try:        
                 pos['cost basis'] = accum/shares
                 pos['avg buy'] = buy_accum/b_shares
-                pos['avg sell'] = sell_accum/s_shares
+                if s_shares == 0:
+                    pos['avg sell'] = buy_accum/b_shares
+                    # this prevents my sell indicator from suggesting sales in tickers that I have never before sold to improve avg sell price
+                else:
+                    pos['avg sell'] = sell_accum/s_shares
                 
             except ZeroDivisionError:
                 pos['cost basis'] = 0
@@ -552,11 +556,13 @@ def improve_sell_indicator(watch_list, ind_dict,force_all=False):
         # \033[K = Erase to the end of line
         # \033[1A = moves the cursor up 1 line.
         print("{}/{}".format(index,len(watch_list.position_list),end=''))
-        if position["track"] and position["current shares"]>0:
+        last_t = position["transactions"][-1]
+        if position["track"] and position["current shares"]>0 and last_t['price'] < position['avg sell']:
             indicator = True
             score = 0
             avg_buy = 0
             n = 0
+            
             try:
                 score = position["last price"] - position['avg sell'] 
             
@@ -570,7 +576,7 @@ def improve_sell_indicator(watch_list, ind_dict,force_all=False):
                                ({"Ticker":position['ticker'],
                                  "Score":score,
                                  "Direction":"SELL"})
-        elif position["track"] and position["current shares"] <= 0:
+        elif position["track"] and (position["current shares"] <= 0 or last_t['price'] > position['avg sell']):
             ind_dict["Improve Sell Price"].append \
                            ({"Ticker":position['ticker'],
                              "Score":0,
