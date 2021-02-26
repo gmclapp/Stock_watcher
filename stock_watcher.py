@@ -57,7 +57,9 @@ class positions():
                                        'last price date':date,
                                        'last dividend':0,
                                        'last yield date':date,
-                                       'track':1})
+                                       'track':1,
+                                       'avg buy':0,
+                                       'avg sell':0})
 
     def enter_dividend(self, ticker, date, amount, shares):
         exists_flag = False
@@ -87,18 +89,32 @@ class positions():
         for pos in self.position_list:
             accum = 0
             shares = 0
+            
+            buy_accum = 0
+            b_shares = 0
+            
+            sell_accum = 0
+            s_shares = 0
+            
             pos['transactions'].sort(key=lambda x: parse_date(x['date']), reverse=False)
             # in place sort of transactions list by date
             
             for transaction in pos['transactions']:
                 if transaction['b/s'] == 'b':
                     shares += transaction['shares']
+                    b_shares += transaction['shares']
+                    
                     accum += transaction['price']*transaction['shares']\
                              + transaction['commission'] + transaction['fees']
+                    buy_accum += transaction['price']*transaction['shares']
+                    
                 elif transaction['b/s'] == 's':
                     shares -= transaction['shares']
+                    s_shares += transaction['shares']
+                    
                     accum -= transaction['price']*transaction['shares']\
                              + transaction['commission'] + transaction['fees']
+                    sell_accum += transaction['price']*transaction['shares']
                     
             pos['dividends'].sort(key=lambda x: parse_date(x['date']), reverse=False)
             # in place sort of dividends list by date
@@ -108,8 +124,14 @@ class positions():
 
             try:        
                 pos['cost basis'] = accum/shares
+                pos['avg buy'] = buy_accum/b_shares
+                pos['avg sell'] = sell_accum/s_shares
+                
             except ZeroDivisionError:
                 pos['cost basis'] = 0
+                pos['avg buy'] = 0
+                pos['avg sell'] = 0
+                
             pos['current shares'] = shares
 
     def calc_average_yield(self):
@@ -495,6 +517,67 @@ def last_transaction_indicator(watch_list, ind_dict,force_all=False):
 ##        print("\033[1A\033[K", end='')
     return(watch_list, ind_dict)
 
+def improve_buy_indicator(watch_list, ind_dict,force_all=False):
+    for index, position in enumerate(watch_list.position_list):
+        # The next few lines print progress indication
+        print("\033[1A\033[K", end='')
+        # \033[K = Erase to the end of line
+        # \033[1A = moves the cursor up 1 line.
+        print("{}/{}".format(index,len(watch_list.position_list),end=''))
+        if position["track"]:
+            indicator = True
+            score = 0
+            avg_buy = 0
+            n = 0
+            try:
+
+                score = position['avg buy'] - position["last price"]
+            
+            except ZeroDivisionError:
+                print("No buy orders.")
+            except:
+                print("Indicator failed.")
+                      
+            if indicator:
+                ind_dict["Improve Buy Price"].append \
+                               ({"Ticker":position['ticker'],
+                                 "Score":score,
+                                 "Direction":"BUY"})
+    return(watch_list, ind_dict)
+
+def improve_sell_indicator(watch_list, ind_dict,force_all=False):
+    for index, position in enumerate(watch_list.position_list):
+        # The next few lines print progress indication
+        print("\033[1A\033[K", end='')
+        # \033[K = Erase to the end of line
+        # \033[1A = moves the cursor up 1 line.
+        print("{}/{}".format(index,len(watch_list.position_list),end=''))
+        if position["track"] and position["current shares"]>0:
+            indicator = True
+            score = 0
+            avg_buy = 0
+            n = 0
+            try:
+                score = position["last price"] - position['avg sell'] 
+            
+            except ZeroDivisionError:
+                print("No sell orders.")
+            except:
+                print("Indicator failed.")
+                      
+            if indicator:
+                ind_dict["Improve Sell Price"].append \
+                               ({"Ticker":position['ticker'],
+                                 "Score":score,
+                                 "Direction":"SELL"})
+        elif position["track"] and position["current shares"] <= 0:
+            ind_dict["Improve Sell Price"].append \
+                           ({"Ticker":position['ticker'],
+                             "Score":0,
+                             "Direction":"SELL"})
+            
+    return(watch_list, ind_dict)
+
 def over_exposure_indicator(watch_list, ind_dict):
     indicator = False
     score = 0
@@ -853,7 +936,9 @@ def stock_watcher():
                         "Recent Passed Dividend":[], # Looks for opportunities in response to recent or upcoming ex-dates
                         "Over-exposure":[], # Looks for opportunities to improve exposure with respect to a specified target
                         "Dividend Yield and Exposure composite":[], # Weighs dividend target against exposure target and makes a recommendation
-                        "Cost Basis":[]}# Looks at the last price compared to the cost basis of a position
+                        "Cost Basis":[],# Looks at the last price compared to the cost basis of a position
+                        "Improve Buy Price":[],
+                        "Improve Sell Price":[]}
                 
             print("\nWorking on \"Last Transaction\" indicator.\n")
             watch_list, ind_dict = last_transaction_indicator(watch_list,
@@ -891,12 +976,25 @@ def stock_watcher():
                                                  reverse=True)
             print_indicator(ind_dict, "Dividend Yield and Exposure composite",ind_format="{:<7.2f}",score_scale=100)
 
+##            print("\n",end='')
+##            print("Working on \"Cost Basis\" indicator.\n")
+##            watch_list, ind_dict = cost_basis_indicator(watch_list, ind_dict)
+##            ind_dict["Cost Basis"].sort(key=lambda x: abs(x["Score"]),
+##                                                 reverse=True)
+##            print_indicator(ind_dict, "Cost Basis",ind_format="{:<7.2f}",score_scale=1)
+##            print("\n",end='')
+
+            
+            print("Working on \"Improve Buy Price\" indicator.\n")
+            watch_list, ind_dict = improve_buy_indicator(watch_list,ind_dict)
+            ind_dict["Improve Buy Price"].sort(key=lambda x: x["Score"],reverse=True)
+            print_indicator(ind_dict,"Improve Buy Price",ind_format="${:<7.2f}",score_scale=1)
             print("\n",end='')
-            print("Working on \"Cost Basis\" indicator.\n")
-            watch_list, ind_dict = cost_basis_indicator(watch_list, ind_dict)
-            ind_dict["Cost Basis"].sort(key=lambda x: abs(x["Score"]),
-                                                 reverse=True)
-            print_indicator(ind_dict, "Cost Basis",ind_format="{:<7.2f}",score_scale=1)
+
+            print("Working on \"Improve Sell Price\" indicator.\n")
+            watch_list, ind_dict = improve_sell_indicator(watch_list,ind_dict)
+            ind_dict["Improve Sell Price"].sort(key=lambda x: x["Score"],reverse=True)
+            print_indicator(ind_dict,"Improve Sell Price",ind_format="${:<7.2f}",score_scale=1)
             print("\n",end='')
             
             for indicator in ind_dict["Recent Passed Dividend"]:
