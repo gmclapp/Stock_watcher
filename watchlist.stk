@@ -3,7 +3,7 @@
         "portfolio value": 55499.30330031365,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.05335002272882997
+        "average yield": 0.05334913816806899
     },
     [
         {
@@ -1639,7 +1639,7 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 113.9000015258789,
+            "last price": 113.62000274658203,
             "last price date": "2021-3-16",
             "last dividend": 0.55,
             "last yield date": "2021-3-10",
@@ -7049,7 +7049,7 @@
             "dividends": [],
             "cost basis": 49.33736666666667,
             "current shares": 60,
-            "last price": 49.849998474121094,
+            "last price": 49.74409866333008,
             "last price date": "2021-3-16",
             "last dividend": 0.935,
             "last yield date": "2021-3-16",
@@ -7603,7 +7603,7 @@
             ],
             "cost basis": 87.80510869565215,
             "current shares": 23,
-            "last price": 134.97000122070312,
+            "last price": 134.77999877929688,
             "last price date": "2021-3-16",
             "last dividend": 0.65,
             "last yield date": "2021-3-16",
