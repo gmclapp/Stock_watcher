@@ -1,9 +1,9 @@
 [
     {
-        "portfolio value": 72226.72788309306,
+        "portfolio value": 71916.30933587998,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.0370138877719503
+        "average yield": 0.03810890777500804
     },
     [
         {
@@ -1753,6 +1753,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 11
+                },
+                {
+                    "b/s": "s",
+                    "date": "2021-7-15",
+                    "price": 112.155,
+                    "commission": 0.0,
+                    "fees": 0.01,
+                    "shares": 11
                 }
             ],
             "dividends": [
@@ -1835,15 +1843,15 @@
                     "total": 0.0
                 }
             ],
-            "cost basis": -16.37527272727272,
-            "current shares": 11,
+            "cost basis": 0,
+            "current shares": 0,
             "last price": 109.37640380859375,
             "last price date": "2021-6-21",
             "last dividend": 0.7,
             "last yield date": "2021-6-10",
             "track": true,
-            "avg buy": 69.73243373493976,
-            "avg sell": 73.49140336134452
+            "avg buy": 0,
+            "avg sell": 0
         },
         {
             "ticker": "BEPC",
@@ -5255,6 +5263,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 7
+                },
+                {
+                    "b/s": "s",
+                    "date": "2021-7-15",
+                    "price": 321.6,
+                    "commission": 0.0,
+                    "fees": 0.01,
+                    "shares": 2
                 }
             ],
             "dividends": [
@@ -5295,15 +5311,15 @@
                     "total": 14.85
                 }
             ],
-            "cost basis": 276.8449,
-            "current shares": 9,
+            "cost basis": 264.0563,
+            "current shares": 7,
             "last price": 307.42999267578125,
             "last price date": "2021-6-21",
             "last dividend": 1.65,
             "last yield date": "2021-6-21",
             "track": 1,
             "avg buy": 237.9386794117647,
-            "avg sell": 222.69564
+            "avg sell": 230.02188888888887
         },
         {
             "ticker": "HOG",
