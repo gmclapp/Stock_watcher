@@ -1753,6 +1753,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 11
+                },
+                {
+                    "b/s": "s",
+                    "date": "2021-7-15",
+                    "price": 112.155,
+                    "commission": 0.0,
+                    "fees": 0.01,
+                    "shares": 11
                 }
             ],
             "dividends": [
@@ -1842,8 +1850,8 @@
             "last dividend": 0.7,
             "last yield date": "2021-6-10",
             "track": true,
-            "avg buy": 69.73243373493976,
-            "avg sell": 73.49140336134452
+            "avg buy": 0,
+            "avg sell": 0
         },
         {
             "ticker": "BEPC",
@@ -5255,6 +5263,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 7
+                },
+                {
+                    "b/s": "s",
+                    "date": "2021-7-15",
+                    "price": 321.6,
+                    "commission": 0.0,
+                    "fees": 0.01,
+                    "shares": 2
                 }
             ],
             "dividends": [
@@ -5303,7 +5319,7 @@
             "last yield date": "2021-7-1",
             "track": 1,
             "avg buy": 237.9386794117647,
-            "avg sell": 222.69564
+            "avg sell": 230.02188888888887
         },
         {
             "ticker": "HOG",
