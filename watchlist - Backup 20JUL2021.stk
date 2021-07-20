@@ -1,9 +1,9 @@
 [
     {
-        "portfolio value": 68472.44200661778,
+        "portfolio value": 71916.30933587998,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.03665112454668187
+        "average yield": 0.03810890777500804
     },
     [
         {
@@ -1843,8 +1843,8 @@
                     "total": 0.0
                 }
             ],
-            "cost basis": 0,
-            "current shares": 0,
+            "cost basis": -16.37527272727272,
+            "current shares": 11,
             "last price": 115.45999908447266,
             "last price date": "2021-7-1",
             "last dividend": 0.7,
@@ -5311,8 +5311,8 @@
                     "total": 14.85
                 }
             ],
-            "cost basis": 264.0563,
-            "current shares": 7,
+            "cost basis": 276.8449,
+            "current shares": 9,
             "last price": 319.826904296875,
             "last price date": "2021-7-1",
             "last dividend": 1.65,
@@ -7108,14 +7108,6 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 150
-                },
-                {
-                    "b/s": "b",
-                    "date": "2021-7-20",
-                    "price": 8.47,
-                    "commission": 0.0,
-                    "fees": 0.0,
-                    "shares": 140
                 }
             ],
             "dividends": [
@@ -7180,14 +7172,14 @@
                     "total": 24.0
                 }
             ],
-            "cost basis": 8.694006818181817,
-            "current shares": 440,
+            "cost basis": 8.798543333333333,
+            "current shares": 300,
             "last price": 8.779999732971191,
             "last price date": "2021-7-1",
             "last dividend": 0.08,
             "last yield date": "2021-7-1",
             "track": true,
-            "avg buy": 9.545861956521739,
+            "avg buy": 9.738965384615385,
             "avg sell": 10.192791666666666
         },
         {
