@@ -1,9 +1,9 @@
 [
     {
-        "portfolio value": 52326.473092637956,
+        "portfolio value": 52928.84392415732,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.04596579623743841
+        "average yield": 0.044569649081704514
     },
     [
         {
@@ -7934,6 +7934,14 @@
                     "commission": 0.0,
                     "fees": 0.01,
                     "shares": 5
+                },
+                {
+                    "b/s": "s",
+                    "date": "2021-9-3",
+                    "price": 302.0819,
+                    "commission": 0.0,
+                    "fees": 0.01,
+                    "shares": 3
                 }
             ],
             "dividends": [
@@ -7992,15 +8000,15 @@
                     "total": 1.6800000000000002
                 }
             ],
-            "cost basis": -127.30990000000003,
-            "current shares": 3,
-            "last price": 300.44000244140625,
+            "cost basis": 0,
+            "current shares": 0,
+            "last price": 302.190185546875,
             "last price date": "2021-9-3",
             "last dividend": 0.56,
             "last yield date": "2021-9-3",
             "track": true,
-            "avg buy": 181.50167407407406,
-            "avg sell": 193.0587858974359
+            "avg buy": 0,
+            "avg sell": 0
         },
         {
             "ticker": "OKE",
@@ -8401,6 +8409,29 @@
             "track": true,
             "avg buy": 48.69729533678756,
             "avg sell": 51.56725490196079
+        },
+        {
+            "ticker": "PXLW",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2021-9-3",
+                    "price": 6.6175,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 350
+                }
+            ],
+            "dividends": [],
+            "cost basis": 6.6175,
+            "current shares": 350,
+            "last price": 6.590000152587891,
+            "last price date": "2021-9-3",
+            "last dividend": 0,
+            "last yield date": "2021-9-3",
+            "track": 1,
+            "avg buy": 6.6175,
+            "avg sell": 6.6175
         },
         {
             "ticker": "QCOM",
@@ -11840,29 +11871,6 @@
             "track": true,
             "avg buy": 66.64370370370371,
             "avg sell": 65.67996585365853
-        },
-        {
-            "ticker": "PXLW",
-            "transactions": [
-                {
-                    "b/s": "b",
-                    "date": "2021-9-3",
-                    "price": 6.6175,
-                    "commission": 0.0,
-                    "fees": 0.0,
-                    "shares": 350
-                }
-            ],
-            "dividends": [],
-            "cost basis": 6.6175,
-            "current shares": 350,
-            "last price": 6.590000152587891,
-            "last price date": "2021-9-3",
-            "last dividend": 0,
-            "last yield date": "2021-9-3",
-            "track": 1,
-            "avg buy": 6.6175,
-            "avg sell": 6.6175
         }
     ]
 ]
