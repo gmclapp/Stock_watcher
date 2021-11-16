@@ -124,16 +124,22 @@ class positions():
 
             try:        
                 pos['cost basis'] = accum/shares
+
+            except ZeroDivisionError:
+                pos['cost basis'] = 0
+
+            try:
                 pos['avg buy'] = buy_accum/b_shares
+            except ZeroDivisionError:
+                pos['avg buy'] = 0
+
+            try:
                 if s_shares == 0:
                     pos['avg sell'] = buy_accum/b_shares
                     # this prevents my sell indicator from suggesting sales in tickers that I have never before sold to improve avg sell price
                 else:
                     pos['avg sell'] = sell_accum/s_shares
-                
             except ZeroDivisionError:
-                pos['cost basis'] = 0
-                pos['avg buy'] = 0
                 pos['avg sell'] = 0
                 
             pos['current shares'] = shares
@@ -247,10 +253,9 @@ def view(watch_list, pos):
     
     if df is None:
         print("Current price: No data")
-    else:
-        
+    else:    
         last_close = pos["last price"]
-        print("Current price: ${:<7.2f}\n".format(last_close))
+        print("Current price: ${:<7.2f} Average Buy: ${:<7.2f} Average Sell: ${:<7.2f}\n".format(last_close,pos["avg buy"],pos["avg sell"]))
     current_value = last_close*pos["current shares"]
     exp = current_value/watch_list.meta_data["portfolio value"]
     print("Position value: ${:<7.2f} (Exposure: {:<7.2f}%)\n".format(current_value,exp*100))
@@ -981,15 +986,6 @@ def stock_watcher():
             ind_dict["Dividend Yield and Exposure composite"].sort(key=lambda x: abs(x["Score"]),
                                                  reverse=True)
             print_indicator(ind_dict, "Dividend Yield and Exposure composite",ind_format="{:<7.2f}",score_scale=100)
-
-##            print("\n",end='')
-##            print("Working on \"Cost Basis\" indicator.\n")
-##            watch_list, ind_dict = cost_basis_indicator(watch_list, ind_dict)
-##            ind_dict["Cost Basis"].sort(key=lambda x: abs(x["Score"]),
-##                                                 reverse=True)
-##            print_indicator(ind_dict, "Cost Basis",ind_format="{:<7.2f}",score_scale=1)
-##            print("\n",end='')
-
             
             print("Working on \"Improve Buy Price\" indicator.\n")
             watch_list, ind_dict = improve_buy_indicator(watch_list,ind_dict)
