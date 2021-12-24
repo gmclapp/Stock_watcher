@@ -253,9 +253,9 @@ def view(watch_list, pos):
     
     if df is None:
         print("Current price: No data")
-    else:    
-        last_close = pos["last price"]
-        print("Current price: ${:<7.2f} Average Buy: ${:<7.2f} Average Sell: ${:<7.2f}\n".format(last_close,pos["avg buy"],pos["avg sell"]))
+       
+    last_close = pos["last price"]
+    print("Current price: ${:<7.2f} Average Buy: ${:<7.2f} Average Sell: ${:<7.2f}\n".format(last_close,pos["avg buy"],pos["avg sell"]))
     current_value = last_close*pos["current shares"]
     exp = current_value/watch_list.meta_data["portfolio value"]
     print("Position value: ${:<7.2f} (Exposure: {:<7.2f}%)\n".format(current_value,exp*100))
