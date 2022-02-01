@@ -12660,7 +12660,16 @@
                     "commission": 0.0,
                     "fees": 0.01,
                     "shares": 25
+                },
+                {
+                    "b/s": "s",
+                    "date": "2022-2-01",
+                    "price": 80.005,
+                    "commission": 0.0,
+                    "fees": 0.01,
+                    "shares": 15
                 }
+
             ],
             "dividends": [
                 {
@@ -12737,7 +12746,7 @@
                 }
             ],
             "cost basis": 34.42875999999999,
-            "current shares": 15,
+            "current shares": 0,
             "last price": 73.0999984741211,
             "last price date": "2022-1-19",
             "last dividend": 0.88,
