@@ -15,4 +15,5 @@ except KeyError as err:
     
 while True:
     keypress = readchar.readkey()
+    print(readchar.key.UP)
     print(keypress)
