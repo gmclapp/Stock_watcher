@@ -1,9 +1,9 @@
 [
     {
-        "portfolio value": 152205.75278407335,
+        "portfolio value": 164361.78919106722,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.05716354238162819
+        "average yield": 0.03035962562721398
     },
     [
         {
@@ -386,10 +386,10 @@
             ],
             "cost basis": 111.65616666666668,
             "current shares": 39,
-            "last price": 154.75,
+            "last price": 155.28990173339844,
             "last price date": "2022-5-6",
             "last dividend": 0.22,
-            "last yield date": "2022-5-5",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 162.1709556701031,
             "avg sell": 174.57493483870965
@@ -674,14 +674,20 @@
                     "amount": 1.41,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2022-4-13",
+                    "amount": 1.41,
+                    "shares": 27,
+                    "total": 38.07
                 }
             ],
-            "cost basis": 122.43037037037038,
+            "cost basis": 121.02037037037037,
             "current shares": 27,
-            "last price": 150.27000427246094,
+            "last price": 151.27499389648438,
             "last price date": "2022-5-6",
             "last dividend": 1.41,
-            "last yield date": "2022-4-12",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 102.3474679775281,
             "avg sell": 96.80138609271523
@@ -1019,7 +1025,7 @@
             ],
             "cost basis": 82.74408,
             "current shares": 60,
-            "last price": 93.04000091552734,
+            "last price": 95.53990173339844,
             "last price date": "2022-5-6",
             "last dividend": 0.37,
             "last yield date": "2022-2-17",
@@ -1235,14 +1241,20 @@
                     "amount": 1.76,
                     "shares": 10,
                     "total": 17.6
+                },
+                {
+                    "date": "2022-2-14",
+                    "amount": 1.94,
+                    "shares": 10,
+                    "total": 19.4
                 }
             ],
-            "cost basis": 198.03311000000005,
+            "cost basis": 196.09311000000005,
             "current shares": 10,
-            "last price": 232.88999938964844,
+            "last price": 234.17999267578125,
             "last price date": "2022-5-6",
-            "last dividend": 1.76,
-            "last yield date": "2022-2-14",
+            "last dividend": 1.94,
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 208.39841746031746,
             "avg sell": 208.9454566037736
@@ -1318,7 +1330,7 @@
             "dividends": [],
             "cost basis": 2428.0726,
             "current shares": 3,
-            "last price": 2287.830078125,
+            "last price": 2277.530029296875,
             "last price date": "2022-5-6",
             "last dividend": 0,
             "last yield date": "2021-1-6",
@@ -1394,10 +1406,10 @@
             "dividends": [],
             "cost basis": 78.875,
             "current shares": 25,
-            "last price": 78.27999877929688,
+            "last price": 77.86000061035156,
             "last price date": "2022-5-6",
-            "last dividend": 0,
-            "last yield date": "2022-5-4",
+            "last dividend": 0.47,
+            "last yield date": "2022-5-6",
             "track": 1,
             "avg buy": 78.875,
             "avg sell": 78.875
@@ -1542,14 +1554,20 @@
                     "amount": 0.43,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2022-4-7",
+                    "amount": 0.52,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 166.9550018310547,
+            "last price": 166.17999267578125,
             "last price date": "2022-5-6",
-            "last dividend": 0.43,
-            "last yield date": "2022-4-4",
+            "last dividend": 0.52,
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 97.115,
             "avg sell": 112.55199999999999
@@ -1902,10 +1920,10 @@
             ],
             "cost basis": 163.71037948717955,
             "current shares": 39,
-            "last price": 147.360107421875,
+            "last price": 147.0399932861328,
             "last price date": "2022-5-6",
             "last dividend": 2.055,
-            "last yield date": "2022-2-14",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 258.4722651162791,
             "avg sell": 298.7476377777778
@@ -2118,14 +2136,20 @@
                     "amount": 0.21,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2022-3-3",
+                    "amount": 0.21,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 34.69961874999999,
             "current shares": 160,
-            "last price": 36.939998626708984,
+            "last price": 36.66999816894531,
             "last price date": "2022-5-6",
             "last dividend": 0.21,
-            "last yield date": "2022-2-17",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 36.09063733333334,
             "avg sell": 36.95944186046511
@@ -2470,14 +2494,20 @@
                     "amount": 0.7,
                     "shares": 10,
                     "total": 7.0
+                },
+                {
+                    "date": "2022-3-23",
+                    "amount": 0.88,
+                    "shares": 10,
+                    "total": 8.8
                 }
             ],
-            "cost basis": -33.18661999999994,
+            "cost basis": -34.06661999999994,
             "current shares": 10,
-            "last price": 89.62000274658203,
+            "last price": 90.62999725341797,
             "last price date": "2022-5-6",
-            "last dividend": 0.7,
-            "last yield date": "2022-3-7",
+            "last dividend": 0.88,
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 72.80983468634686,
             "avg sell": 76.61326206896551
@@ -2672,14 +2702,20 @@
                     "amount": 0.304,
                     "shares": 70,
                     "total": 21.28
+                },
+                {
+                    "date": "2022-2-25",
+                    "amount": 0.32,
+                    "shares": 70,
+                    "total": 22.400000000000002
                 }
             ],
-            "cost basis": 36.52296782608695,
+            "cost basis": 36.3281852173913,
             "current shares": 115,
-            "last price": 35.400001525878906,
+            "last price": 35.7599983215332,
             "last price date": "2022-5-6",
-            "last dividend": 0.304,
-            "last yield date": "2022-2-17",
+            "last dividend": 0.32,
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 25.877372420262663,
             "avg sell": 22.779679904306224
@@ -3188,14 +3224,20 @@
                     "amount": 6.0,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2022-4-13",
+                    "amount": 0.35,
+                    "shares": 20,
+                    "total": 7.0
                 }
             ],
-            "cost basis": 26.39556111111111,
+            "cost basis": 26.356672222222223,
             "current shares": 180,
-            "last price": 31.84000015258789,
+            "last price": 31.610000610351562,
             "last price date": "2022-5-6",
-            "last dividend": 6.0,
-            "last yield date": "2022-3-7",
+            "last dividend": 0.35,
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 28.706106999999996,
             "avg sell": 29.444882812500005
@@ -3520,7 +3562,7 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 28.170000076293945,
+            "last price": 27.950000762939453,
             "last price date": "2022-5-6",
             "last dividend": 0.075,
             "last yield date": "2021-11-3",
@@ -3710,14 +3752,20 @@
                     "amount": 0.55,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2022-4-21",
+                    "amount": 0.55,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 99.31500244140625,
+            "last price": 99.14009857177734,
             "last price date": "2022-5-6",
             "last dividend": 0.55,
-            "last yield date": "2022-4-20",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 67.45190510948905,
             "avg sell": 72.77589343065695
@@ -3980,14 +4028,20 @@
                     "amount": 1.34,
                     "shares": 15,
                     "total": 20.1
+                },
+                {
+                    "date": "2022-2-15",
+                    "amount": 1.42,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 149.04771025641023,
             "current shares": 39,
-            "last price": 166.17779541015625,
+            "last price": 165.74220275878906,
             "last price date": "2022-5-6",
-            "last dividend": 1.34,
-            "last yield date": "2022-2-15",
+            "last dividend": 1.42,
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 122.89789558011053,
             "avg sell": 114.1001295774648
@@ -4186,14 +4240,20 @@
                     "amount": 0.5,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2022-2-16",
+                    "amount": 0.5,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 102.27913714285711,
             "current shares": 35,
-            "last price": 113.83999633789062,
+            "last price": 112.54010009765625,
             "last price date": "2022-5-6",
             "last dividend": 0.5,
-            "last yield date": "2022-2-17",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 84.46014957983193,
             "avg sell": 76.34354761904761
@@ -4328,14 +4388,20 @@
                     "amount": 0.18,
                     "shares": 15,
                     "total": 2.6999999999999997
+                },
+                {
+                    "date": "2022-3-9",
+                    "amount": 0.22,
+                    "shares": 30,
+                    "total": 6.6
                 }
             ],
-            "cost basis": 51.53458333333332,
+            "cost basis": 51.314583333333324,
             "current shares": 30,
-            "last price": 47.28010177612305,
+            "last price": 48.224998474121094,
             "last price date": "2022-5-6",
-            "last dividend": 0.18,
-            "last yield date": "2022-2-17",
+            "last dividend": 0.22,
+            "last yield date": "2022-5-6",
             "track": 1,
             "avg buy": 48.127646666666664,
             "avg sell": 47.05932916666667
@@ -4808,14 +4874,20 @@
                     "amount": 0.1,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2022-4-25",
+                    "amount": 0.1,
+                    "shares": 290,
+                    "total": 29.0
                 }
             ],
-            "cost basis": 14.200848275862072,
+            "cost basis": 14.100848275862072,
             "current shares": 290,
-            "last price": 14.189900398254395,
+            "last price": 14.112899780273438,
             "last price date": "2022-5-6",
             "last dividend": 0.1,
-            "last yield date": "2022-4-22",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 10.132518327402135,
             "avg sell": 9.490297817460318
@@ -4907,7 +4979,7 @@
             "dividends": [],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 204.27000427246094,
+            "last price": 203.22549438476562,
             "last price date": "2022-5-6",
             "track": true,
             "avg buy": 170.50303265306124,
@@ -5262,14 +5334,20 @@
                     "amount": 1.19,
                     "shares": 13,
                     "total": 15.469999999999999
+                },
+                {
+                    "date": "2022-4-7",
+                    "amount": 1.26,
+                    "shares": 15,
+                    "total": 18.9
                 }
             ],
-            "cost basis": 162.41491333333346,
+            "cost basis": 161.15491333333344,
             "current shares": 15,
-            "last price": 238.75999450683594,
+            "last price": 238.17999267578125,
             "last price date": "2022-5-6",
-            "last dividend": 1.19,
-            "last yield date": "2022-4-12",
+            "last dividend": 1.26,
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 198.1866445378151,
             "avg sell": 201.69718269230768
@@ -5626,14 +5704,20 @@
                     "amount": 0.08,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2022-3-7",
+                    "amount": 0.08,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 76.94999694824219,
+            "last price": 76.47000122070312,
             "last price date": "2022-5-6",
             "last dividend": 0.08,
-            "last yield date": "2022-3-7",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 11.623894117647058,
             "avg sell": 10.902949019607846
@@ -6054,10 +6138,10 @@
             ],
             "cost basis": 23.08252363636367,
             "current shares": 55,
-            "last price": 39.2400016784668,
+            "last price": 39.11000061035156,
             "last price date": "2022-5-6",
             "last dividend": 0.38,
-            "last yield date": "2022-2-14",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 37.891108319185065,
             "avg sell": 39.24611235955055
@@ -6233,7 +6317,7 @@
             "last price": 212.8603973388672,
             "last price date": "2021-9-3",
             "last dividend": 0.38,
-            "last yield date": "2022-2-14",
+            "last yield date": "2022-5-6",
             "track": false,
             "avg buy": 12.32730913978495,
             "avg sell": 12.499362903225807
@@ -6253,7 +6337,7 @@
             "dividends": [],
             "cost basis": 2418.2014,
             "current shares": 1,
-            "last price": 2286.637451171875,
+            "last price": 2294.6201171875,
             "last price date": "2022-5-6",
             "last dividend": 0,
             "last yield date": "2022-4-22",
@@ -6409,14 +6493,20 @@
                     "amount": 1.65,
                     "shares": 7,
                     "total": 11.549999999999999
+                },
+                {
+                    "date": "2022-3-9",
+                    "amount": 1.9,
+                    "shares": 7,
+                    "total": 13.299999999999999
                 }
             ],
-            "cost basis": 234.47764285714288,
+            "cost basis": 232.57764285714288,
             "current shares": 7,
-            "last price": 290.53460693359375,
+            "last price": 291.20001220703125,
             "last price date": "2022-5-6",
-            "last dividend": 1.65,
-            "last yield date": "2022-2-17",
+            "last dividend": 1.9,
+            "last yield date": "2022-5-6",
             "track": 1,
             "avg buy": 259.34695365853656,
             "avg sell": 262.87739999999997
@@ -6627,14 +6717,20 @@
                     "amount": 0.15,
                     "shares": 50,
                     "total": 7.5
+                },
+                {
+                    "date": "2022-2-25",
+                    "amount": 0.158,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 24.308280000000014,
             "current shares": 50,
-            "last price": 37.130001068115234,
+            "last price": 37.20000076293945,
             "last price date": "2022-5-6",
             "last dividend": 0.158,
-            "last yield date": "2022-3-7",
+            "last yield date": "2022-5-6",
             "track": 1,
             "avg buy": 36.70738363636363,
             "avg sell": 39.000117777777774
@@ -6662,7 +6758,7 @@
             "dividends": [],
             "cost basis": 12.628591304347827,
             "current shares": 115,
-            "last price": 10.029999732971191,
+            "last price": 10.1899995803833,
             "last price date": "2022-5-6",
             "last dividend": 0,
             "last yield date": "2021-11-22",
@@ -7116,7 +7212,7 @@
             ],
             "cost basis": 99.68163191489361,
             "current shares": 47,
-            "last price": 135.6826934814453,
+            "last price": 136.2899932861328,
             "last price date": "2022-5-6",
             "last dividend": 1.64,
             "last yield date": "2022-5-6",
@@ -7470,14 +7566,20 @@
                     "amount": 0.365,
                     "shares": 70,
                     "total": 25.55
+                },
+                {
+                    "date": "2022-5-5",
+                    "amount": 0.365,
+                    "shares": 90,
+                    "total": 32.85
                 }
             ],
-            "cost basis": 37.17530555555555,
+            "cost basis": 36.81030555555555,
             "current shares": 90,
-            "last price": 44.0807991027832,
+            "last price": 44.470001220703125,
             "last price date": "2022-5-6",
             "last dividend": 0.365,
-            "last yield date": "2022-5-5",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 51.56384226190476,
             "avg sell": 54.31574637681159
@@ -7702,14 +7804,20 @@
                     "amount": 1.06,
                     "shares": 10,
                     "total": 10.600000000000001
+                },
+                {
+                    "date": "2022-2-18",
+                    "amount": 1.06,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 166.10251999999997,
             "current shares": 35,
-            "last price": 175.84190368652344,
+            "last price": 175.2100067138672,
             "last price date": "2022-5-6",
             "last dividend": 1.06,
-            "last yield date": "2022-2-17",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 148.5755357142857,
             "avg sell": 139.52534805194804
@@ -7946,14 +8054,20 @@
                     "amount": 1.0,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2022-4-5",
+                    "amount": 1.0,
+                    "shares": 35,
+                    "total": 35.0
                 }
             ],
-            "cost basis": 115.66025142857143,
+            "cost basis": 114.66025142857143,
             "current shares": 35,
-            "last price": 122.05000305175781,
+            "last price": 121.44000244140625,
             "last price date": "2022-5-6",
             "last dividend": 1.0,
-            "last yield date": "2022-4-4",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 117.61972575757576,
             "avg sell": 117.34819587628866
@@ -8082,7 +8196,7 @@
             "dividends": [],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 13.225000381469727,
+            "last price": 12.989999771118164,
             "last price date": "2022-5-6",
             "last dividend": 0,
             "last yield date": "2021-1-28",
@@ -8224,14 +8338,20 @@
                     "amount": 0.4,
                     "shares": 45,
                     "total": 18.0
+                },
+                {
+                    "date": "2022-3-10",
+                    "amount": 0.4,
+                    "shares": 45,
+                    "total": 18.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 43.13999938964844,
+            "last price": 43.09000015258789,
             "last price date": "2022-5-6",
             "last dividend": 0.4,
-            "last yield date": "2022-2-17",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 35.81954761904762,
             "avg sell": 35.26688571428571
@@ -8416,14 +8536,20 @@
                     "amount": 0.42,
                     "shares": 15,
                     "total": 6.3
+                },
+                {
+                    "date": "2022-3-14",
+                    "amount": 0.44,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 64.36499786376953,
+            "last price": 64.29000091552734,
             "last price date": "2022-5-6",
-            "last dividend": 0.42,
-            "last yield date": "2022-2-17",
+            "last dividend": 0.44,
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 51.26368037974684,
             "avg sell": 54.030919620253165
@@ -8512,14 +8638,20 @@
                     "amount": 2.8,
                     "shares": 10,
                     "total": 28.0
+                },
+                {
+                    "date": "2022-2-28",
+                    "amount": 2.8,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 443.5030384615385,
             "current shares": 13,
-            "last price": 445.95001220703125,
+            "last price": 444.9700012207031,
             "last price date": "2022-5-6",
             "last dividend": 2.8,
-            "last yield date": "2022-2-17",
+            "last yield date": "2022-5-6",
             "track": 1,
             "avg buy": 414.7743260869565,
             "avg sell": 371.765
@@ -8746,7 +8878,7 @@
             ],
             "cost basis": 8.337079310344828,
             "current shares": 290,
-            "last price": 8.829999923706055,
+            "last price": 8.8149995803833,
             "last price date": "2022-5-6",
             "last dividend": 0.08,
             "last yield date": "2022-5-6",
@@ -8860,14 +8992,20 @@
                     "amount": 1.38,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2022-2-28",
+                    "amount": 1.38,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 250.69000244140625,
+            "last price": 250.63999938964844,
             "last price date": "2022-5-6",
             "last dividend": 1.38,
-            "last yield date": "2022-2-17",
+            "last yield date": "2022-5-6",
             "track": 1,
             "avg buy": 195.693725,
             "avg sell": 203.72925
@@ -9030,14 +9168,20 @@
                     "amount": 1.48,
                     "shares": 14,
                     "total": 20.72
+                },
+                {
+                    "date": "2022-2-17",
+                    "amount": 1.49,
+                    "shares": 14,
+                    "total": 20.86
                 }
             ],
-            "cost basis": 141.60712258064515,
+            "cost basis": 140.93421935483872,
             "current shares": 31,
-            "last price": 147.0500030517578,
+            "last price": 146.90499877929688,
             "last price date": "2022-5-6",
-            "last dividend": 1.48,
-            "last yield date": "2022-2-15",
+            "last dividend": 1.49,
+            "last yield date": "2022-5-6",
             "track": 1,
             "avg buy": 166.29375076923074,
             "avg sell": 186.32714705882353
@@ -9322,14 +9466,20 @@
                     "amount": 0.62,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2022-2-16",
+                    "amount": 0.62,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 221.86975454545453,
             "current shares": 22,
-            "last price": 272.40301513671875,
+            "last price": 272.9307861328125,
             "last price date": "2022-5-6",
             "last dividend": 0.62,
-            "last yield date": "2022-2-15",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 210.10320360360362,
             "avg sell": 206.91360674157306
@@ -9450,14 +9600,20 @@
                     "amount": 0.935,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2022-4-29",
+                    "amount": 0.935,
+                    "shares": 44,
+                    "total": 41.14
                 }
             ],
-            "cost basis": 56.69587045454545,
+            "cost basis": 55.76087045454545,
             "current shares": 44,
-            "last price": 63.290000915527344,
+            "last price": 62.95500183105469,
             "last price date": "2022-5-6",
             "last dividend": 0.935,
-            "last yield date": "2022-4-22",
+            "last yield date": "2022-5-6",
             "track": 1,
             "avg buy": 55.87070748663101,
             "avg sell": 54.89709090909092
@@ -9546,14 +9702,20 @@
                     "amount": 0.135,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2022-3-30",
+                    "amount": 0.122,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 8.3514,
             "current shares": 250,
             "last price": 8.875,
             "last price date": "2022-5-6",
-            "last dividend": 0.135,
-            "last yield date": "2022-2-14",
+            "last dividend": 0.122,
+            "last yield date": "2022-5-6",
             "track": 1,
             "avg buy": 8.710588235294116,
             "avg sell": 9.459615384615384
@@ -9834,14 +9996,20 @@
                     "amount": 0.24,
                     "shares": 50,
                     "total": 12.0
+                },
+                {
+                    "date": "2022-2-25",
+                    "amount": 0.26,
+                    "shares": 50,
+                    "total": 13.0
                 }
             ],
-            "cost basis": 33.36023846153846,
+            "cost basis": 33.26023846153846,
             "current shares": 130,
-            "last price": 32.07500076293945,
+            "last price": 32.09000015258789,
             "last price date": "2022-5-6",
-            "last dividend": 0.24,
-            "last yield date": "2022-2-17",
+            "last dividend": 0.26,
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 44.297903485254686,
             "avg sell": 49.80990534979424
@@ -9901,7 +10069,7 @@
             "dividends": [],
             "cost basis": 5.718561904761905,
             "current shares": 210,
-            "last price": 2.055000066757202,
+            "last price": 2.0899999141693115,
             "last price date": "2022-5-6",
             "last dividend": 0,
             "last yield date": "2021-9-3",
@@ -10249,14 +10417,20 @@
                     "amount": 0.68,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2022-3-2",
+                    "amount": 0.68,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 89.00309,
             "current shares": 30,
-            "last price": 138.59500122070312,
+            "last price": 140.14999389648438,
             "last price date": "2022-5-6",
             "last dividend": 0.68,
-            "last yield date": "2022-2-17",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 78.77294358288768,
             "avg sell": 77.35066337209302
@@ -10284,7 +10458,7 @@
             "dividends": [],
             "cost basis": 49.379818181818194,
             "current shares": 44,
-            "last price": 28.895000457763672,
+            "last price": 30.309999465942383,
             "last price date": "2022-5-6",
             "last dividend": 0,
             "last yield date": "2021-11-16",
@@ -10440,7 +10614,7 @@
             ],
             "cost basis": 203.959104,
             "current shares": 25,
-            "last price": 211.08999633789062,
+            "last price": 212.125,
             "last price date": "2022-5-6",
             "last dividend": 1.12,
             "last yield date": "2022-5-6",
@@ -10639,7 +10813,7 @@
             "dividends": [],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 0.2782999873161316,
+            "last price": 0.2800999879837036,
             "last price date": "2022-5-6",
             "track": true,
             "avg buy": 3.4920812030075195,
@@ -10724,7 +10898,7 @@
             "dividends": [],
             "cost basis": 107.01342500000001,
             "current shares": 20,
-            "last price": 89.85900115966797,
+            "last price": 90.69010162353516,
             "last price date": "2022-5-6",
             "last dividend": 0,
             "last yield date": "2020-3-11",
@@ -10876,14 +11050,20 @@
                     "amount": 0.383,
                     "shares": 120,
                     "total": 45.96
+                },
+                {
+                    "date": "2022-4-19",
+                    "amount": 1.122,
+                    "shares": 100,
+                    "total": 112.20000000000002
                 }
             ],
-            "cost basis": 2.6725899999999996,
+            "cost basis": 1.5505899999999995,
             "current shares": 100,
-            "last price": 13.755000114440918,
+            "last price": 13.850000381469727,
             "last price date": "2022-5-6",
-            "last dividend": 0.383,
-            "last yield date": "2022-2-14",
+            "last dividend": 1.122,
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 15.187511111111114,
             "avg sell": 16.239515909090912
@@ -11324,14 +11504,20 @@
                     "amount": 0.7,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2022-3-21",
+                    "amount": 0.7,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 9.905153333333347,
             "current shares": 45,
-            "last price": 81.27999877929688,
+            "last price": 82.15499877929688,
             "last price date": "2022-5-6",
             "last dividend": 0.7,
-            "last yield date": "2022-3-7",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 57.290063132137035,
             "avg sell": 60.470610563380276
@@ -11714,14 +11900,20 @@
                     "amount": 0.52,
                     "shares": 185,
                     "total": 96.2
+                },
+                {
+                    "date": "2022-4-13",
+                    "amount": 0.278,
+                    "shares": 110,
+                    "total": 30.580000000000002
                 }
             ],
-            "cost basis": 20.770735714285717,
+            "cost basis": 20.62511666666667,
             "current shares": 210,
-            "last price": 19.73259925842285,
+            "last price": 19.7450008392334,
             "last price date": "2022-5-6",
-            "last dividend": 0.52,
-            "last yield date": "2022-4-4",
+            "last dividend": 0.278,
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 30.255027272727272,
             "avg sell": 32.408380689655175
@@ -11928,14 +12120,20 @@
                     "amount": 0.9,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2022-2-15",
+                    "amount": 0.9,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 223.0449981689453,
+            "last price": 224.32000732421875,
             "last price date": "2022-5-6",
             "last dividend": 0.9,
-            "last yield date": "2022-2-14",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 68.98609130434784,
             "avg sell": 75.24727391304347
@@ -11971,7 +12169,7 @@
             "dividends": [],
             "cost basis": 171.467896,
             "current shares": 25,
-            "last price": 171.57000732421875,
+            "last price": 171.8699951171875,
             "last price date": "2022-5-6",
             "last dividend": 0,
             "last yield date": "2021-11-11",
@@ -12122,7 +12320,7 @@
             "dividends": [],
             "cost basis": 676.6291,
             "current shares": 2,
-            "last price": 849.9400024414062,
+            "last price": 863,
             "last price date": "2022-5-6",
             "track": true,
             "avg buy": 311.44874285714286,
@@ -12183,7 +12381,7 @@
             "dividends": [],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 49.86000061035156,
+            "last price": 49.78010177612305,
             "last price date": "2022-5-6",
             "last dividend": 0,
             "last yield date": "2019-2-26",
@@ -12455,14 +12653,20 @@
                     "amount": 0.64,
                     "shares": 30,
                     "total": 19.2
+                },
+                {
+                    "date": "2022-4-7",
+                    "amount": 0.64,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 49.96363750000002,
             "current shares": 80,
-            "last price": 47.775001525878906,
+            "last price": 47.619998931884766,
             "last price date": "2022-5-6",
             "last dividend": 0.64,
-            "last yield date": "2022-4-4",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 54.062425,
             "avg sell": 54.50830227272728
@@ -12482,7 +12686,7 @@
             "dividends": [],
             "cost basis": 30.15,
             "current shares": 26,
-            "last price": 18.162099838256836,
+            "last price": 18.06999969482422,
             "last price date": "2022-5-6",
             "last dividend": 0,
             "last yield date": "2022-4-12",
@@ -12800,10 +13004,10 @@
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 60.474998474121094,
+            "last price": 60.79999923706055,
             "last price date": "2022-5-6",
             "last dividend": 0.5,
-            "last yield date": "2022-2-14",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 54.51827265917602,
             "avg sell": 55.90201835205992
@@ -12978,14 +13182,26 @@
                     "amount": 0.55,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2022-3-17",
+                    "amount": 0.56,
+                    "shares": 0,
+                    "total": 0.0
+                },
+                {
+                    "date": "2022-5-5",
+                    "amount": 0.56,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 150.17999267578125,
+            "last price": 151.22999572753906,
             "last price date": "2022-5-6",
-            "last dividend": 0.55,
-            "last yield date": "2022-3-7",
+            "last dividend": 0.56,
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 98.566921875,
             "avg sell": 103.41191666666667
@@ -13304,14 +13520,20 @@
                     "amount": 0.28,
                     "shares": 0,
                     "total": 0.0
+                },
+                {
+                    "date": "2022-3-14",
+                    "amount": 0.28,
+                    "shares": 0,
+                    "total": 0.0
                 }
             ],
             "cost basis": 0,
             "current shares": 0,
-            "last price": 46.43000030517578,
+            "last price": 45.75090026855469,
             "last price date": "2022-5-6",
             "last dividend": 0.28,
-            "last yield date": "2022-3-7",
+            "last yield date": "2022-5-6",
             "track": true,
             "avg buy": 40.06014285714285,
             "avg sell": 42.178698113207545
@@ -13545,7 +13767,7 @@
             ],
             "cost basis": 72.48192799999998,
             "current shares": 50,
-            "last price": 89.76000213623047,
+            "last price": 89.66000366210938,
             "last price date": "2022-5-6",
             "last dividend": 0.88,
             "last yield date": "2022-5-6",
