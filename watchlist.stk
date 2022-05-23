@@ -1,9 +1,9 @@
 [
     {
-        "portfolio value": 185205.62458354235,
+        "portfolio value": 188179.56256181002,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.03192606603225931
+        "average yield": 0.03227176701510975
     },
     [
         {
@@ -9745,6 +9745,29 @@
             "avg sell": 9.459615384615384
         },
         {
+            "ticker": "PEP",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2022-5-23",
+                    "price": 165.06,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 25
+                }
+            ],
+            "dividends": [],
+            "cost basis": 165.06,
+            "current shares": 25,
+            "last price": 165.25999450683594,
+            "last price date": "2022-5-23",
+            "last dividend": 0,
+            "last yield date": "2022-5-23",
+            "track": 1,
+            "avg buy": 165.06,
+            "avg sell": 165.06
+        },
+        {
             "ticker": "PRGO",
             "transactions": [
                 {
@@ -10030,7 +10053,7 @@
             ],
             "cost basis": 33.26023846153846,
             "current shares": 130,
-            "last price": 38.13999938964844,
+            "last price": 38.21500015258789,
             "last price date": "2022-5-23",
             "last dividend": 0.26,
             "last yield date": "2022-5-23",
@@ -13822,29 +13845,6 @@
             "track": true,
             "avg buy": 74.09076335877862,
             "avg sell": 70.5981925925926
-        },
-        {
-            "ticker": "PEP",
-            "transactions": [
-                {
-                    "b/s": "b",
-                    "date": "2022-5-23",
-                    "price": 165.06,
-                    "commission": 0.0,
-                    "fees": 0.0,
-                    "shares": 25
-                }
-            ],
-            "dividends": [],
-            "cost basis": 165.06,
-            "current shares": 25,
-            "last price": 165.25999450683594,
-            "last price date": "2022-5-23",
-            "last dividend": 0,
-            "last yield date": "2022-5-23",
-            "track": 1,
-            "avg buy": 165.06,
-            "avg sell": 165.06
         }
     ]
 ]
