@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 202035.50315696,
+        "portfolio value": 202945.69053727388,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": 0.029667790592940214
@@ -392,7 +392,7 @@
             ],
             "cost basis": 111.42616666666666,
             "current shares": 39,
-            "last price": 146.58999633789062,
+            "last price": 146.5,
             "last price date": "2022-6-7",
             "last dividend": 0.23,
             "last yield date": "2022-6-7",
@@ -13992,7 +13992,7 @@
             ],
             "cost basis": 71.60192799999999,
             "current shares": 50,
-            "last price": 101.88999938964844,
+            "last price": 101.70500183105469,
             "last price date": "2022-6-7",
             "last dividend": 0.88,
             "last yield date": "2022-6-7",
