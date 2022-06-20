@@ -67,7 +67,7 @@ class GUI:
         self.trans_frame = tk.LabelFrame(self.master,
                                          text="Transactions")
         self.transaction_labels = ttk.Label(self.trans_frame,
-                                            text="Date                 B/S  Shares Price")
+                                            text="Date\t\t      B/S\t        Shares     Price")
 
         
         self.transactions = tk.StringVar()
@@ -76,6 +76,7 @@ class GUI:
                                    listvariable=self.transactions,
                                    height=6,
                                    width=36,
+                                   font="Courier",
                                    selectmode='browse')
         self.update_listboxes()
         # Place elements
@@ -87,7 +88,7 @@ class GUI:
         for pos in self.watch_list.position_list:
             if pos["ticker"] == self.current_ticker.get():
                 for t in pos["transactions"]:
-                    self.tran.append("{:12}     {}       {}       ${}".format(t['date'],
+                    self.tran.append("{:11} {}  {:5}  ${}".format(t['date'],
                                                                                       t['b/s'].upper(),
                                                                                       t['shares'],
                                                                                       t['price']))
