@@ -57,6 +57,7 @@ class GUI:
         self.ticker = ttk.Combobox(self.tick_frame,
                                    textvariable=self.current_ticker)
         self.ticker['values'] = self.watch_list.list_positions()
+        self.ticker.bind('<<ComboboxSelected>>',self.ticker_changed)
 
         # Place elements
         self.ticker_label.grid(column=0,row=0,padx=2,pady=2)
@@ -75,6 +76,10 @@ class GUI:
         pass
     def open_about_popup(self):
         pass
+
+    def ticker_changed(self,event):
+        self.current_ticker.set(self.ticker.get())
+        print("Changed symbol to: {}".format(self.current_ticker.get()))
 
     def get_config(self):
         with open("config.txt","r") as f:
