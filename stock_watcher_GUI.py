@@ -26,10 +26,10 @@ class GUI:
         self.dividend_frame()
         self.action_frame()
 
-        self.tick_frame.grid()
-        self.trans_frame.grid()
-        self.div_frame.grid()
-        self.act_frame.grid()
+        self.tick_frame.grid(column=0,row=0,padx=2,pady=2,sticky='W')
+        self.trans_frame.grid(column=0,row=1,padx=2,pady=2,sticky='W')
+        self.div_frame.grid(column=0,row=2,padx=2,pady=2,sticky='W')
+        self.act_frame.grid(column=0,row=3,padx=2,pady=2,sticky='W')
 
         # Create a menubar
         self.menubar = tk.Menu(self.master)
@@ -66,6 +66,36 @@ class GUI:
     def transaction_frame(self):
         self.trans_frame = tk.LabelFrame(self.master,
                                          text="Transactions")
+        self.transaction_labels = ttk.Label(self.trans_frame,
+                                            text="Date                 B/S  Shares Price")
+
+        
+        self.transactions = tk.StringVar()
+        # Create elements
+        self.trans_list=tk.Listbox(self.trans_frame,
+                                   listvariable=self.transactions,
+                                   height=6,
+                                   width=36,
+                                   selectmode='browse')
+        self.update_listboxes()
+        # Place elements
+        self.transaction_labels.grid(column=0,row=0,padx=2,pady=2,sticky='w')
+        self.trans_list.grid(column=0,row=1,padx=2,pady=2,sticky='w')
+
+    def update_listboxes(self):
+        self.tran = []
+        for pos in self.watch_list.position_list:
+            if pos["ticker"] == self.current_ticker.get():
+                for t in pos["transactions"]:
+                    self.tran.append("{:12}     {}       {}       ${}".format(t['date'],
+                                                                                      t['b/s'].upper(),
+                                                                                      t['shares'],
+                                                                                      t['price']))
+                                        
+                    
+        self.transactions.set(self.tran)
+        self.trans_list.configure()
+        
     def dividend_frame(self):
         self.div_frame = tk.LabelFrame(self.master,
                                        text="Dividends")
@@ -79,6 +109,8 @@ class GUI:
 
     def ticker_changed(self,event):
         self.current_ticker.set(self.ticker.get())
+        self.update_listboxes()
+        
         print("Changed symbol to: {}".format(self.current_ticker.get()))
 
     def get_config(self):
