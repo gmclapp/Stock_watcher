@@ -56,6 +56,7 @@ class GUI:
                                       text="Symbol")
         self.ticker = ttk.Combobox(self.tick_frame,
                                    textvariable=self.current_ticker)
+        self.ticker['values'] = self.watch_list.list_positions()
 
         # Place elements
         self.ticker_label.grid(column=0,row=0,padx=2,pady=2)
