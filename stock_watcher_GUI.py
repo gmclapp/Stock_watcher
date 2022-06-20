@@ -17,8 +17,11 @@ class GUI:
         self.watch_list.sort_open_positions()
         self.watch_list.calc_portfolio_value()
         self.watch_list.calc_average_yield()
-    
-        self.master.geometry("610x290")
+
+        self.transactions = tk.StringVar()
+        self.dividends = tk.StringVar()
+        
+        self.master.geometry("610x610")
         self.master.title("Stockwatcher The Empire Strikes Back")
 
         self.ticker_frame()
@@ -69,37 +72,38 @@ class GUI:
         self.transaction_labels = ttk.Label(self.trans_frame,
                                             text="Date\t\t      B/S\t        Shares     Price")
 
-        
-        self.transactions = tk.StringVar()
         # Create elements
         self.trans_list=tk.Listbox(self.trans_frame,
                                    listvariable=self.transactions,
                                    height=6,
                                    width=36,
                                    font="Courier",
-                                   selectmode='browse')
+                                   selectmode='extended')
         self.update_listboxes()
         # Place elements
         self.transaction_labels.grid(column=0,row=0,padx=2,pady=2,sticky='w')
         self.trans_list.grid(column=0,row=1,padx=2,pady=2,sticky='w')
-
-    def update_listboxes(self):
-        self.tran = []
-        for pos in self.watch_list.position_list:
-            if pos["ticker"] == self.current_ticker.get():
-                for t in pos["transactions"]:
-                    self.tran.append("{:11} {}  {:5}  ${}".format(t['date'],
-                                                                                      t['b/s'].upper(),
-                                                                                      t['shares'],
-                                                                                      t['price']))
-                                        
-                    
-        self.transactions.set(self.tran)
-        self.trans_list.configure()
         
     def dividend_frame(self):
         self.div_frame = tk.LabelFrame(self.master,
                                        text="Dividends")
+
+        # Create elements
+        self.dividend_labels = ttk.Label(self.div_frame,
+                                         text="Date\t\t\tShares\t     Amount\t         Total")
+        
+        self.divs_list=tk.Listbox(self.div_frame,
+                                  listvariable=self.dividends,
+                                  height=6,
+                                  width=36,
+                                  font="Courier",
+                                  selectmode='extended')
+        self.update_listboxes()
+        
+        # Place elements
+        self.dividend_labels.grid(row=0,column=0,padx=2,pady=2,sticky='w')
+        self.divs_list.grid(row=1,column=0,padx=2,pady=2,sticky='w')
+        
     def action_frame(self):
         self.act_frame = tk.LabelFrame(self.master,
                                        text="Actions")
@@ -113,6 +117,33 @@ class GUI:
         self.update_listboxes()
         
         print("Changed symbol to: {}".format(self.current_ticker.get()))
+
+    def update_listboxes(self):
+        # Update transactions listbox
+        tran = []
+        div = []
+        for pos in self.watch_list.position_list:
+            if pos["ticker"] == self.current_ticker.get():
+                for t in pos["transactions"]:
+                    tran.append("{:11} {}  {:5}  ${}".format(t['date'],
+                                                             t['b/s'].upper(),
+                                                             t['shares'],
+                                                             t['price']))
+                for d in pos["dividends"]:
+                    div.append("{:11} {:5} x ${:.2f} = ${:.2f}".format(d['date'],
+                                                             d['shares'],
+                                                             d['amount'],
+                                                             d['total']))
+                                        
+                    
+        self.transactions.set(tran)
+        self.dividends.set(div)
+
+        try:
+            self.trans_list.configure()
+            self.divs_list.configure()
+        except AttributeError:
+            pass
 
     def get_config(self):
         with open("config.txt","r") as f:
