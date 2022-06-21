@@ -27,7 +27,7 @@ class GUI:
         self.avg_sell = tk.DoubleVar()
         self.watching = tk.BooleanVar()
         
-        self.master.geometry("610x525")
+        self.master.geometry("400x525")
         self.master.title("Stockwatcher The Empire Strikes Back")
 
         self.ticker_frame()
@@ -70,11 +70,14 @@ class GUI:
 
         self.last_price_label = ttk.Label(self.tick_frame,
                                           text="Last price: ")
+        self.lp = ttk.Label(self.tick_frame,
+                            textvariable=self.last_price)
 
         # Place elements
         self.ticker_label.grid(column=0,row=0,padx=2,pady=2)
         self.ticker.grid(column=1,row=0,padx=2,pady=2)
         self.last_price_label.grid(column=2,row=0,padx=2,pady=2)
+        self.lp.grid(column=3,row=0,padx=2,pady=2,sticky='e')
         
     def transaction_frame(self):
         self.trans_frame = tk.LabelFrame(self.master,
@@ -131,9 +134,15 @@ class GUI:
                                         text="Watching?")
 
         self.cs = ttk.Label(self.act_frame,
-                           textvariable=self.current_shares.get())
+                           textvariable=self.current_shares)
         self.cb = ttk.Label(self.act_frame,
-                            textvariable=self.cost_basis.get())
+                            textvariable=self.cost_basis)
+        self.avgb = ttk.Label(self.act_frame,
+                              textvariable=self.avg_buy)
+        self.avgs = ttk.Label(self.act_frame,
+                              textvariable=self.avg_sell)
+        self.watch = ttk.Label(self.act_frame,
+                               textvariable=self.watching)
 
         # Place elements
         self.current_shares_label.grid(column=0,row=0,padx=2,pady=2,sticky='w')
@@ -144,6 +153,9 @@ class GUI:
 
         self.cs.grid(column=1,row=0,padx=2,pady=2,sticky='e')
         self.cb.grid(column=1,row=1,padx=2,pady=2,sticky='e')
+        self.avgb.grid(column=1,row=2,padx=2,pady=2,sticky='e')
+        self.avgs.grid(column=1,row=3,padx=2,pady=2,sticky='e')
+        self.watch.grid(column=1,row=4,padx=2,pady=2,sticky='e')
         self.update_listboxes()
         
     def save(self):
@@ -184,12 +196,15 @@ class GUI:
                     
         self.transactions.set(tran)
         self.dividends.set(div)
-
         try:
             self.trans_list.configure()
             self.divs_list.configure()
             self.cs.configure()
             self.cb.configure()
+            self.avgb.configure()
+            self.avgs.configure()
+            self.watch.configure()
+            self.lp.configure()
         except AttributeError:
             pass
 
