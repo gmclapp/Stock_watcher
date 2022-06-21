@@ -21,7 +21,7 @@ class GUI:
         self.transactions = tk.StringVar()
         self.dividends = tk.StringVar()
         
-        self.master.geometry("610x610")
+        self.master.geometry("610x525")
         self.master.title("Stockwatcher The Empire Strikes Back")
 
         self.ticker_frame()
@@ -62,9 +62,13 @@ class GUI:
         self.ticker['values'] = self.watch_list.list_positions()
         self.ticker.bind('<<ComboboxSelected>>',self.ticker_changed)
 
+        self.last_price_label = ttk.Label(self.tick_frame,
+                                          text="Last price: ")
+
         # Place elements
         self.ticker_label.grid(column=0,row=0,padx=2,pady=2)
         self.ticker.grid(column=1,row=0,padx=2,pady=2)
+        self.last_price_label.grid(column=2,row=0,padx=2,pady=2)
         
     def transaction_frame(self):
         self.trans_frame = tk.LabelFrame(self.master,
@@ -107,6 +111,27 @@ class GUI:
     def action_frame(self):
         self.act_frame = tk.LabelFrame(self.master,
                                        text="Actions")
+
+        # Create elements
+        self.current_shares_label = ttk.Label(self.act_frame,
+                                              text="Current Shares: ")
+        self.cost_basis_label = ttk.Label(self.act_frame,
+                                          text="Cost Basis: ")
+        self.avg_buy_label = ttk.Label(self.act_frame,
+                                       text="Average Buy: ")
+        self.avg_sell_label = ttk.Label(self.act_frame,
+                                        text="Average Sell: ")
+        self.watching_label = ttk.Label(self.act_frame,
+                                        text="Watching?")
+
+        # Place elements
+        self.current_shares_label.grid(column=0,row=0,padx=2,pady=2,sticky='w')
+        self.cost_basis_label.grid(column=0,row=1,padx=2,pady=2,sticky='w')
+        self.avg_buy_label.grid(column=0,row=2,padx=2,pady=2,sticky='w')
+        self.avg_sell_label.grid(column=0,row=3,padx=2,pady=2,sticky='w')
+        self.watching_label.grid(column=0,row=4,padx=2,pady=2,sticky='w')
+        
+        
     def save(self):
         pass
     def open_about_popup(self):
