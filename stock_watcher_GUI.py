@@ -20,6 +20,12 @@ class GUI:
 
         self.transactions = tk.StringVar()
         self.dividends = tk.StringVar()
+        self.last_price = tk.DoubleVar()
+        self.current_shares = tk.IntVar()
+        self.cost_basis = tk.DoubleVar()
+        self.avg_buy = tk.DoubleVar()
+        self.avg_sell = tk.DoubleVar()
+        self.watching = tk.BooleanVar()
         
         self.master.geometry("610x525")
         self.master.title("Stockwatcher The Empire Strikes Back")
@@ -124,13 +130,21 @@ class GUI:
         self.watching_label = ttk.Label(self.act_frame,
                                         text="Watching?")
 
+        self.cs = ttk.Label(self.act_frame,
+                           textvariable=self.current_shares.get())
+        self.cb = ttk.Label(self.act_frame,
+                            textvariable=self.cost_basis.get())
+
         # Place elements
         self.current_shares_label.grid(column=0,row=0,padx=2,pady=2,sticky='w')
         self.cost_basis_label.grid(column=0,row=1,padx=2,pady=2,sticky='w')
         self.avg_buy_label.grid(column=0,row=2,padx=2,pady=2,sticky='w')
         self.avg_sell_label.grid(column=0,row=3,padx=2,pady=2,sticky='w')
         self.watching_label.grid(column=0,row=4,padx=2,pady=2,sticky='w')
-        
+
+        self.cs.grid(column=1,row=0,padx=2,pady=2,sticky='e')
+        self.cb.grid(column=1,row=1,padx=2,pady=2,sticky='e')
+        self.update_listboxes()
         
     def save(self):
         pass
@@ -149,6 +163,13 @@ class GUI:
         div = []
         for pos in self.watch_list.position_list:
             if pos["ticker"] == self.current_ticker.get():
+                self.last_price.set(pos["last price"])
+                self.current_shares.set(pos["current shares"])
+                self.cost_basis.set(pos["cost basis"])
+                self.avg_buy.set(pos["avg buy"])
+                self.avg_sell.set(pos["avg sell"])
+                self.watching.set(pos["track"])
+                
                 for t in pos["transactions"]:
                     tran.append("{:11} {}  {:5}  ${}".format(t['date'],
                                                              t['b/s'].upper(),
@@ -167,8 +188,12 @@ class GUI:
         try:
             self.trans_list.configure()
             self.divs_list.configure()
+            self.cs.configure()
+            self.cb.configure()
         except AttributeError:
             pass
+
+        
 
     def get_config(self):
         with open("config.txt","r") as f:
