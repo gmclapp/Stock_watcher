@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 import json
 from stock_watcher import *
+import datetime as dt
 
 class GUI:
     def __init__(self,master,version,mod_date):
@@ -18,6 +19,10 @@ class GUI:
         self.watch_list.calc_portfolio_value()
         self.watch_list.calc_average_yield()
 
+        for pos in self.watch_list.position_list:
+            if pos["ticker"] == self.current_ticker.get():
+                self.current_pos_data = pos
+                
         self.transactions = tk.StringVar()
         self.dividends = tk.StringVar()
         self.last_price = tk.DoubleVar()
@@ -144,6 +149,11 @@ class GUI:
         self.watch = ttk.Label(self.act_frame,
                                textvariable=self.watching)
 
+        self.trade_pb = ttk.Button(self.act_frame,text="Trade")
+        self.edit_pb = ttk.Button(self.act_frame,text="Edit")
+        self.other_pb = ttk.Button(self.act_frame,text="Other")
+        self.indicators_pb = ttk.Button(self.act_frame,text="Indicators")
+
         # Place elements
         self.current_shares_label.grid(column=0,row=0,padx=2,pady=2,sticky='w')
         self.cost_basis_label.grid(column=0,row=1,padx=2,pady=2,sticky='w')
@@ -157,14 +167,28 @@ class GUI:
         self.avgs.grid(column=1,row=3,padx=2,pady=2,sticky='e')
         self.watch.grid(column=1,row=4,padx=2,pady=2,sticky='e')
         self.update_listboxes()
+
+        self.trade_pb.grid(column=2,row=0)
+        self.edit_pb.grid(column=2,row=1)
+        self.other_pb.grid(column=2,row=2)
+        self.indicators_pb.grid(column=2,row=3)
         
     def save(self):
         pass
     def open_about_popup(self):
         pass
 
-    def ticker_changed(self,event):
+    def ticker_changed(self,event=None):
         self.current_ticker.set(self.ticker.get())
+        for pos in self.watch_list.position_list:
+            if pos["ticker"] == self.current_ticker.get():
+                self.current_pos_data = pos
+                
+        df = get_quoteDF(self.current_ticker,
+                         self.current_pos_data,
+                         dt.date.today(),
+                         force=True)
+        
         self.update_listboxes()
         
         print("Changed symbol to: {}".format(self.current_ticker.get()))
@@ -173,25 +197,24 @@ class GUI:
         # Update transactions listbox
         tran = []
         div = []
-        for pos in self.watch_list.position_list:
-            if pos["ticker"] == self.current_ticker.get():
-                self.last_price.set(pos["last price"])
-                self.current_shares.set(pos["current shares"])
-                self.cost_basis.set(pos["cost basis"])
-                self.avg_buy.set(pos["avg buy"])
-                self.avg_sell.set(pos["avg sell"])
-                self.watching.set(pos["track"])
-                
-                for t in pos["transactions"]:
-                    tran.append("{:11} {}  {:5}  ${}".format(t['date'],
-                                                             t['b/s'].upper(),
-                                                             t['shares'],
-                                                             t['price']))
-                for d in pos["dividends"]:
-                    div.append("{:11} {:5} x ${:.2f} = ${:.2f}".format(d['date'],
-                                                             d['shares'],
-                                                             d['amount'],
-                                                             d['total']))
+        
+        self.last_price.set(self.current_pos_data["last price"])
+        self.current_shares.set(self.current_pos_data["current shares"])
+        self.cost_basis.set(self.current_pos_data["cost basis"])
+        self.avg_buy.set(self.current_pos_data["avg buy"])
+        self.avg_sell.set(self.current_pos_data["avg sell"])
+        self.watching.set(self.current_pos_data["track"])
+        
+        for t in self.current_pos_data["transactions"]:
+            tran.append("{:11} {}  {:5}  ${}".format(t['date'],
+                                                     t['b/s'].upper(),
+                                                     t['shares'],
+                                                     t['price']))
+        for d in self.current_pos_data["dividends"]:
+            div.append("{:11} {:5} x ${:.2f} = ${:.2f}".format(d['date'],
+                                                     d['shares'],
+                                                     d['amount'],
+                                                     d['total']))
                                         
                     
         self.transactions.set(tran)
