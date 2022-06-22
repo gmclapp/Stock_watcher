@@ -176,7 +176,19 @@ class GUI:
     def save(self):
         pass
     def open_about_popup(self):
-        pass
+        child = tk.Toplevel(self.master)
+        child.geometry("360x60")
+        child.title("About")
+        child.grid_columnconfigure(0,weight=1)
+        version_txt = "Version: {}".format(self.version)
+        versionLabel = ttk.Label(child,text=version_txt)
+        authorLabel = ttk.Label(child,text="Glenn Clapp")
+        date_txt = "Created: 20-June-2022, Modified: {}".format(self.mod_date)
+        dateLabel = ttk.Label(child,text=date_txt)
+
+        authorLabel.grid(row=0,column=0)
+        versionLabel.grid(row=1,column=0)
+        dateLabel.grid(row=2,column=0)
 
     def ticker_changed(self,event=None):
         self.current_ticker.set(self.ticker.get())
@@ -248,7 +260,7 @@ class GUI:
 if __name__ == '__main__':
 
     __version__ = "1.0.0"
-    last_modified = "20-June-2022"
+    last_modified = "22-June-2022"
 
     root = tk.Tk()
     try:
