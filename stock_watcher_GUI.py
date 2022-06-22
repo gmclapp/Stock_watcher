@@ -180,6 +180,7 @@ class GUI:
         child.geometry("360x60")
         child.title("About")
         child.grid_columnconfigure(0,weight=1)
+        
         version_txt = "Version: {}".format(self.version)
         versionLabel = ttk.Label(child,text=version_txt)
         authorLabel = ttk.Label(child,text="Glenn Clapp")
@@ -189,6 +190,16 @@ class GUI:
         authorLabel.grid(row=0,column=0)
         versionLabel.grid(row=1,column=0)
         dateLabel.grid(row=2,column=0)
+
+    def trade_popup(self):
+        child = tk.Toplevel(self.master)
+        child.geometry("360x60")
+        child.title("Trade")
+        child.grid_columnconfigure(0,weight=1)
+
+        # Create widgets
+        
+        # Place widgets
 
     def ticker_changed(self,event=None):
         self.current_ticker.set(self.ticker.get())
