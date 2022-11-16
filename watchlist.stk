@@ -1,9 +1,9 @@
 [
     {
-        "portfolio value": 207530.82536059618,
+        "portfolio value": 207660.27535754442,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.03564485896081511
+        "average yield": 0.03565779245573453
     },
     [
         {
@@ -4204,6 +4204,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2022-11-16",
+                    "price": 187.27,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 11
                 }
             ],
             "dividends": [
@@ -4304,14 +4312,14 @@
                     "total": 55.379999999999995
                 }
             ],
-            "cost basis": 144.76659487179484,
-            "current shares": 39,
+            "cost basis": 154.11734399999997,
+            "current shares": 50,
             "last price": 162.75,
             "last price date": "2022-10-18",
             "last dividend": 1.42,
             "last yield date": "2022-10-18",
             "track": true,
-            "avg buy": 126.47717142857145,
+            "avg buy": 129.70770821256042,
             "avg sell": 119.7666777070064
         },
         {
@@ -12923,6 +12931,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 30
+                },
+                {
+                    "b/s": "b",
+                    "date": "2022-11-16",
+                    "price": 154.17,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 1
                 }
             ],
             "dividends": [
@@ -13047,14 +13063,14 @@
                     "total": 32.400000000000006
                 }
             ],
-            "cost basis": 134.67853333333332,
-            "current shares": 30,
+            "cost basis": 135.30729032258066,
+            "current shares": 31,
             "last price": 156.83999633789062,
             "last price date": "2022-10-18",
             "last dividend": 1.08,
             "last yield date": "2022-10-18",
             "track": true,
-            "avg buy": 88.21718965517242,
+            "avg buy": 88.66892123287671,
             "avg sell": 75.24727391304347
         },
         {
@@ -14419,6 +14435,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 30
+                },
+                {
+                    "b/s": "s",
+                    "date": "2022-11-16",
+                    "price": 55.58,
+                    "commission": 0.0,
+                    "fees": 0.06,
+                    "shares": 40
                 }
             ],
             "dividends": [
@@ -14543,15 +14567,15 @@
                     "total": 43.4
                 }
             ],
-            "cost basis": 34.03160714285716,
-            "current shares": 140,
+            "cost basis": 25.41165000000001,
+            "current shares": 100,
             "last price": 44.84000015258789,
             "last price date": "2022-10-18",
             "last dividend": 0.31,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 40.64586321626617,
-            "avg sell": 42.47729925187032
+            "avg sell": 43.66575283446711
         },
         {
             "ticker": "WORK",
