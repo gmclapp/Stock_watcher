@@ -1,9 +1,9 @@
 [
     {
-        "portfolio value": 233523.65963441133,
+        "portfolio value": 235055.14435789306,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.03222297480169828
+        "average yield": 0.03201302834939345
     },
     [
         {
@@ -5231,7 +5231,7 @@
             "avg sell": 9.490297817460318
         },
         {
-            "ticker": "FB",
+            "ticker": "META",
             "transactions": [
                 {
                     "b/s": "b",
