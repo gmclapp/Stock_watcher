@@ -84,7 +84,7 @@ class GUI:
         self.ticker.grid(column=1,row=0,padx=2,pady=2)
         self.last_price_label.grid(column=2,row=0,padx=2,pady=2)
         self.lp.grid(column=3,row=0,padx=2,pady=2,sticky='e')
-        self.update_price_pb.grid(column=3,row=0)
+        self.update_price_pb.grid(column=4,row=0)
         
     def transaction_frame(self):
         self.trans_frame = tk.LabelFrame(self.master,
