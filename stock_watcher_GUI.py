@@ -77,12 +77,14 @@ class GUI:
                                           text="Last price: ")
         self.lp = ttk.Label(self.tick_frame,
                             textvariable=self.last_price)
+        self.update_price_pb = ttk.Button(self.tick_frame,text="Update Price", command=self.update_price)
 
         # Place elements
         self.ticker_label.grid(column=0,row=0,padx=2,pady=2)
         self.ticker.grid(column=1,row=0,padx=2,pady=2)
         self.last_price_label.grid(column=2,row=0,padx=2,pady=2)
         self.lp.grid(column=3,row=0,padx=2,pady=2,sticky='e')
+        self.update_price_pb.grid(column=3,row=0)
         
     def transaction_frame(self):
         self.trans_frame = tk.LabelFrame(self.master,
@@ -172,9 +174,40 @@ class GUI:
         self.edit_pb.grid(column=2,row=1)
         self.other_pb.grid(column=2,row=2)
         self.indicators_pb.grid(column=2,row=3)
+
+    def update_price(self):
+        ''' Manually update the price of a ticker'''
+        
+        child = tk.Toplevel(self.master)
+        child.geometry("360x60")
+        child.title("Manually update price")
+        child.grid_columnconfigure(0,weight=1)
+
+        self.newPrice = tk.DoubleVar(value=self.last_price.get())
+
+        child.priceEntry = ttk.Entry(child, textvariable=self.newPrice)
+        child.okPB = ttk.Button(child, text="OK", command=self.setPrice)
+        child.cancelPB = ttk.Button(child, text="Cancel", command=child.destroy)
+
+        child.priceEntry.grid(row=0,column=0,columnspan=2)
+        child.okPB.grid(row=1,column=0,padx=2,pady=2,sticky='w')
+        child.cancelPB.grid(row=1,column=1,padx=2,pady=2,sticky='w')
+        # self.current_ticker # contains string of the focused ticker.
+
+    def setPrice(self):
+        for p in self.watch_list.position_list:
+            if self.current_ticker.get() == p['ticker']:
+                p['last price'] = self.newPrice.get()
+                today = dt.date.today()
+                year,month,day = unpack_date(today)
+                p['last price date'] = str(year)+'-'+str(month)+'-'+str(day)
+
+        self.save()
+        # Figure out how to destroy the window from here.
         
     def save(self):
-        pass
+        self.watch_list.save_positions()
+        
     def open_about_popup(self):
         child = tk.Toplevel(self.master)
         child.geometry("360x60")
@@ -221,11 +254,11 @@ class GUI:
         tran = []
         div = []
         
-        self.last_price.set(self.current_pos_data["last price"])
+        self.last_price.set(round(self.current_pos_data["last price"],4))
         self.current_shares.set(self.current_pos_data["current shares"])
-        self.cost_basis.set(self.current_pos_data["cost basis"])
-        self.avg_buy.set(self.current_pos_data["avg buy"])
-        self.avg_sell.set(self.current_pos_data["avg sell"])
+        self.cost_basis.set(round(self.current_pos_data["cost basis"],4))
+        self.avg_buy.set(round(self.current_pos_data["avg buy"],4))
+        self.avg_sell.set(round(self.current_pos_data["avg sell"],4))
         self.watching.set(self.current_pos_data["track"])
         
         for t in self.current_pos_data["transactions"]:
