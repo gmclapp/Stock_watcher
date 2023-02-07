@@ -1,9 +1,9 @@
 [
     {
-        "portfolio value": 235055.14435789306,
+        "portfolio value": 236711.21960029803,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.03201302834939345
+        "average yield": 0.031789059313310754
     },
     [
         {
@@ -11901,6 +11901,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 100
+                },
+                {
+                    "b/s": "s",
+                    "date": "2023-2-7",
+                    "price": 16.093,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 40
                 }
             ],
             "dividends": [
@@ -11947,15 +11955,15 @@
                     "total": 112.20000000000002
                 }
             ],
-            "cost basis": 1.5505899999999995,
-            "current shares": 100,
+            "cost basis": -8.14435,
+            "current shares": 60,
             "last price": 16.09,
             "last price date": "2023-2-7",
             "last dividend": 1.122,
             "last yield date": "2022-9-23",
             "track": true,
             "avg buy": 15.187511111111114,
-            "avg sell": 16.239515909090912
+            "avg sell": 16.22730625
         },
         {
             "ticker": "STX",
@@ -12963,6 +12971,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 1
+                },
+                {
+                    "b/s": "s",
+                    "date": "2023-2-7",
+                    "price": 172.5,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 6
                 }
             ],
             "dividends": [
@@ -13087,15 +13103,15 @@
                     "total": 32.400000000000006
                 }
             ],
-            "cost basis": 135.30729032258066,
-            "current shares": 31,
+            "cost basis": 126.38104000000001,
+            "current shares": 25,
             "last price": 172.59,
             "last price date": "2023-2-7",
             "last dividend": 1.08,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 88.66892123287671,
-            "avg sell": 75.24727391304347
+            "avg sell": 80.06972314049587
         },
         {
             "ticker": "TM",
