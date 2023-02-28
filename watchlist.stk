@@ -1,9 +1,9 @@
 [
     {
-        "portfolio value": 238733.41960029805,
+        "portfolio value": 229354.72440029797,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.03087371266385864
+        "average yield": 0.03213618999683629
     },
     [
         {
@@ -5325,18 +5325,26 @@
                     "commission": 0.0,
                     "fees": 0.02,
                     "shares": 200
+                },
+                {
+                    "b/s": "s",
+                    "date": "2023-2-28",
+                    "price": 4.6495,
+                    "commission": 0.0,
+                    "fees": 0.02,
+                    "shares": 500
                 }
             ],
             "dividends": [],
-            "cost basis": 3.68998,
-            "current shares": 1000,
-            "last price": 4.7,
-            "last price date": "2023-2-27",
+            "cost basis": 2.73042,
+            "current shares": 500,
+            "last price": 4.64,
+            "last price date": "2023-2-28",
             "last dividend": 0,
             "last yield date": "2022-6-10",
             "track": 1,
             "avg buy": 3.6491666666666664,
-            "avg sell": 3.445
+            "avg sell": 4.305357142857143
         },
         {
             "ticker": "GD",
@@ -6042,8 +6050,8 @@
             ],
             "cost basis": 82.87253333333332,
             "current shares": 45,
-            "last price": 83.84,
-            "last price date": "2023-2-27",
+            "last price": 84.83,
+            "last price date": "2023-2-28",
             "last dividend": 0.08,
             "last yield date": "2022-9-23",
             "track": true,
@@ -6849,6 +6857,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 7
+                },
+                {
+                    "b/s": "b",
+                    "date": "2023-2-28",
+                    "price": 295.39,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 8
                 }
             ],
             "dividends": [
@@ -6919,14 +6935,14 @@
                     "total": 13.299999999999999
                 }
             ],
-            "cost basis": 228.7776428571429,
-            "current shares": 7,
+            "cost basis": 264.30423333333323,
+            "current shares": 15,
             "last price": 296.01,
             "last price date": "2023-2-27",
             "last dividend": 1.9,
             "last yield date": "2022-10-18",
             "track": 1,
-            "avg buy": 259.34695365853656,
+            "avg buy": 265.2315326530612,
             "avg sell": 262.87739999999997
         },
         {
