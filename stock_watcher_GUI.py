@@ -151,7 +151,7 @@ class GUI:
         self.watch = ttk.Label(self.act_frame,
                                textvariable=self.watching)
 
-        self.trade_pb = ttk.Button(self.act_frame,text="Trade")
+        self.trade_pb = ttk.Button(self.act_frame,text="Trade",command=self.trade_popup)
         self.edit_pb = ttk.Button(self.act_frame,text="Edit")
         self.other_pb = ttk.Button(self.act_frame,text="Other")
         self.indicators_pb = ttk.Button(self.act_frame,text="Indicators")
@@ -194,6 +194,77 @@ class GUI:
         child.cancelPB.grid(row=1,column=1,padx=2,pady=2,sticky='w')
         # self.current_ticker # contains string of the focused ticker.
 
+    def setDateToToday(self):
+        self.newTradeDate.set("Today")
+
+    def setSharesToAll(self):
+        for p in self.watch_list.position_list:
+            if self.current_ticker.get() == p['ticker']:
+                self.newTradeShares.set(p['current shares'])
+        
+    def newTradeDirChanged(self,event=None):
+        pass
+        
+    def trade_popup(self):
+        '''Enter a new trade'''
+        print("Does this execute?")
+        child = tk.Toplevel(self.master)
+        child.geometry("360x240")
+        child.title("Trade {}".format(self.current_ticker.get()))
+        child.grid_columnconfigure(0,weight=1)
+
+        self.newTradePrice = tk.DoubleVar(value=0) # Price of trade
+        self.newTradeDirection = tk.StringVar(value="Buy") # Buy or sell
+        self.newTradeShares = tk.IntVar(value=0) # Number of shares involved in the trade
+        self.newTradeDate = tk.StringVar(value="today") # Date of the trade
+        self.newTradeCom = tk.DoubleVar(value=0) # Commission charged for the trade
+        self.newTradeFee = tk.DoubleVar(value=0) # Fees charged for the trade
+
+        # Create elements
+        child.priceLabel = ttk.Label(child,text="Price per share")
+        child.directionLabel = ttk.Label(child,text="Buy/Sell")
+        child.tradeDirectionCombo = ttk.Combobox(child,textvariable=self.newTradeDirection)
+        child.tradeDirectionCombo['values'] = ["Buy","Sell"]
+        child.tradeDirectionCombo.bind('<<ComboboxSelected>>',self.newTradeDirChanged)
+            
+        child.sharesLabel = ttk.Label(child,text="Shares")
+        child.dateLabel = ttk.Label(child,text="Date")
+        child.comLabel = ttk.Label(child,text="Commission")
+        child.feeLabel = ttk.Label(child,text="Fees")
+
+        child.priceEntry = ttk.Entry(child,textvariable=self.newTradePrice)
+        child.dateEntry = ttk.Entry(child,textvariable=self.newTradeDate)
+        child.sharesEntry = ttk.Entry(child,textvariable=self.newTradeShares)
+        child.comEntry = ttk.Entry(child,textvariable=self.newTradeCom)
+        child.feeEntry = ttk.Entry(child,textvariable=self.newTradeFee)
+
+        child.todayPB = ttk.Button(child,text="Today",command=self.setDateToToday)
+        child.allSharesPB = ttk.Button(child,text="All",command=self.setSharesToAll)
+        child.okPB = ttk.Button(child,text="OK")
+        child.cancelPB = ttk.Button(child,text="Cancel",command=child.destroy)
+
+        # Place elements
+        child.directionLabel.grid(row=0,column=0,padx=2,pady=2)
+        child.tradeDirectionCombo.grid(row=0,column=1,padx=2,pady=2)
+        child.priceLabel.grid(row=1,column=0,padx=2,pady=2)
+        child.priceEntry.grid(row=1,column=1,padx=2,pady=2)
+        
+        child.dateLabel.grid(row=2,column=0,padx=2,pady=2)
+        child.dateEntry.grid(row=2,column=1,padx=2,pady=2)
+        child.todayPB.grid(row=2,column=2,padx=2,pady=2)
+
+        child.sharesLabel.grid(row=3,column=0,padx=2,pady=2)
+        child.sharesEntry.grid(row=3,column=1,padx=2,pady=2)
+        child.allSharesPB.grid(row=3,column=2,padx=2,pady=2)
+
+        child.comLabel.grid(row=4,column=0,padx=2,pady=2)
+        child.comEntry.grid(row=4,column=1,padx=2,pady=2)
+
+        child.feeLabel.grid(row=5,column=0,padx=2,pady=2)
+        child.feeEntry.grid(row=5,column=1,padx=2,pady=2)
+        child.okPB.grid(row=6,column=0,padx=2,pady=2)
+        child.cancelPB.grid(row=6,column=1,padx=2,pady=2)
+    
     def setPrice(self):
         for p in self.watch_list.position_list:
             if self.current_ticker.get() == p['ticker']:
@@ -204,6 +275,11 @@ class GUI:
 
         self.save()
         # Figure out how to destroy the window from here.
+
+    def enterTrade(self):
+        '''enters a new trade into the currently selected ticker'''
+        pass
+    
         
     def save(self):
         self.watch_list.save_positions()
@@ -223,16 +299,6 @@ class GUI:
         authorLabel.grid(row=0,column=0)
         versionLabel.grid(row=1,column=0)
         dateLabel.grid(row=2,column=0)
-
-    def trade_popup(self):
-        child = tk.Toplevel(self.master)
-        child.geometry("360x60")
-        child.title("Trade")
-        child.grid_columnconfigure(0,weight=1)
-
-        # Create widgets
-        
-        # Place widgets
 
     def ticker_changed(self,event=None):
         self.current_ticker.set(self.ticker.get())
