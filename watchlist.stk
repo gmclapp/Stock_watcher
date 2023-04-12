@@ -1,9 +1,9 @@
 [
     {
-        "portfolio value": 231722.80440029796,
+        "portfolio value": 233654.18340029794,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.03207015821870679
+        "average yield": 0.03180506718028026
     },
     [
         {
@@ -7968,6 +7968,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 5
+                },
+                {
+                    "b/s": "s",
+                    "date": "2023-4-10",
+                    "price": 32.2977,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 5
                 }
             ],
             "dividends": [
@@ -8086,15 +8094,15 @@
                     "total": 102.2
                 }
             ],
-            "cost basis": 37.35187719298247,
-            "current shares": 285,
+            "cost basis": 37.44213035714287,
+            "current shares": 280,
             "last price": 32.215,
             "last price date": "2023-4-10",
             "last dividend": 0.365,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 47.81507010014305,
-            "avg sell": 54.31574637681159
+            "avg sell": 54.053001193317414
         },
         {
             "ticker": "JNJ",
@@ -9871,6 +9879,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 10
+                },
+                {
+                    "b/s": "b",
+                    "date": "2023-4-10",
+                    "price": 102.4054,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 5
                 }
             ],
             "dividends": [
@@ -9935,14 +9951,14 @@
                     "total": 53.64
                 }
             ],
-            "cost basis": 135.73955,
-            "current shares": 46,
+            "cost basis": 132.4714960784314,
+            "current shares": 51,
             "last price": 102.39,
             "last price date": "2023-4-10",
             "last dividend": 1.49,
             "last yield date": "2022-10-18",
             "track": 1,
-            "avg buy": 159.79977874999997,
+            "avg buy": 156.4236388235294,
             "avg sell": 186.32714705882353
         },
         {
@@ -11208,6 +11224,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 25
+                },
+                {
+                    "b/s": "s",
+                    "date": "2023-4-10",
+                    "price": 123.7962,
+                    "commission": 0.0,
+                    "fees": 0.01,
+                    "shares": 5
                 }
             ],
             "dividends": [
@@ -11326,15 +11350,15 @@
                     "total": 22.5
                 }
             ],
-            "cost basis": 99.34714,
-            "current shares": 55,
+            "cost basis": 96.902034,
+            "current shares": 50,
             "last price": 123.385,
             "last price date": "2023-4-10",
             "last dividend": 0.75,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 80.95258370927317,
-            "avg sell": 77.35066337209302
+            "avg sell": 78.01607220630372
         },
         {
             "ticker": "RIVN",
