@@ -1,9 +1,9 @@
 [
     {
-        "portfolio value": 220812.18000029807,
+        "portfolio value": 218155.97000029805,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.03362353924493648
+        "average yield": 0.034768367787457934
     },
     [
         {
@@ -10579,6 +10579,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 25
+                },
+                {
+                    "b/s": "b",
+                    "date": "2023-5-25",
+                    "price": 183.37,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 1
                 }
             ],
             "dividends": [
@@ -10595,14 +10603,14 @@
                     "total": 28.749999999999996
                 }
             ],
-            "cost basis": 160.59560000000002,
-            "current shares": 25,
+            "cost basis": 161.47153846153847,
+            "current shares": 26,
             "last price": 184.89,
             "last price date": "2023-5-25",
             "last dividend": 1.15,
             "last yield date": "2022-10-18",
             "track": 1,
-            "avg buy": 171.4375,
+            "avg buy": 171.6714705882353,
             "avg sell": 179.975
         },
         {

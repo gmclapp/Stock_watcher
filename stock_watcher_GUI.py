@@ -195,7 +195,9 @@ class GUI:
         # self.current_ticker # contains string of the focused ticker.
 
     def setDateToToday(self):
-        self.newTradeDate.set("Today")
+        today = dt.date.today()
+        dateStr = str(today.year)+'-'+str(today.month)+'-'+str(today.day)
+        self.newTradeDate.set(dateStr)
 
     def setSharesToAll(self):
         for p in self.watch_list.position_list:
@@ -240,7 +242,7 @@ class GUI:
 
         child.todayPB = ttk.Button(child,text="Today",command=self.setDateToToday)
         child.allSharesPB = ttk.Button(child,text="All",command=self.setSharesToAll)
-        child.okPB = ttk.Button(child,text="OK")
+        child.okPB = ttk.Button(child,text="OK",command=self.enterTrade)
         child.cancelPB = ttk.Button(child,text="Cancel",command=child.destroy)
 
         # Place elements
@@ -278,10 +280,20 @@ class GUI:
 
     def enterTrade(self):
         '''enters a new trade into the currently selected ticker'''
-        pass
+        # Some error checking should be done in this method to insure bad data was not entered in
+        # any of the trade fields.
     
-        
+        self.watch_list.enter_order(self.newTradeDirection.get()[0:1].lower(),
+                                    self.newTradeDate.get(),
+                                    self.current_ticker.get(),
+                                    self.newTradeShares.get(),
+                                    self.newTradePrice.get(),
+                                    self.newTradeCom.get(),
+                                    self.newTradeFee.get())
+        self.save()
+            
     def save(self):
+        self.watch_list.calc_cost_basis()
         self.watch_list.save_positions()
         
     def open_about_popup(self):
