@@ -155,7 +155,7 @@ class GUI:
         self.trade_pb = ttk.Button(self.act_frame,text="Trade",command=self.trade_popup)
         self.edit_pb = ttk.Button(self.act_frame,text="Edit")
         self.update_pb = ttk.Button(self.act_frame,text="Update",command=self.update_all)
-        self.indicators_pb = ttk.Button(self.act_frame,text="Indicators")
+        self.indicators_pb = ttk.Button(self.act_frame,text="Indicators",command=self.run_indicators)
 
         # Place elements
         self.current_shares_label.grid(column=0,row=0,padx=2,pady=2,sticky='w')
@@ -185,6 +185,49 @@ class GUI:
             self.current_ticker.set(row["Symbol"])
             self.newPrice = tk.DoubleVar(value=row["Last Price"])
             self.setPrice()
+
+    def run_indicators(self):
+        ind_dict = {"Last Transaction":[], # Looks for opportunities to reverse the last transaction recorded
+                        "Matched Transactions":[], # Looks for opportunities to improve cost-basis
+                        "High Dividend Yield":[], # Looks for high dividend yields with respect to a specified target
+                        "Recent Passed Dividend":[], # Looks for opportunities in response to recent or upcoming ex-dates
+                        "Over-exposure":[], # Looks for opportunities to improve exposure with respect to a specified target
+                        "Dividend Yield and Exposure composite":[], # Weighs dividend target against exposure target and makes a recommendation
+                        "Cost Basis":[],# Looks at the last price compared to the cost basis of a position
+                        "Improve Buy Price":[],
+                        "Improve Sell Price":[]}
+        
+        last_transaction_indicator(self.watch_list,ind_dict,False) # Turn forcing off until code can be refactored, the price fetch it used no longer works.
+        print(ind_dict["Last Transaction"])
+        child = tk.Toplevel(self.master)
+        child.geometry("360x360")
+        child.title("Last Transaction Indicator")
+        child.grid_columnconfigure(0,weight=1)
+
+        lastTransactions = tk.StringVar()
+        indStrList = []
+        for i in ind_dict["Last Transaction"]:
+            indStrList.append("{:6}: ${:4.2f} {:4}".format(i["Ticker"], i["Score"],i["Direction"]))
+
+        lastTransactions.set(indStrList)
+            
+        self.indicatorFrame = tk.LabelFrame(child,
+                                         text="Scores")
+        self.indicatorLabels = ttk.Label(self.indicatorFrame,
+                                            text="Ticker\t\t      Score\t        Direction")
+
+        # Create elements
+        self.indList=tk.Listbox(self.indicatorFrame,
+                                   listvariable=lastTransactions,
+                                   height=6,
+                                   width=36,
+                                   font="Courier",
+                                   selectmode='extended')
+##        self.update_listboxes()
+        # Place elements
+        self.indicatorFrame.grid(column=0,row=0)
+        self.indicatorLabels.grid(column=0,row=0,padx=2,pady=2,sticky='w')
+        self.indList.grid(column=0,row=1,padx=2,pady=2,sticky='w')
             
     def update_price(self):
         ''' Manually update the price of a ticker'''
