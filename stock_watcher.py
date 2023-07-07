@@ -522,8 +522,6 @@ def last_transaction_indicator(watch_list, ind_dict,force_all=False):
             else:
                 pass
 
-##        print("\033[1A\033[K", end='')
-##        print("\033[1A\033[K", end='')
     return(watch_list, ind_dict)
 
 def improve_buy_indicator(watch_list, ind_dict,force_all=False):
