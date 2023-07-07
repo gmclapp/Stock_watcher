@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
+from tkinter.filedialog import askopenfile, asksaveasfilename, askdirectory
 import json
 from stock_watcher import *
 import datetime as dt
@@ -153,7 +154,7 @@ class GUI:
 
         self.trade_pb = ttk.Button(self.act_frame,text="Trade",command=self.trade_popup)
         self.edit_pb = ttk.Button(self.act_frame,text="Edit")
-        self.other_pb = ttk.Button(self.act_frame,text="Other")
+        self.update_pb = ttk.Button(self.act_frame,text="Update",command=self.update_all)
         self.indicators_pb = ttk.Button(self.act_frame,text="Indicators")
 
         # Place elements
@@ -172,9 +173,19 @@ class GUI:
 
         self.trade_pb.grid(column=2,row=0)
         self.edit_pb.grid(column=2,row=1)
-        self.other_pb.grid(column=2,row=2)
+        self.update_pb.grid(column=2,row=2)
         self.indicators_pb.grid(column=2,row=3)
 
+    def update_all(self):
+        filename = askopenfile().name
+        newPriceDF = pd.read_csv(filename)
+
+        for i,row in newPriceDF.iterrows():
+            print("{}: ${}".format(row["Symbol"],row["Last Price"]))
+            self.current_ticker.set(row["Symbol"])
+            self.newPrice = tk.DoubleVar(value=row["Last Price"])
+            self.setPrice()
+            
     def update_price(self):
         ''' Manually update the price of a ticker'''
         
@@ -192,7 +203,6 @@ class GUI:
         child.priceEntry.grid(row=0,column=0,columnspan=2)
         child.okPB.grid(row=1,column=0,padx=2,pady=2,sticky='w')
         child.cancelPB.grid(row=1,column=1,padx=2,pady=2,sticky='w')
-        # self.current_ticker # contains string of the focused ticker.
 
     def setDateToToday(self):
         today = dt.date.today()
