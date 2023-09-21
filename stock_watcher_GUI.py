@@ -285,10 +285,6 @@ class GUI:
         self.newDividendDateEntry = ttk.Entry(child,textvariable=self.newDividendDate)
         self.todayPB = ttk.Button(child,text="Today",command=self.setDivDateToToday)
 
-        self.newDivSharesLabel = ttk.Label(child,text="Shares")
-        self.newDivSharesEntry = ttk.Entry(child,textvariable=self.newDivShares)
-        self.newDivGetSharesAtDatePB = ttk.Button(child,text="Get Shares at Date",command=self.getSharesAtDate)
-        
         self.okPB = ttk.Button(child, text="OK",command=self.enterDividend)
         self.cancelPB = ttk.Button(child, text="Cancel",command=child.destroy)
 
@@ -390,10 +386,11 @@ class GUI:
         self.save()
 
     def enterDividend(self):
-        pass
+        self.getSharesAtDate()
 
     def getSharesAtDate(self):
-        pass
+        divdate = self.newDividendDate.get()
+        print("searching for number of shares at {}.".format(divdate))
     
     def save(self):
         self.watch_list.calc_cost_basis()
