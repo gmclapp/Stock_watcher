@@ -281,7 +281,7 @@ class GUI:
         # Create elements
         self.newDividendAmtLabel = ttk.Label(child,text="Dividend ($/share)")
         self.newDividendAmtEntry = ttk.Entry(child,textvariable=self.newDividendAmount)
-        self.newDividendDateLabel = ttk.Label(child,text="Dividend pay date")
+        self.newDividendDateLabel = ttk.Label(child,text="Dividend ex date")
         self.newDividendDateEntry = ttk.Entry(child,textvariable=self.newDividendDate)
         self.todayPB = ttk.Button(child,text="Today",command=self.setDivDateToToday)
 
@@ -386,13 +386,17 @@ class GUI:
         self.save()
 
     def enterDividend(self):
-        self.getSharesAtDate()
+        shares = self.getSharesAtDate()
+        self.watch_list.enter_dividend(self.current_ticker.get(),
+                                       self.newDividendDate.get(),
+                                       self.newDividendAmount.get(),
+                                       shares)
+        self.save()
 
     def getSharesAtDate(self):
         shares = self.watch_list.shares_at_date(self.current_ticker.get(),
                                                 parse_date(self.newDividendDate.get()))
-        print("found {} shares at {}.".format(shares,
-                                              self.newDividendDate.get()))
+        return(shares)
     
     def save(self):
         self.watch_list.calc_cost_basis()

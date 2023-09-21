@@ -1,9 +1,9 @@
 [
     {
-        "portfolio value": 179130.96000029804,
+        "portfolio value": 179075.46000029804,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.03570781287606206
+        "average yield": 0.03571887962755676
     },
     [
         {
@@ -12683,9 +12683,15 @@
                     "amount": 0.7,
                     "shares": 45,
                     "total": 31.499999999999996
+                },
+                {
+                    "date": "2022-12-20",
+                    "amount": 0.7,
+                    "shares": 95,
+                    "total": 66.5
                 }
             ],
-            "cost basis": 20.934915000000004,
+            "cost basis": 19.826581666666673,
             "current shares": 60,
             "last price": 66.32,
             "last price date": "2023-9-20",
