@@ -156,6 +156,7 @@ class GUI:
         self.edit_pb = ttk.Button(self.act_frame,text="Edit")
         self.update_pb = ttk.Button(self.act_frame,text="Update",command=self.update_all)
         self.indicators_pb = ttk.Button(self.act_frame,text="Indicators",command=self.run_indicators)
+        self.dividends_pb = ttk.Button(self.act_frame,text="Dividends",command=self.get_dividends)
 
         # Place elements
         self.current_shares_label.grid(column=0,row=0,padx=2,pady=2,sticky='w')
@@ -175,6 +176,7 @@ class GUI:
         self.edit_pb.grid(column=2,row=1)
         self.update_pb.grid(column=2,row=2)
         self.indicators_pb.grid(column=2,row=3)
+        self.dividends_pb.grid(column=3,row=0)
 
     def update_all(self):
         filename = askopenfile().name
@@ -252,6 +254,11 @@ class GUI:
         dateStr = str(today.year)+'-'+str(today.month)+'-'+str(today.day)
         self.newTradeDate.set(dateStr)
 
+    def setDivDateToToday(self):
+        today = dt.date.today()
+        dateStr = str(today.year)+'-'+str(today.month)+'-'+str(today.day)
+        self.newDividendDate.set(dateStr)
+        
     def setSharesToAll(self):
         for p in self.watch_list.position_list:
             if self.current_ticker.get() == p['ticker']:
@@ -259,10 +266,47 @@ class GUI:
         
     def newTradeDirChanged(self,event=None):
         pass
+
+    def get_dividends(self):
+        '''open a popup allowing the user to enter dividends for the active position.'''
+        child = tk.Toplevel(self.master)
+        child.geometry("360x240")
+        child.title("Enter Dividend - {}".format(self.current_ticker.get()))
+        child.grid_columnconfigure(0,weight=1)
+
+        self.newDividendAmount = tk.DoubleVar(value=0) # Amount per share of dividend
+        self.newDividendDate = tk.StringVar(value="yyyy-mm-dd") # Date of the dividend
+        self.newDivShares = tk.IntVar(value=0) # Number of shares at the time the dividend was paid
+
+        # Create elements
+        self.newDividendAmtLabel = ttk.Label(child,text="Dividend ($/share)")
+        self.newDividendAmtEntry = ttk.Entry(child,textvariable=self.newDividendAmount)
+        self.newDividendDateLabel = ttk.Label(child,text="Dividend pay date")
+        self.newDividendDateEntry = ttk.Entry(child,textvariable=self.newDividendDate)
+        self.todayPB = ttk.Button(child,text="Today",command=self.setDivDateToToday)
+
+        self.newDivSharesLabel = ttk.Label(child,text="Shares")
+        self.newDivSharesEntry = ttk.Entry(child,textvariable=self.newDivShares)
+        self.newDivGetSharesAtDatePB = ttk.Button(child,text="Get Shares at Date",command=self.getSharesAtDate)
+        
+        self.okPB = ttk.Button(child, text="OK",command=self.enterDividend)
+        self.cancelPB = ttk.Button(child, text="Cancel",command=child.destroy)
+
+        # Place elements
+        self.newDividendAmtLabel.grid(row=0,column=0)
+        self.newDividendAmtEntry.grid(row=0,column=1)
+
+        self.newDividendDateLabel.grid(row=1,column=0)
+        self.newDividendDateEntry.grid(row=1,column=1)
+        self.todayPB.grid(row=1,column=2)
+
+        
+                                              
+        self.okPB.grid(row=2,column=0)
+        self.cancelPB.grid(row=2,column=1)
         
     def trade_popup(self):
         '''Enter a new trade'''
-        print("Does this execute?")
         child = tk.Toplevel(self.master)
         child.geometry("360x240")
         child.title("Trade {}".format(self.current_ticker.get()))
@@ -271,7 +315,7 @@ class GUI:
         self.newTradePrice = tk.DoubleVar(value=0) # Price of trade
         self.newTradeDirection = tk.StringVar(value="Buy") # Buy or sell
         self.newTradeShares = tk.IntVar(value=0) # Number of shares involved in the trade
-        self.newTradeDate = tk.StringVar(value="today") # Date of the trade
+        self.newTradeDate = tk.StringVar(value="yyyy-mm-dd") # Date of the trade
         self.newTradeCom = tk.DoubleVar(value=0) # Commission charged for the trade
         self.newTradeFee = tk.DoubleVar(value=0) # Fees charged for the trade
 
@@ -344,7 +388,13 @@ class GUI:
                                     self.newTradeCom.get(),
                                     self.newTradeFee.get())
         self.save()
-            
+
+    def enterDividend(self):
+        pass
+
+    def getSharesAtDate(self):
+        pass
+    
     def save(self):
         self.watch_list.calc_cost_basis()
         self.watch_list.save_positions()
