@@ -389,8 +389,10 @@ class GUI:
         self.getSharesAtDate()
 
     def getSharesAtDate(self):
-        divdate = self.newDividendDate.get()
-        print("searching for number of shares at {}.".format(divdate))
+        shares = self.watch_list.shares_at_date(self.current_ticker.get(),
+                                                parse_date(self.newDividendDate.get()))
+        print("found {} shares at {}.".format(shares,
+                                              self.newDividendDate.get()))
     
     def save(self):
         self.watch_list.calc_cost_basis()
