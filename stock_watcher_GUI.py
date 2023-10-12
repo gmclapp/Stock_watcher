@@ -391,6 +391,7 @@ class GUI:
                                        self.newDividendDate.get(),
                                        self.newDividendAmount.get(),
                                        shares)
+        self.update_listboxes()
         self.save()
 
     def getSharesAtDate(self):
