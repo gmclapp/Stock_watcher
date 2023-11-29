@@ -1,9 +1,9 @@
 [
     {
-        "portfolio value": 155863.600000298,
+        "portfolio value": 158528.68800029808,
         "exposure target": 0.025,
         "dividend target": 0.0325,
-        "average yield": 0.03844884116617697
+        "average yield": NaN
     },
     [
         {
@@ -458,9 +458,15 @@
                     "amount": 0.24,
                     "shares": 10,
                     "total": 2.4
+                },
+                {
+                    "date": "2023-11-10",
+                    "amount": 0.24,
+                    "shares": 3,
+                    "total": 0.72
                 }
             ],
-            "cost basis": -876.7788666666656,
+            "cost basis": -877.0188666666655,
             "current shares": 3,
             "last price": 190.41,
             "last price date": "2023-11-21",
@@ -6756,6 +6762,14 @@
                     "commission": 0.0,
                     "fees": 0.02,
                     "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2023-11-29",
+                    "price": 31.8242,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 15
                 }
             ],
             "dividends": [
@@ -6836,16 +6850,46 @@
                     "amount": 0.09,
                     "shares": 115,
                     "total": 10.35
+                },
+                {
+                    "date": "2022-12-01",
+                    "amount": 0.09,
+                    "shares": 100,
+                    "total": 9.0
+                },
+                {
+                    "date": "2023-03-02",
+                    "amount": 0.09,
+                    "shares": 100,
+                    "total": 9.0
+                },
+                {
+                    "date": "2023-06-01",
+                    "amount": 0.09,
+                    "shares": 100,
+                    "total": 9.0
+                },
+                {
+                    "date": "2023-08-31",
+                    "amount": 0.09,
+                    "shares": 100,
+                    "total": 9.0
+                },
+                {
+                    "date": "2023-11-30",
+                    "amount": 0.09,
+                    "shares": 115,
+                    "total": 10.35
                 }
             ],
-            "cost basis": 23.09372800000002,
-            "current shares": 100,
+            "cost basis": 23.829441739130452,
+            "current shares": 115,
             "last price": 27.78,
             "last price date": "2023-11-21",
             "last dividend": 0.09,
             "last yield date": "2022-10-18",
             "track": true,
-            "avg buy": 36.613319109947646,
+            "avg buy": 36.521102439024396,
             "avg sell": 38.49673644578313
         },
         {
@@ -9876,9 +9920,39 @@
                     "amount": 0.08,
                     "shares": 290,
                     "total": 23.2
+                },
+                {
+                    "date": "2022-11-14",
+                    "amount": 0.08,
+                    "shares": 290,
+                    "total": 23.2
+                },
+                {
+                    "date": "2023-02-10",
+                    "amount": 0.08,
+                    "shares": 290,
+                    "total": 23.2
+                },
+                {
+                    "date": "2023-05-12",
+                    "amount": 0.08,
+                    "shares": 290,
+                    "total": 23.2
+                },
+                {
+                    "date": "2023-08-14",
+                    "amount": 0.08,
+                    "shares": 290,
+                    "total": 23.2
+                },
+                {
+                    "date": "2023-11-13",
+                    "amount": 0.08,
+                    "shares": 290,
+                    "total": 23.2
                 }
             ],
-            "cost basis": 8.17707931034483,
+            "cost basis": 7.777079310344832,
             "current shares": 290,
             "last price": 9.85,
             "last price date": "2023-11-21",
