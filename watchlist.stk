@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 160580.23000029803,
+        "portfolio value": 169582.000000298,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -11557,18 +11557,26 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 100
+                },
+                {
+                    "b/s": "s",
+                    "date": "2024-2-16",
+                    "price": 2.7,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 100
                 }
             ],
             "dividends": [],
-            "cost basis": 5.718561904761905,
-            "current shares": 210,
+            "cost basis": 8.46270909090909,
+            "current shares": 110,
             "last price": 1.97,
             "last price date": "2024-2-6",
             "last dividend": 0,
             "last yield date": "2021-9-3",
             "track": 1,
             "avg buy": 5.4748535714285715,
-            "avg sell": 5.328571428571428
+            "avg sell": 4.7444444444444445
         },
         {
             "ticker": "QCOM",
@@ -11990,18 +11998,26 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 3
+                },
+                {
+                    "b/s": "b",
+                    "date": "2024-2-16",
+                    "price": 16.1899,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 6
                 }
             ],
             "dividends": [],
-            "cost basis": 41.9482754385965,
-            "current shares": 57,
+            "cost basis": 39.495096825396836,
+            "current shares": 63,
             "last price": 14.99,
             "last price date": "2024-2-6",
             "last dividend": 0,
             "last yield date": "2021-11-16",
             "track": 1,
-            "avg buy": 41.9482754385965,
-            "avg sell": 41.9482754385965
+            "avg buy": 39.495096825396836,
+            "avg sell": 39.495096825396836
         },
         {
             "ticker": "ROK",
