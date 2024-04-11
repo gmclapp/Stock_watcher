@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 174607.88800029797,
+        "portfolio value": 176237.99800029796,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -11891,6 +11891,14 @@
                     "commission": 0.0,
                     "fees": 0.01,
                     "shares": 5
+                },
+                {
+                    "b/s": "s",
+                    "date": "2024-4-11",
+                    "price": 172.94,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 10
                 }
             ],
             "dividends": [
@@ -12009,15 +12017,15 @@
                     "total": 22.5
                 }
             ],
-            "cost basis": 96.902034,
-            "current shares": 50,
+            "cost basis": 77.8925425,
+            "current shares": 40,
             "last price": 172.26,
             "last price date": "2024-3-21",
             "last dividend": 0.75,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 80.95258370927317,
-            "avg sell": 78.01607220630372
+            "avg sell": 80.66019275766017
         },
         {
             "ticker": "RIVN",
@@ -14187,18 +14195,26 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 40
+                },
+                {
+                    "b/s": "b",
+                    "date": "2024-4-11",
+                    "price": 25.87,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 35
                 }
             ],
             "dividends": [],
-            "cost basis": 35.9,
-            "current shares": 40,
+            "cost basis": 31.21933333333333,
+            "current shares": 75,
             "last price": 35.9,
             "last price date": "2023-9-15",
             "last dividend": 0,
             "last yield date": "2023-9-15",
             "track": 1,
-            "avg buy": 35.9,
-            "avg sell": 35.9
+            "avg buy": 31.21933333333333,
+            "avg sell": 31.21933333333333
         },
         {
             "ticker": "VZ",
