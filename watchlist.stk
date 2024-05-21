@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 174146.19800029797,
+        "portfolio value": 179542.489600298,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -5682,9 +5682,27 @@
                     "amount": 0.15,
                     "shares": 220,
                     "total": 33.0
+                },
+                {
+                    "date": "2024-2-15",
+                    "amount": 0.18,
+                    "shares": 220,
+                    "total": 39.6
+                },
+                {
+                    "date": "2024-2-15",
+                    "amount": 0.15,
+                    "shares": 220,
+                    "total": 33.0
+                },
+                {
+                    "date": "2024-5-8",
+                    "amount": 0.15,
+                    "shares": 220,
+                    "total": 33.0
                 }
             ],
-            "cost basis": 4.614618181818187,
+            "cost basis": 4.134618181818188,
             "current shares": 220,
             "last price": 12.4,
             "last price date": "2024-5-13",
@@ -7407,6 +7425,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 10
+                },
+                {
+                    "b/s": "b",
+                    "date": "2024-5-21",
+                    "price": 333.18,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 10
                 }
             ],
             "dividends": [
@@ -7477,14 +7503,14 @@
                     "total": 13.299999999999999
                 }
             ],
-            "cost basis": 170.81210000000007,
-            "current shares": 5,
+            "cost basis": 279.0573666666666,
+            "current shares": 15,
             "last price": 345.19,
             "last price date": "2024-5-13",
             "last dividend": 1.9,
             "last yield date": "2022-10-18",
             "track": 1,
-            "avg buy": 265.2315326530612,
+            "avg buy": 276.7482220338983,
             "avg sell": 273.8257863636363
         },
         {
