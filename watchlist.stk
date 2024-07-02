@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 179542.489600298,
+        "portfolio value": 179140.389600298,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -2468,6 +2468,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 60
+                },
+                {
+                    "b/s": "s",
+                    "date": "2024-6-03",
+                    "price": 40.0,
+                    "commission": 0.0,
+                    "fees": 0.12,
+                    "shares": 100
                 }
             ],
             "dividends": [
@@ -2574,15 +2582,15 @@
                     "total": 38.4
                 }
             ],
-            "cost basis": 33.369618749999994,
-            "current shares": 160,
+            "cost basis": 22.316983333333337,
+            "current shares": 60,
             "last price": 38.54,
             "last price date": "2024-5-13",
             "last dividend": 0.22,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 36.09063733333334,
-            "avg sell": 36.95944186046511
+            "avg sell": 37.92469841269841
         },
         {
             "ticker": "BBY",
@@ -9830,6 +9838,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 3
+                },
+                {
+                    "b/s": "s",
+                    "date": "2024-6-28",
+                    "price": 465.93,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 13
                 }
             ],
             "dividends": [
@@ -9876,15 +9892,15 @@
                     "total": 36.4
                 }
             ],
-            "cost basis": 437.9030384615386,
-            "current shares": 13,
+            "cost basis": 0,
+            "current shares": 0,
             "last price": 471.38,
             "last price date": "2024-5-13",
             "last dividend": 2.8,
             "last yield date": "2022-10-18",
             "track": 1,
             "avg buy": 414.7743260869565,
-            "avg sell": 371.765
+            "avg sell": 424.98869565217393
         },
         {
             "ticker": "MCBC",
@@ -10825,6 +10841,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 12
+                },
+                {
+                    "b/s": "s",
+                    "date": "2024-6-28",
+                    "price": 450.3115,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 10
                 }
             ],
             "dividends": [
@@ -10907,15 +10931,15 @@
                     "total": 13.64
                 }
             ],
-            "cost basis": 100.43386000000002,
-            "current shares": 10,
+            "cost basis": 0,
+            "current shares": 0,
             "last price": 412.76,
             "last price date": "2024-5-13",
             "last dividend": 0.62,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 210.10320360360362,
-            "avg sell": 220.44383168316833
+            "avg sell": 241.15263063063065
         },
         {
             "ticker": "NKE",
@@ -11046,6 +11070,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 46
+                },
+                {
+                    "b/s": "s",
+                    "date": "2024-6-28",
+                    "price": 81.2827,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 25
                 }
             ],
             "dividends": [
@@ -11086,15 +11118,15 @@
                     "total": 84.15
                 }
             ],
-            "cost basis": 61.17950777777777,
-            "current shares": 90,
+            "cost basis": 53.44751076923077,
+            "current shares": 65,
             "last price": 80.43,
             "last price date": "2024-5-13",
             "last dividend": 0.935,
             "last yield date": "2022-10-18",
             "track": 1,
             "avg buy": 58.303217596566526,
-            "avg sell": 54.89709090909092
+            "avg sell": 58.82352083333334
         },
         {
             "ticker": "PCRFF",
@@ -11678,18 +11710,26 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 100
+                },
+                {
+                    "b/s": "s",
+                    "date": "2024-6-28",
+                    "price": 0.9794,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 110
                 }
             ],
             "dividends": [],
-            "cost basis": 8.46270909090909,
-            "current shares": 110,
+            "cost basis": 0,
+            "current shares": 0,
             "last price": 1.88,
             "last price date": "2024-5-13",
             "last dividend": 0,
             "last yield date": "2021-9-3",
             "track": 1,
             "avg buy": 5.4748535714285715,
-            "avg sell": 4.7444444444444445
+            "avg sell": 4.004882142857142
         },
         {
             "ticker": "QCOM",
@@ -11957,6 +11997,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 10
+                },
+                {
+                    "b/s": "s",
+                    "date": "2024-6-28",
+                    "price": 199.52,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 10
                 }
             ],
             "dividends": [
@@ -12075,15 +12123,15 @@
                     "total": 22.5
                 }
             ],
-            "cost basis": 77.8925425,
-            "current shares": 40,
+            "cost basis": 37.35005666666663,
+            "current shares": 30,
             "last price": 184.01,
             "last price date": "2024-5-13",
             "last dividend": 0.75,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 80.95258370927317,
-            "avg sell": 80.66019275766017
+            "avg sell": 83.88132574525746
         },
         {
             "ticker": "RIVN",
