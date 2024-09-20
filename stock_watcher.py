@@ -4,12 +4,12 @@ import matplotlib.pyplot as plt
 from matplotlib import style
 import numpy as np
 import pandas as pd
-import pandas_datareader.data as web
+# import pandas_datareader.data as web
 import json
 import sys
 import os
-import sanitize_inputs as si # version 0.3.0
-import misc_functions as mf # version 0.2.6
+# import sanitize_inputs as si # version 0.3.0
+# import misc_functions as mf # version 0.2.6
 
 __version__ = '0.8.1'
 #os.system("mode con cols=60 lines=60")
