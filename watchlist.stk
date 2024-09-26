@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 164827.199600298,
+        "portfolio value": 173605.89960029794,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -15781,6 +15781,45 @@
             "track": false,
             "avg buy": 29.519987096774194,
             "avg sell": 35.84232580645161
+        },
+        {
+            "ticker": "WS",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2023-12-01",
+                    "price": 102.0,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 102
+                },
+                {
+                    "b/s": "s",
+                    "date": "2024-03-11",
+                    "price": 52.0,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 52
+                },
+                {
+                    "b/s": "b",
+                    "date": "2024-9-26",
+                    "price": 33.8369,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 50
+                }
+            ],
+            "dividends": [],
+            "cost basis": 73.89229999999999,
+            "current shares": 150,
+            "last price": 33.84,
+            "last price date": "2024-9-26",
+            "last dividend": 0,
+            "last yield date": "2024-9-26",
+            "track": 1,
+            "avg buy": 68.25665841584158,
+            "avg sell": 52.0
         },
         {
             "ticker": "XOM",
