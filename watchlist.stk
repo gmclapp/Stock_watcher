@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 173605.89960029794,
+        "portfolio value": 175297.89960029794,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -3706,6 +3706,22 @@
                     "commission": 0.0,
                     "fees": 0.15,
                     "shares": 180
+                },
+                {
+                    "b/s": "b",
+                    "date": "2023-10-12",
+                    "price": 33.24,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 27
+                },
+                {
+                    "b/s": "b",
+                    "date": "2024-9-27",
+                    "price": 43.88,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 83
                 }
             ],
             "dividends": [
@@ -3788,14 +3804,14 @@
                     "total": 62.99999999999999
                 }
             ],
-            "cost basis": 0,
-            "current shares": 0,
+            "cost basis": 25.78155454545455,
+            "current shares": 110,
             "last price": 39.41,
             "last price date": "2024-5-13",
             "last dividend": 0.35,
             "last yield date": "2022-9-23",
             "track": true,
-            "avg buy": 28.706106999999996,
+            "avg buy": 30.971431967213114,
             "avg sell": 31.613925000000002
         },
         {
@@ -15811,14 +15827,14 @@
                 }
             ],
             "dividends": [],
-            "cost basis": 73.89229999999999,
-            "current shares": 150,
+            "cost basis": 93.91844999999999,
+            "current shares": 100,
             "last price": 33.84,
             "last price date": "2024-9-26",
             "last dividend": 0,
             "last yield date": "2024-9-26",
             "track": 1,
-            "avg buy": 68.25665841584158,
+            "avg buy": 79.57792763157894,
             "avg sell": 52.0
         },
         {
