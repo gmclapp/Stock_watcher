@@ -2866,6 +2866,22 @@
                     "commission": 0.0,
                     "fees": 0.03,
                     "shares": 40
+                },
+                {
+                    "b/s": "b",
+                    "date": "2024-9-5",
+                    "price": 98.98,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 45
+                },
+                {
+                    "b/s": "s",
+                    "date": "2024-9-5",
+                    "price": 98.98,
+                    "commission": 0.0,
+                    "fees": 0.13,
+                    "shares": 45
                 }
             ],
             "dividends": [
