@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 179632.99960029795,
+        "portfolio value": 179942.99960029795,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -694,6 +694,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 13
+                },
+                {
+                    "b/s": "s",
+                    "date": "2024-11-22",
+                    "price": 177.35,
+                    "commission": 0.0,
+                    "fees": 0.08,
+                    "shares": 15
                 }
             ],
             "dividends": [
@@ -818,15 +826,15 @@
                     "total": 39.96
                 }
             ],
-            "cost basis": 115.73365666666665,
-            "current shares": 30,
+            "cost basis": 54.11197999999999,
+            "current shares": 15,
             "last price": 161.69,
             "last price date": "2024-5-13",
             "last dividend": 1.41,
             "last yield date": "2022-9-23",
             "track": true,
             "avg buy": 106.39737172774869,
-            "avg sell": 101.37005155279503
+            "avg sell": 107.84561534090909
         },
         {
             "ticker": "AMC",
@@ -3024,15 +3032,15 @@
                     "total": 59.800000000000004
                 }
             ],
-            "cost basis": 4.8606719999999655,
+            "cost basis": 4.855471999999943,
             "current shares": 25,
             "last price": 75.12,
             "last price date": "2024-5-13",
             "last dividend": 0.88,
             "last yield date": "2022-12-14",
             "track": true,
-            "avg buy": 73.5882,
-            "avg sell": 77.13887863247864
+            "avg buy": 76.30228788598575,
+            "avg sell": 79.62082424242425
         },
         {
             "ticker": "BEPC",
@@ -5104,6 +5112,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 40
+                },
+                {
+                    "b/s": "s",
+                    "date": "2024-11-22",
+                    "price": 63.14,
+                    "commission": 0.0,
+                    "fees": 0.08,
+                    "shares": 40
                 }
             ],
             "dividends": [
@@ -5180,15 +5196,15 @@
                     "total": 26.4
                 }
             ],
-            "cost basis": 48.62323125,
-            "current shares": 80,
+            "cost basis": 34.104462500000004,
+            "current shares": 40,
             "last price": 52.09,
             "last price date": "2024-5-13",
             "last dividend": 0.22,
             "last yield date": "2022-10-18",
             "track": 1,
             "avg buy": 48.68236666666667,
-            "avg sell": 48.301996875
+            "avg sell": 51.2695975
         },
         {
             "ticker": "F",
@@ -7513,6 +7529,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 10
+                },
+                {
+                    "b/s": "s",
+                    "date": "2024-11-22",
+                    "price": 416.14,
+                    "commission": 0.0,
+                    "fees": 0.1,
+                    "shares": 8
                 }
             ],
             "dividends": [
@@ -7583,15 +7607,15 @@
                     "total": 13.299999999999999
                 }
             ],
-            "cost basis": 279.0573666666666,
-            "current shares": 15,
+            "cost basis": 122.3772142857144,
+            "current shares": 7,
             "last price": 345.19,
             "last price date": "2024-5-13",
             "last dividend": 1.9,
             "last yield date": "2022-10-18",
             "track": 1,
             "avg buy": 276.7482220338983,
-            "avg sell": 273.8257863636363
+            "avg sell": 295.7202807692307
         },
         {
             "ticker": "HOG",
@@ -7855,18 +7879,26 @@
                     "commission": 0.0,
                     "fees": 0.03,
                     "shares": 100
+                },
+                {
+                    "b/s": "s",
+                    "date": "2024-11-22",
+                    "price": 36.49,
+                    "commission": 0.0,
+                    "fees": 0.02,
+                    "shares": 15
                 }
             ],
             "dividends": [],
-            "cost basis": 28.08386666666667,
-            "current shares": 15,
+            "cost basis": 0,
+            "current shares": 0,
             "last price": 17.55,
             "last price date": "2024-5-13",
             "last dividend": 0,
             "last yield date": "2021-11-22",
             "track": 1,
             "avg buy": 12.628591304347827,
-            "avg sell": 10.31
+            "avg sell": 13.724782608695651
         },
         {
             "ticker": "IBM",
@@ -8230,6 +8262,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 25
+                },
+                {
+                    "b/s": "s",
+                    "date": "2024-11-22",
+                    "price": 222.39,
+                    "commission": 0.0,
+                    "fees": 0.1,
+                    "shares": 15
                 }
             ],
             "dividends": [
@@ -8348,15 +8388,15 @@
                     "total": 82.5
                 }
             ],
-            "cost basis": 45.01608,
-            "current shares": 25,
+            "cost basis": -221.05480000000003,
+            "current shares": 10,
             "last price": 167.65,
             "last price date": "2024-5-13",
             "last dividend": 1.65,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 130.21803957597172,
-            "avg sell": 136.53291937984494
+            "avg sell": 141.2503413919414
         },
         {
             "ticker": "INTC",
@@ -10637,6 +10677,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 5
+                },
+                {
+                    "b/s": "s",
+                    "date": "2024-11-22",
+                    "price": 127.89,
+                    "commission": 0.0,
+                    "fees": 0.1,
+                    "shares": 26
                 }
             ],
             "dividends": [
@@ -10701,15 +10749,15 @@
                     "total": 53.64
                 }
             ],
-            "cost basis": 132.4714960784314,
-            "current shares": 51,
+            "cost basis": 137.23225200000002,
+            "current shares": 25,
             "last price": 100.88,
             "last price date": "2024-5-13",
             "last dividend": 1.49,
             "last yield date": "2022-10-18",
             "track": 1,
             "avg buy": 156.4236388235294,
-            "avg sell": 186.32714705882353
+            "avg sell": 161.00438333333332
         },
         {
             "ticker": "MSFT",
@@ -11190,6 +11238,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 35
+                },
+                {
+                    "b/s": "s",
+                    "date": "2024-11-22",
+                    "price": 117.38,
+                    "commission": 0.0,
+                    "fees": 0.06,
+                    "shares": 17
                 }
             ],
             "dividends": [
@@ -11230,15 +11286,15 @@
                     "total": 84.15
                 }
             ],
-            "cost basis": 53.45084923076923,
-            "current shares": 65,
+            "cost basis": 30.80802499999999,
+            "current shares": 48,
             "last price": 80.43,
             "last price date": "2024-5-13",
             "last dividend": 0.935,
             "last yield date": "2022-10-18",
             "track": 1,
             "avg buy": 61.90592985074627,
-            "avg sell": 63.489034482758626
+            "avg sell": 67.65333636363637
         },
         {
             "ticker": "PCRFF",
@@ -13768,6 +13824,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 160
+                },
+                {
+                    "b/s": "s",
+                    "date": "2024-11-25",
+                    "price": 23.19,
+                    "commission": 0.0,
+                    "fees": 0.1,
+                    "shares": 150
                 }
             ],
             "dividends": [
@@ -13886,15 +13950,15 @@
                     "total": 86.18
                 }
             ],
-            "cost basis": 20.678375806451616,
-            "current shares": 310,
+            "cost basis": 18.32310312500001,
+            "current shares": 160,
             "last price": 17.24,
             "last price date": "2024-5-13",
             "last dividend": 0.278,
             "last yield date": "2022-9-23",
             "track": true,
             "avg buy": 27.762411646586344,
-            "avg sell": 29.525771122994655
+            "avg sell": 28.64985806451613
         },
         {
             "ticker": "TGT",
