@@ -12144,18 +12144,26 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 2
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-1-3",
+                    "price": 15.89,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 4
                 }
             ],
             "dividends": [],
-            "cost basis": 24.80771556886228,
-            "current shares": 167,
+            "cost basis": 25.02655521472393,
+            "current shares": 163,
             "last price": 13.2537,
             "last price date": "2025-1-2",
             "last dividend": 0,
             "last yield date": "2021-11-16",
             "track": 1,
             "avg buy": 24.80771556886228,
-            "avg sell": 24.80771556886228
+            "avg sell": 15.89
         },
         {
             "ticker": "ROK",
