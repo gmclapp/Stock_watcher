@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 168874.974700298,
+        "portfolio value": 169552.875700298,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -4680,6 +4680,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 15
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-1-23",
+                    "price": 157.22,
+                    "commission": 0.0,
+                    "fees": 0.04,
+                    "shares": 7
                 }
             ],
             "dividends": [
@@ -4780,15 +4788,15 @@
                     "total": 55.379999999999995
                 }
             ],
-            "cost basis": 152.5190783333333,
-            "current shares": 60,
+            "cost basis": 151.89744716981127,
+            "current shares": 53,
             "last price": 165.98,
             "last price date": "2024-5-13",
             "last dividend": 1.42,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 131.29190991379312,
-            "avg sell": 121.90882790697677
+            "avg sell": 123.2897117318436
         },
         {
             "ticker": "DFS",
@@ -5205,6 +5213,29 @@
             "track": 1,
             "avg buy": 48.68236666666667,
             "avg sell": 51.2695975
+        },
+        {
+            "ticker": "EIX",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2025-1-8",
+                    "price": 67.7901,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 10
+                }
+            ],
+            "dividends": [],
+            "cost basis": 67.7901,
+            "current shares": 10,
+            "last price": 67.7901,
+            "last price date": "2025-1-8",
+            "last dividend": 0,
+            "last yield date": "2025-1-8",
+            "track": 1,
+            "avg buy": 67.7901,
+            "avg sell": 67.7901
         },
         {
             "ticker": "F",
@@ -16277,29 +16308,6 @@
             "track": true,
             "avg buy": 79.06930107526881,
             "avg sell": 82.92066849315069
-        },
-        {
-            "ticker": "EIX",
-            "transactions": [
-                {
-                    "b/s": "b",
-                    "date": "2025-1-8",
-                    "price": 67.7901,
-                    "commission": 0.0,
-                    "fees": 0.0,
-                    "shares": 10
-                }
-            ],
-            "dividends": [],
-            "cost basis": 67.7901,
-            "current shares": 10,
-            "last price": 67.7901,
-            "last price date": "2025-1-8",
-            "last dividend": 0,
-            "last yield date": "2025-1-8",
-            "track": 1,
-            "avg buy": 67.7901,
-            "avg sell": 67.7901
         }
     ]
 ]
