@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 168391.01570029798,
+        "portfolio value": 169333.775700298,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -7794,6 +7794,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 25
+                },
+                {
+                    "b/s": "b",
+                    "date": "2025-2-28",
+                    "price": 26.28,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 28
                 }
             ],
             "dividends": [
@@ -7882,14 +7890,14 @@
                     "total": 7.9
                 }
             ],
-            "cost basis": 23.992280000000008,
-            "current shares": 50,
+            "cost basis": 24.81351282051283,
+            "current shares": 78,
             "last price": 35.42,
             "last price date": "2024-5-13",
             "last dividend": 0.158,
             "last yield date": "2022-10-18",
             "track": 1,
-            "avg buy": 36.70738363636363,
+            "avg buy": 35.74379702970297,
             "avg sell": 39.000117777777774
         },
         {
@@ -15744,17 +15752,25 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 50
+                },
+                {
+                    "b/s": "b",
+                    "date": "2025-2-28",
+                    "price": 26.75,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 4
                 }
             ],
             "dividends": [],
-            "cost basis": 93.91844999999999,
-            "current shares": 100,
+            "cost basis": 91.33504807692307,
+            "current shares": 104,
             "last price": 33.84,
             "last price date": "2024-9-26",
             "last dividend": 0,
             "last yield date": "2024-9-26",
             "track": 1,
-            "avg buy": 79.57792763157894,
+            "avg buy": 78.22336538461538,
             "avg sell": 52.0
         },
         {
@@ -15895,6 +15911,14 @@
                     "commission": 0.0,
                     "fees": 0.01,
                     "shares": 150
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-2-28",
+                    "price": 123.09,
+                    "commission": 0.0,
+                    "fees": 0.03,
+                    "shares": 6
                 }
             ],
             "dividends": [
@@ -16019,15 +16043,15 @@
                     "total": 23.2
                 }
             ],
-            "cost basis": 7.777079310344832,
-            "current shares": 290,
+            "cost basis": 5.340785211267604,
+            "current shares": 284,
             "last price": 14.53,
             "last price date": "2024-5-13",
             "last dividend": 0.08,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 9.545861956521739,
-            "avg sell": 9.851650793650794
+            "avg sell": 10.919937106918239
         },
         {
             "ticker": "XOM",
