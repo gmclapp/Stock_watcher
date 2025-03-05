@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 169333.775700298,
+        "portfolio value": 170373.715700298,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -2890,6 +2890,14 @@
                     "commission": 0.0,
                     "fees": 0.13,
                     "shares": 45
+                },
+                {
+                    "b/s": "b",
+                    "date": "2025-3-4",
+                    "price": 75.0001,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 5
                 }
             ],
             "dividends": [
@@ -3032,15 +3040,15 @@
                     "total": 59.800000000000004
                 }
             ],
-            "cost basis": 4.855471999999943,
-            "current shares": 25,
+            "cost basis": 251.5612700000001,
+            "current shares": -10,
             "last price": 75.12,
             "last price date": "2024-5-13",
             "last dividend": 0.88,
             "last yield date": "2022-12-14",
             "track": true,
-            "avg buy": 76.30228788598575,
-            "avg sell": 79.62082424242425
+            "avg buy": 76.28700399061033,
+            "avg sell": 79.22441834862386
         },
         {
             "ticker": "BEPC",
