@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 170006.31570029797,
+        "portfolio value": 198242.93300029804,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -4704,6 +4704,14 @@
                     "commission": 0.0,
                     "fees": 0.04,
                     "shares": 7
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-3-24",
+                    "price": 164.44,
+                    "commission": 0.0,
+                    "fees": 0.06,
+                    "shares": 13
                 }
             ],
             "dividends": [
@@ -4864,15 +4872,15 @@
                     "total": 90.63
                 }
             ],
-            "cost basis": 136.3836735849056,
-            "current shares": 53,
+            "cost basis": 127.26386749999995,
+            "current shares": 40,
             "last price": 164.05,
             "last price date": "2025-3-20",
             "last dividend": 1.42,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 131.29190991379312,
-            "avg sell": 123.2897117318436
+            "avg sell": 126.0759291666667
         },
         {
             "ticker": "DFS",
