@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 198242.93300029804,
+        "portfolio value": 196110.28300029802,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -13756,6 +13756,14 @@
                     "commission": 0.0,
                     "fees": 0.1,
                     "shares": 150
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-3-28",
+                    "price": 28.23,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 35
                 }
             ],
             "dividends": [
@@ -13874,15 +13882,15 @@
                     "total": 86.18
                 }
             ],
-            "cost basis": 18.32310312500001,
-            "current shares": 160,
+            "cost basis": 15.549172000000011,
+            "current shares": 125,
             "last price": 26.84,
             "last price date": "2025-3-20",
             "last dividend": 0.278,
             "last yield date": "2022-9-23",
             "track": true,
             "avg buy": 27.762411646586344,
-            "avg sell": 28.64985806451613
+            "avg sell": 28.6367375
         },
         {
             "ticker": "TGT",
