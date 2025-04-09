@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 176313.72200029803,
+        "portfolio value": 178748.60200029804,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -1149,6 +1149,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-4-9",
+                    "price": 94.08,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 20
                 }
             ],
             "dividends": [
@@ -1231,15 +1239,15 @@
                     "total": 2.2199999999999998
                 }
             ],
-            "cost basis": -23.774560000000072,
-            "current shares": 20,
+            "cost basis": 0,
+            "current shares": 0,
             "last price": 85.76,
             "last price date": "2025-4-7",
             "last dividend": 0.37,
             "last yield date": "2022-2-17",
             "track": true,
             "avg buy": 89.05459851301114,
-            "avg sell": 97.91782409638556
+            "avg sell": 97.63248401486989
         },
         {
             "ticker": "AMGN",
@@ -10884,6 +10892,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 2
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-4-9",
+                    "price": 384.85,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 2
                 }
             ],
             "dividends": [
@@ -10966,15 +10982,15 @@
                     "total": 13.64
                 }
             ],
-            "cost basis": -1394.3381999999997,
-            "current shares": 2,
+            "cost basis": 0,
+            "current shares": 0,
             "last price": 359.84,
             "last price date": "2025-4-7",
             "last dividend": 0.62,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 212.6686336283186,
-            "avg sell": 241.15263063063065
+            "avg sell": 243.6959469026549
         },
         {
             "ticker": "NKE",
