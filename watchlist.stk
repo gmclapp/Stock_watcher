@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 177033.40200029803,
+        "portfolio value": 176313.72200029803,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -15693,6 +15693,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 2
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-4-11",
+                    "price": 47.548,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 22
                 }
             ],
             "dividends": [
@@ -15817,15 +15825,15 @@
                     "total": 43.4
                 }
             ],
-            "cost basis": 26.277500000000007,
-            "current shares": 102,
+            "cost basis": 20.4281125,
+            "current shares": 80,
             "last price": 46.46,
             "last price date": "2025-4-7",
             "last dividend": 0.31,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 40.75239779005525,
-            "avg sell": 43.66575283446711
+            "avg sell": 43.85022246220302
         },
         {
             "ticker": "WORK",
