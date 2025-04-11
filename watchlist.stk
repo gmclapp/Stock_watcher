@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 176313.72200029803,
+        "portfolio value": 177033.40200029803,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -10908,6 +10908,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 2
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-4-11",
+                    "price": 387.41,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 2
                 }
             ],
             "dividends": [
@@ -10990,15 +10998,15 @@
                     "total": 13.64
                 }
             ],
-            "cost basis": -1405.5881999999997,
-            "current shares": 2,
+            "cost basis": 0,
+            "current shares": 0,
             "last price": 359.84,
             "last price date": "2025-4-7",
             "last dividend": 0.62,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 215.46744,
-            "avg sell": 243.6959469026549
+            "avg sell": 246.19532173913046
         },
         {
             "ticker": "NKE",
