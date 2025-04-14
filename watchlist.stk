@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 176313.72200029803,
+        "portfolio value": 175291.60200029804,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -336,6 +336,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 2
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-4-14",
+                    "price": 203.324,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 2
                 }
             ],
             "dividends": [
@@ -488,17 +496,47 @@
                     "amount": 0.24,
                     "shares": 3,
                     "total": 0.72
+                },
+                {
+                    "date": "2024-02-09",
+                    "amount": 0.24,
+                    "shares": 23,
+                    "total": 5.52
+                },
+                {
+                    "date": "2024-05-10",
+                    "amount": 0.25,
+                    "shares": 23,
+                    "total": 5.75
+                },
+                {
+                    "date": "2024-08-12",
+                    "amount": 0.25,
+                    "shares": 23,
+                    "total": 5.75
+                },
+                {
+                    "date": "2024-11-08",
+                    "amount": 0.25,
+                    "shares": 23,
+                    "total": 5.75
+                },
+                {
+                    "date": "2025-02-10",
+                    "amount": 0.25,
+                    "shares": 23,
+                    "total": 5.75
                 }
             ],
-            "cost basis": 28.037695238095313,
-            "current shares": 21,
+            "cost basis": 8.085452631579049,
+            "current shares": 19,
             "last price": 188.38,
             "last price date": "2025-4-7",
             "last dividend": 0.23,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 165.5878863636364,
-            "avg sell": 177.0769563786008
+            "avg sell": 177.29121795918365
         },
         {
             "ticker": "ABBV",
