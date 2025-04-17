@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 175291.60200029804,
+        "portfolio value": 174914.84200029803,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -13390,6 +13390,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 20
+                },
+                {
+                    "b/s": "b",
+                    "date": "2025-4-16",
+                    "price": 71.525,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 4
                 }
             ],
             "dividends": [
@@ -13524,16 +13532,58 @@
                     "amount": 0.7,
                     "shares": 95,
                     "total": 66.5
+                },
+                {
+                    "date": "2023-09-25",
+                    "amount": 0.7,
+                    "shares": 60,
+                    "total": 42.0
+                },
+                {
+                    "date": "2023-12-20",
+                    "amount": 0.7,
+                    "shares": 40,
+                    "total": 28.0
+                },
+                {
+                    "date": "2024-03-20",
+                    "amount": 0.7,
+                    "shares": 40,
+                    "total": 28.0
+                },
+                {
+                    "date": "2024-06-20",
+                    "amount": 0.7,
+                    "shares": 40,
+                    "total": 28.0
+                },
+                {
+                    "date": "2024-09-23",
+                    "amount": 0.7,
+                    "shares": 40,
+                    "total": 28.0
+                },
+                {
+                    "date": "2024-12-13",
+                    "amount": 0.72,
+                    "shares": 40,
+                    "total": 28.799999999999997
+                },
+                {
+                    "date": "2025-03-19",
+                    "amount": 0.72,
+                    "shares": 40,
+                    "total": 28.799999999999997
                 }
             ],
-            "cost basis": -8.405127499999987,
-            "current shares": 40,
+            "cost basis": -5.947843181818172,
+            "current shares": 44,
             "last price": 66.73,
             "last price date": "2025-4-7",
             "last dividend": 0.7,
             "last yield date": "2022-12-14",
             "track": true,
-            "avg buy": 57.724120483641535,
+            "avg buy": 57.8022018387553,
             "avg sell": 60.826533634992465
         },
         {
