@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 176849.85200029807,
+        "portfolio value": 178467.45200029804,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -5126,6 +5126,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 15
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-05-19",
+                    "price": 200.05,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 20
                 }
             ],
             "dividends": [
@@ -5226,15 +5234,15 @@
                     "total": 21.0
                 }
             ],
-            "cost basis": 86.11599000000001,
-            "current shares": 20,
+            "cost basis": 0,
+            "current shares": 0,
             "last price": 147.04,
             "last price date": "2025-4-7",
             "last dividend": 0.6,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 84.46014957983193,
-            "avg sell": 83.11422222222221
+            "avg sell": 102.76729411764705
         },
         {
             "ticker": "EBAY",
@@ -16883,6 +16891,29 @@
             "track": true,
             "avg buy": 79.06930107526881,
             "avg sell": 83.63398400000001
+        },
+        {
+            "ticker": "COF",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2025-05-19",
+                    "price": 197.41,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 20
+                }
+            ],
+            "dividends": [],
+            "cost basis": 197.41,
+            "current shares": 20,
+            "last price": 197.41,
+            "last price date": "2025-05-19",
+            "last dividend": 0,
+            "last yield date": "2025-05-19",
+            "track": 1,
+            "avg buy": 197.41,
+            "avg sell": 197.41
         }
     ]
 ]
