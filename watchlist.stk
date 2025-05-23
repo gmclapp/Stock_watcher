@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 178467.45200029804,
+        "portfolio value": 180656.12200029803,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -4299,6 +4299,29 @@
             "track": true,
             "avg buy": 0.9728126306984527,
             "avg sell": 0.6746203471350899
+        },
+        {
+            "ticker": "COF",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2025-05-19",
+                    "price": 197.41,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 20
+                }
+            ],
+            "dividends": [],
+            "cost basis": 197.41,
+            "current shares": 20,
+            "last price": 197.41,
+            "last price date": "2025-05-19",
+            "last dividend": 0,
+            "last yield date": "2025-05-19",
+            "track": 1,
+            "avg buy": 197.41,
+            "avg sell": 197.41
         },
         {
             "ticker": "CVS",
@@ -10785,6 +10808,14 @@
                     "commission": 0.0,
                     "fees": 0.1,
                     "shares": 26
+                },
+                {
+                    "b/s": "b",
+                    "date": "2025-5-22",
+                    "price": 149.47,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 1
                 }
             ],
             "dividends": [
@@ -10847,16 +10878,76 @@
                     "amount": 1.49,
                     "shares": 36,
                     "total": 53.64
+                },
+                {
+                    "date": "2022-11-17",
+                    "amount": 1.49,
+                    "shares": 46,
+                    "total": 68.54
+                },
+                {
+                    "date": "2023-02-16",
+                    "amount": 1.5,
+                    "shares": 46,
+                    "total": 69.0
+                },
+                {
+                    "date": "2023-05-18",
+                    "amount": 1.5,
+                    "shares": 51,
+                    "total": 76.5
+                },
+                {
+                    "date": "2023-08-18",
+                    "amount": 1.5,
+                    "shares": 51,
+                    "total": 76.5
+                },
+                {
+                    "date": "2023-11-16",
+                    "amount": 1.5,
+                    "shares": 51,
+                    "total": 76.5
+                },
+                {
+                    "date": "2024-02-15",
+                    "amount": 1.51,
+                    "shares": 51,
+                    "total": 77.01
+                },
+                {
+                    "date": "2024-05-23",
+                    "amount": 0.7,
+                    "shares": 51,
+                    "total": 35.699999999999996
+                },
+                {
+                    "date": "2024-08-26",
+                    "amount": 0.7,
+                    "shares": 51,
+                    "total": 35.699999999999996
+                },
+                {
+                    "date": "2024-11-15",
+                    "amount": 0.7,
+                    "shares": 51,
+                    "total": 35.699999999999996
+                },
+                {
+                    "date": "2025-02-14",
+                    "amount": 0.73,
+                    "shares": 25,
+                    "total": 18.25
                 }
             ],
-            "cost basis": 137.23225200000002,
-            "current shares": 25,
+            "cost basis": 115.80293461538463,
+            "current shares": 26,
             "last price": 126.91,
             "last price date": "2025-4-7",
             "last dividend": 1.49,
             "last yield date": "2022-10-18",
             "track": 1,
-            "avg buy": 156.4236388235294,
+            "avg buy": 156.3427825581395,
             "avg sell": 161.00438333333332
         },
         {
@@ -11641,18 +11732,26 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 20
+                },
+                {
+                    "b/s": "b",
+                    "date": "2025-5-22",
+                    "price": 22.92,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 4
                 }
             ],
             "dividends": [],
-            "cost basis": 22.74,
-            "current shares": 20,
+            "cost basis": 22.77,
+            "current shares": 24,
             "last price": 22.74,
             "last price date": "2025-5-12",
             "last dividend": 0,
             "last yield date": "2025-5-12",
             "track": 1,
-            "avg buy": 22.74,
-            "avg sell": 22.74
+            "avg buy": 22.77,
+            "avg sell": 22.77
         },
         {
             "ticker": "PRGO",
@@ -12645,18 +12744,26 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 1
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-5-22",
+                    "price": 15.98,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 5
                 }
             ],
             "dividends": [],
-            "cost basis": 24.94174146341464,
-            "current shares": 164,
+            "cost basis": 25.223557232704408,
+            "current shares": 159,
             "last price": 11.21,
             "last price date": "2025-4-7",
             "last dividend": 0,
             "last yield date": "2021-11-16",
             "track": 1,
             "avg buy": 24.726223809523816,
-            "avg sell": 15.89
+            "avg sell": 15.940000000000001
         },
         {
             "ticker": "ROK",
@@ -14641,17 +14748,62 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2025-5-22",
+                    "price": 181.86,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 7
                 }
             ],
-            "dividends": [],
-            "cost basis": 143.78974000000002,
-            "current shares": 10,
+            "dividends": [
+                {
+                    "date": "2022-03-29",
+                    "amount": 2.2028,
+                    "shares": 4,
+                    "total": 8.8112
+                },
+                {
+                    "date": "2022-09-28",
+                    "amount": 1.7621,
+                    "shares": 25,
+                    "total": 44.0525
+                },
+                {
+                    "date": "2023-03-29",
+                    "amount": 2.4959,
+                    "shares": 25,
+                    "total": 62.397499999999994
+                },
+                {
+                    "date": "2023-09-27",
+                    "amount": 2.0025,
+                    "shares": 10,
+                    "total": 20.025
+                },
+                {
+                    "date": "2024-03-27",
+                    "amount": 2.8605,
+                    "shares": 10,
+                    "total": 28.605
+                },
+                {
+                    "date": "2024-09-30",
+                    "amount": 2.6008,
+                    "shares": 10,
+                    "total": 26.008
+                }
+            ],
+            "cost basis": 148.29518823529415,
+            "current shares": 17,
             "last price": 158.63,
             "last price date": "2025-4-7",
             "last dividend": 2.44987,
             "last yield date": "2022-6-23",
             "track": 1,
-            "avg buy": 173.62901379310344,
+            "avg buy": 175.22948333333332,
             "avg sell": 189.33336842105263
         },
         {
@@ -16891,29 +17043,6 @@
             "track": true,
             "avg buy": 79.06930107526881,
             "avg sell": 83.63398400000001
-        },
-        {
-            "ticker": "COF",
-            "transactions": [
-                {
-                    "b/s": "b",
-                    "date": "2025-05-19",
-                    "price": 197.41,
-                    "commission": 0.0,
-                    "fees": 0.0,
-                    "shares": 20
-                }
-            ],
-            "dividends": [],
-            "cost basis": 197.41,
-            "current shares": 20,
-            "last price": 197.41,
-            "last price date": "2025-05-19",
-            "last dividend": 0,
-            "last yield date": "2025-05-19",
-            "track": 1,
-            "avg buy": 197.41,
-            "avg sell": 197.41
         }
     ]
 ]
