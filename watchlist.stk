@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 180747.082000298,
+        "portfolio value": 181284.82200029804,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -17059,6 +17059,29 @@
             "track": true,
             "avg buy": 79.06930107526881,
             "avg sell": 83.63398400000001
+        },
+        {
+            "ticker": "D",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2025-7-1",
+                    "price": 57.25,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 25
+                }
+            ],
+            "dividends": [],
+            "cost basis": 57.25,
+            "current shares": 25,
+            "last price": 57.25,
+            "last price date": "2025-7-1",
+            "last dividend": 0,
+            "last yield date": "2025-7-1",
+            "track": 1,
+            "avg buy": 57.25,
+            "avg sell": 57.25
         }
     ]
 ]
