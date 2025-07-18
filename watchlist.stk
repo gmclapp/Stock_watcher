@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 181284.82200029804,
+        "portfolio value": 182716.07200029804,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -5028,6 +5028,29 @@
             "avg sell": 127.01793333333337
         },
         {
+            "ticker": "D",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2025-7-1",
+                    "price": 57.25,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 25
+                }
+            ],
+            "dividends": [],
+            "cost basis": 57.25,
+            "current shares": 25,
+            "last price": 57.25,
+            "last price date": "2025-7-1",
+            "last dividend": 0,
+            "last yield date": "2025-7-1",
+            "track": 1,
+            "avg buy": 57.25,
+            "avg sell": 57.25
+        },
+        {
             "ticker": "DFS",
             "transactions": [
                 {
@@ -7327,6 +7350,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 45
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-7-18",
+                    "price": 53.0453,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 20
                 }
             ],
             "dividends": [
@@ -7439,15 +7470,15 @@
                     "total": 10.35
                 }
             ],
-            "cost basis": 22.28861800000002,
-            "current shares": 100,
+            "cost basis": 14.599447500000029,
+            "current shares": 80,
             "last price": 44.18,
             "last price date": "2025-4-7",
             "last dividend": 0.09,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 36.88038689320389,
-            "avg sell": 38.69179143646408
+            "avg sell": 39.077638440860206
         },
         {
             "ticker": "GME",
@@ -11748,18 +11779,26 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 4
+                },
+                {
+                    "b/s": "b",
+                    "date": "2025-7-18",
+                    "price": 24.4652,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 50
                 }
             ],
             "dividends": [],
-            "cost basis": 22.77,
-            "current shares": 24,
+            "cost basis": 23.915405405405405,
+            "current shares": 74,
             "last price": 22.74,
             "last price date": "2025-5-12",
             "last dividend": 0,
             "last yield date": "2025-5-12",
             "track": 1,
-            "avg buy": 22.77,
-            "avg sell": 22.77
+            "avg buy": 23.915405405405405,
+            "avg sell": 23.915405405405405
         },
         {
             "ticker": "PRGO",
@@ -17059,29 +17098,6 @@
             "track": true,
             "avg buy": 79.06930107526881,
             "avg sell": 83.63398400000001
-        },
-        {
-            "ticker": "D",
-            "transactions": [
-                {
-                    "b/s": "b",
-                    "date": "2025-7-1",
-                    "price": 57.25,
-                    "commission": 0.0,
-                    "fees": 0.0,
-                    "shares": 25
-                }
-            ],
-            "dividends": [],
-            "cost basis": 57.25,
-            "current shares": 25,
-            "last price": 57.25,
-            "last price date": "2025-7-1",
-            "last dividend": 0,
-            "last yield date": "2025-7-1",
-            "track": 1,
-            "avg buy": 57.25,
-            "avg sell": 57.25
         }
     ]
 ]
