@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 182272.57200029804,
+        "portfolio value": 182686.58200029805,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -11460,6 +11460,29 @@
             "avg sell": 84.67201886792454
         },
         {
+            "ticker": "NVDA",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2025-8-4",
+                    "price": 178.98,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 2
+                }
+            ],
+            "dividends": [],
+            "cost basis": 178.98,
+            "current shares": 2,
+            "last price": 178.98,
+            "last price date": "2025-8-4",
+            "last dividend": 0,
+            "last yield date": "2025-8-4",
+            "track": 1,
+            "avg buy": 178.98,
+            "avg sell": 178.98
+        },
+        {
             "ticker": "OKE",
             "transactions": [
                 {
@@ -13517,9 +13540,27 @@
                     "amount": 1.122,
                     "shares": 100,
                     "total": 112.20000000000002
+                },
+                {
+                    "date": "2023-4-24",
+                    "amount": 1.34,
+                    "shares": 60,
+                    "total": 80.4
+                },
+                {
+                    "date": "2024-4-22",
+                    "amount": 1.55,
+                    "shares": 60,
+                    "total": 93.0
+                },
+                {
+                    "date": "2025-5-5",
+                    "amount": 0.68,
+                    "shares": 60,
+                    "total": 40.800000000000004
                 }
             ],
-            "cost basis": -8.14435,
+            "cost basis": -11.714349999999998,
             "current shares": 60,
             "last price": 9.72,
             "last price date": "2025-4-7",
@@ -17162,29 +17203,6 @@
             "track": true,
             "avg buy": 79.06930107526881,
             "avg sell": 83.63398400000001
-        },
-        {
-            "ticker": "NVDA",
-            "transactions": [
-                {
-                    "b/s": "b",
-                    "date": "2025-8-4",
-                    "price": 178.98,
-                    "commission": 0.0,
-                    "fees": 0.0,
-                    "shares": 2
-                }
-            ],
-            "dividends": [],
-            "cost basis": 178.98,
-            "current shares": 2,
-            "last price": 178.98,
-            "last price date": "2025-8-4",
-            "last dividend": 0,
-            "last yield date": "2025-8-4",
-            "track": 1,
-            "avg buy": 178.98,
-            "avg sell": 178.98
         }
     ]
 ]
