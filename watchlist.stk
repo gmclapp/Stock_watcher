@@ -9056,6 +9056,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 50
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-8-12",
+                    "price": 21.5665,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 50
                 }
             ],
             "dividends": [
@@ -9222,15 +9230,15 @@
                     "total": 35.0
                 }
             ],
-            "cost basis": 33.47921964285716,
-            "current shares": 280,
+            "cost basis": 36.06894130434784,
+            "current shares": 230,
             "last price": 19.85,
             "last price date": "2025-4-7",
             "last dividend": 0.365,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 42.7978018967334,
-            "avg sell": 45.734600149476826
+            "avg sell": 44.053925591098746
         },
         {
             "ticker": "JNJ",
