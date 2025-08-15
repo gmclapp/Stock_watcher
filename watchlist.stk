@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 182686.58200029805,
+        "portfolio value": 181694.08200029805,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -344,6 +344,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 2
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-8-15",
+                    "price": 232.35,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 9
                 }
             ],
             "dividends": [
@@ -528,15 +536,15 @@
                     "total": 5.75
                 }
             ],
-            "cost basis": 8.085452631579049,
-            "current shares": 19,
+            "cost basis": -193.75263999999984,
+            "current shares": 10,
             "last price": 188.38,
             "last price date": "2025-4-7",
             "last dividend": 0.23,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 165.5878863636364,
-            "avg sell": 177.29121795918365
+            "avg sell": 179.24211968503937
         },
         {
             "ticker": "ABBV",
@@ -9710,6 +9718,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 7
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-8-15",
+                    "price": 292.555,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 7
                 }
             ],
             "dividends": [
@@ -9834,15 +9850,15 @@
                     "total": 35.0
                 }
             ],
-            "cost basis": 138.8780588235294,
-            "current shares": 17,
+            "cost basis": 31.304200000000044,
+            "current shares": 10,
             "last price": 210.28,
             "last price date": "2025-4-7",
             "last dividend": 1.0,
             "last yield date": "2022-9-23",
             "track": true,
             "avg buy": 126.1291510791367,
-            "avg sell": 123.0008606557377
+            "avg sell": 132.20147286821702
         },
         {
             "ticker": "JRVMF",
