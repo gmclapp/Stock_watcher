@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 178526.70200029804,
+        "portfolio value": 178204.26200029804,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -12910,18 +12910,26 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 1
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-9-16",
+                    "price": 14.47,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 5
                 }
             ],
             "dividends": [],
-            "cost basis": 24.766082424242427,
-            "current shares": 165,
+            "cost basis": 25.087835000000005,
+            "current shares": 160,
             "last price": 11.21,
             "last price date": "2025-4-7",
             "last dividend": 0,
             "last yield date": "2021-11-16",
             "track": 1,
             "avg buy": 24.30956091954024,
-            "avg sell": 15.940000000000001
+            "avg sell": 15.415000000000001
         },
         {
             "ticker": "ROK",
@@ -13988,6 +13996,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 14
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-9-15",
+                    "price": 211.8,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 5
                 }
             ],
             "dividends": [
@@ -14166,15 +14182,15 @@
                     "total": 28.799999999999997
                 }
             ],
-            "cost basis": -74.80583666666665,
-            "current shares": 30,
+            "cost basis": -132.12700399999997,
+            "current shares": 25,
             "last price": 66.73,
             "last price date": "2025-4-7",
             "last dividend": 0.7,
             "last yield date": "2022-12-14",
             "track": true,
             "avg buy": 57.8022018387553,
-            "avg sell": 62.49698936484491
+            "avg sell": 63.5915862170088
         },
         {
             "ticker": "T",
