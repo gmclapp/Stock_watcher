@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 178204.26200029804,
+        "portfolio value": 178148.21200029805,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -3876,6 +3876,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 83
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-9-22",
+                    "price": 55.0,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 100
                 }
             ],
             "dividends": [
@@ -3958,15 +3966,15 @@
                     "total": 62.99999999999999
                 }
             ],
-            "cost basis": 25.78155454545455,
-            "current shares": 110,
+            "cost basis": -266.40289999999993,
+            "current shares": 10,
             "last price": 35.97,
             "last price date": "2025-4-7",
             "last dividend": 0.35,
             "last yield date": "2022-9-23",
             "track": true,
             "avg buy": 30.971431967213114,
-            "avg sell": 31.613925000000002
+            "avg sell": 35.51160416666667
         },
         {
             "ticker": "BKS",
