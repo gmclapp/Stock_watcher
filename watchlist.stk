@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 175351.732000298,
+        "portfolio value": 176483.33200029805,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -5516,6 +5516,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2025-11-3",
+                    "price": 54.519,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 30
                 }
             ],
             "dividends": [
@@ -5544,15 +5552,15 @@
                     "total": 33.1
                 }
             ],
-            "cost basis": 56.47851818181818,
-            "current shares": 55,
+            "cost basis": 55.78692352941175,
+            "current shares": 85,
             "last price": 53.92,
             "last price date": "2025-4-7",
             "last dividend": 0,
             "last yield date": "2025-1-8",
             "track": 1,
-            "avg buy": 57.83260909090909,
-            "avg sell": 57.83260909090909
+            "avg buy": 56.66309999999999,
+            "avg sell": 56.66309999999999
         },
         {
             "ticker": "F",
@@ -13398,18 +13406,34 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 50
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-11-3",
+                    "price": 205.67,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 10
+                },
+                {
+                    "b/s": "b",
+                    "date": "2025-11-4",
+                    "price": 190.34,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 5
                 }
             ],
             "dividends": [],
-            "cost basis": -102.04930555555555,
-            "current shares": 36,
+            "cost basis": -154.15403225806452,
+            "current shares": 31,
             "last price": 48.6,
             "last price date": "2025-02-24",
             "last dividend": 0,
             "last yield date": "2025-02-24",
             "track": 1,
-            "avg buy": 41.72441860465116,
-            "avg sell": 145.2415
+            "avg buy": 49.89010989010989,
+            "avg sell": 155.31291666666667
         },
         {
             "ticker": "SQ",
