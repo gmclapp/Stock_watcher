@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 176483.33200029805,
+        "portfolio value": 179016.42200029801,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -6149,6 +6149,29 @@
             "avg sell": 10.377464814814815
         },
         {
+            "ticker": "FAST",
+            "transactions": [
+                {
+                    "b/s": "b",
+                    "date": "2025-11-6",
+                    "price": 41.635,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 110
+                }
+            ],
+            "dividends": [],
+            "cost basis": 41.635,
+            "current shares": 110,
+            "last price": 41.635,
+            "last price date": "2025-11-6",
+            "last dividend": 0,
+            "last yield date": "2025-11-6",
+            "track": 1,
+            "avg buy": 41.635,
+            "avg sell": 41.635
+        },
+        {
             "ticker": "FTSSF",
             "transactions": [
                 {
@@ -12221,6 +12244,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 100
+                },
+                {
+                    "b/s": "b",
+                    "date": "2025-11-6",
+                    "price": 14.96,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 50
                 }
             ],
             "dividends": [
@@ -12379,16 +12410,22 @@
                     "amount": 0.29,
                     "shares": 250,
                     "total": 72.5
+                },
+                {
+                    "date": "2025-8-29",
+                    "amount": 0.29,
+                    "shares": 250,
+                    "total": 72.5
                 }
             ],
-            "cost basis": 24.952604000000004,
-            "current shares": 250,
-            "last price": 27.01,
-            "last price date": "2025-5-12",
+            "cost basis": 23.045503333333336,
+            "current shares": 300,
+            "last price": 15.1,
+            "last price date": "2025-11-6",
             "last dividend": 0.26,
             "last yield date": "2022-10-18",
             "track": true,
-            "avg buy": 38.794223495702006,
+            "avg buy": 37.201026737967915,
             "avg sell": 44.94718080357143
         },
         {
@@ -12994,18 +13031,26 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 6
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-11-6",
+                    "price": 15.265,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 6
                 }
             ],
             "dividends": [],
-            "cost basis": 24.65797349397591,
-            "current shares": 166,
+            "cost basis": 25.010210000000004,
+            "current shares": 160,
             "last price": 11.21,
             "last price date": "2025-4-7",
             "last dividend": 0,
             "last yield date": "2021-11-16",
             "track": 1,
             "avg buy": 23.939075555555565,
-            "avg sell": 15.415000000000001
+            "avg sell": 15.37
         },
         {
             "ticker": "ROK",
@@ -13422,18 +13467,26 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 5
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-11-13",
+                    "price": 238.48,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 5
                 }
             ],
             "dividends": [],
-            "cost basis": -154.15403225806452,
-            "current shares": 31,
+            "cost basis": -229.6605769230769,
+            "current shares": 26,
             "last price": 48.6,
             "last price date": "2025-02-24",
             "last dividend": 0,
             "last yield date": "2025-02-24",
             "track": 1,
             "avg buy": 49.89010989010989,
-            "avg sell": 155.31291666666667
+            "avg sell": 161.7103846153846
         },
         {
             "ticker": "SQ",
