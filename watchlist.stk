@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 177874.40200029805,
+        "portfolio value": 179635.16200029806,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -13067,18 +13067,26 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 2
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-12-2",
+                    "price": 17.4355,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 2
                 }
             ],
             "dividends": [],
-            "cost basis": 24.885886419753092,
-            "current shares": 162,
-            "last price": 11.21,
-            "last price date": "2025-4-7",
+            "cost basis": 24.979016250000004,
+            "current shares": 160,
+            "last price": 17.4355,
+            "last price date": "2025-12-2",
             "last dividend": 0,
             "last yield date": "2021-11-16",
             "track": 1,
             "avg buy": 23.840184615384626,
-            "avg sell": 15.37
+            "avg sell": 15.557772727272726
         },
         {
             "ticker": "ROK",
@@ -16932,17 +16940,25 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 4
+                },
+                {
+                    "b/s": "b",
+                    "date": "2025-12-9",
+                    "price": 35.8285,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 30
                 }
             ],
             "dividends": [],
-            "cost basis": 91.33504807692307,
-            "current shares": 104,
+            "cost basis": 78.90820895522387,
+            "current shares": 134,
             "last price": 33.84,
             "last price date": "2024-9-26",
             "last dividend": 0,
             "last yield date": "2024-9-26",
             "track": 1,
-            "avg buy": 78.22336538461538,
+            "avg buy": 71.38548387096773,
             "avg sell": 52.0
         },
         {
