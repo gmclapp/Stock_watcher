@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 179635.16200029806,
+        "portfolio value": 180650.36200029805,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -12272,6 +12272,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 50
+                },
+                {
+                    "b/s": "s",
+                    "date": "2025-12-16",
+                    "price": 12.8555,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 75
                 }
             ],
             "dividends": [
@@ -12436,17 +12444,23 @@
                     "amount": 0.29,
                     "shares": 250,
                     "total": 72.5
+                },
+                {
+                    "date": "2025-11-28",
+                    "amount": 0.29,
+                    "shares": 300,
+                    "total": 87.0
                 }
             ],
-            "cost basis": 23.045503333333336,
-            "current shares": 300,
+            "cost basis": 26.055504444444452,
+            "current shares": 225,
             "last price": 15.1,
             "last price date": "2025-11-6",
             "last dividend": 0.26,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 37.201026737967915,
-            "avg sell": 44.94718080357143
+            "avg sell": 40.34512332695984
         },
         {
             "ticker": "PXLW",
