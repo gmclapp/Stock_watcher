@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 183038.41200029803,
+        "portfolio value": 184980.09200029803,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -3884,6 +3884,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 100
+                },
+                {
+                    "b/s": "b",
+                    "date": "2026-1-13",
+                    "price": 55.5885,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 80
                 }
             ],
             "dividends": [
@@ -3966,14 +3974,14 @@
                     "total": 62.99999999999999
                 }
             ],
-            "cost basis": -266.40289999999993,
-            "current shares": 10,
+            "cost basis": 19.811677777777785,
+            "current shares": 90,
             "last price": 35.97,
             "last price date": "2025-4-7",
             "last dividend": 0.35,
             "last yield date": "2022-9-23",
             "track": true,
-            "avg buy": 30.971431967213114,
+            "avg buy": 33.82558478260869,
             "avg sell": 35.51160416666667
         },
         {
@@ -15808,18 +15816,26 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 26
+                },
+                {
+                    "b/s": "s",
+                    "date": "2026-1-12",
+                    "price": 28.5754,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 26
                 }
             ],
             "dividends": [],
-            "cost basis": 30.15,
-            "current shares": 26,
+            "cost basis": 0,
+            "current shares": 0,
             "last price": 8.07,
             "last price date": "2025-4-7",
             "last dividend": 0,
             "last yield date": "2022-4-12",
             "track": 1,
             "avg buy": 30.15,
-            "avg sell": 30.15
+            "avg sell": 28.5754
         },
         {
             "ticker": "WDC",
