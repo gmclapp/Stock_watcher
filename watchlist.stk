@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 206432.182000298,
+        "portfolio value": 206955.78850029802,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -13223,17 +13223,25 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 140
+                },
+                {
+                    "b/s": "b",
+                    "date": "2026-3-5",
+                    "price": 15.004,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 3
                 }
             ],
             "dividends": [],
-            "cost basis": 19.923142000000002,
-            "current shares": 300,
+            "cost basis": 19.874437623762375,
+            "current shares": 303,
             "last price": 17.4355,
             "last price date": "2025-12-2",
             "last dividend": 0,
             "last yield date": "2021-11-16",
             "track": 1,
-            "avg buy": 19.624886956521745,
+            "avg buy": 19.58223261538462,
             "avg sell": 15.557772727272726
         },
         {
@@ -13667,18 +13675,26 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 13
+                },
+                {
+                    "b/s": "s",
+                    "date": "2026-3-9",
+                    "price": 568.95,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 4
                 }
             ],
             "dividends": [],
-            "cost basis": -1054.9511538461536,
-            "current shares": 13,
+            "cost basis": -1776.6849999999997,
+            "current shares": 9,
             "last price": 595.63,
             "last price date": "2026-2-9",
             "last dividend": 0,
             "last yield date": "2025-02-24",
             "track": 1,
             "avg buy": 49.89010989010989,
-            "avg sell": 234.03032051282048
+            "avg sell": 250.36786585365851
         },
         {
             "ticker": "SQ",
