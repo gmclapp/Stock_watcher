@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 204573.26850029803,
+        "portfolio value": 204608.139500298,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -8284,6 +8284,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 28
+                },
+                {
+                    "b/s": "s",
+                    "date": "2026-4-9",
+                    "price": 22.15,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 78
                 }
             ],
             "dividends": [
@@ -8372,15 +8380,15 @@
                     "total": 7.9
                 }
             ],
-            "cost basis": 24.81351282051283,
-            "current shares": 78,
+            "cost basis": 0,
+            "current shares": 0,
             "last price": 22.98,
             "last price date": "2025-4-7",
             "last dividend": 0.158,
             "last yield date": "2022-10-18",
             "track": 1,
             "avg buy": 35.74379702970297,
-            "avg sell": 39.000117777777774
+            "avg sell": 34.66246369636964
         },
         {
             "ticker": "HOOD",
