@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 204608.139500298,
+        "portfolio value": 203897.169500298,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -13247,17 +13247,25 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 2
+                },
+                {
+                    "b/s": "b",
+                    "date": "2026-4-13",
+                    "price": 15.495,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 7
                 }
             ],
             "dividends": [],
-            "cost basis": 19.841162622950822,
-            "current shares": 305,
-            "last price": 17.4355,
-            "last price date": "2025-12-2",
+            "cost basis": 19.743652564102565,
+            "current shares": 312,
+            "last price": 15.48,
+            "last price date": "2026-4-13",
             "last dividend": 0,
             "last yield date": "2021-11-16",
             "track": 1,
-            "avg buy": 19.55298348623854,
+            "avg buy": 19.467935928143717,
             "avg sell": 15.557772727272726
         },
         {
@@ -16661,6 +16669,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2026-4-13",
+                    "price": 124.56,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 13
                 }
             ],
             "dividends": [
@@ -16785,14 +16801,14 @@
                     "total": 22.400000000000002
                 }
             ],
-            "cost basis": -0.4317333333333834,
-            "current shares": 30,
+            "cost basis": 37.35646511627903,
+            "current shares": 43,
             "last price": 83.19,
             "last price date": "2025-4-7",
             "last dividend": 0.56,
             "last yield date": "2022-10-18",
             "track": true,
-            "avg buy": 99.65290047393364,
+            "avg buy": 101.09840178571427,
             "avg sell": 116.05604419889502
         },
         {
