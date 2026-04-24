@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 203897.169500298,
+        "portfolio value": 203223.34200029803,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -9273,6 +9273,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 100
+                },
+                {
+                    "b/s": "s",
+                    "date": "2026-4-24",
+                    "price": 82.045,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 50
                 }
             ],
             "dividends": [
@@ -9439,15 +9447,15 @@
                     "total": 35.0
                 }
             ],
-            "cost basis": 34.57043461538462,
-            "current shares": 130,
+            "cost basis": 4.898831250000006,
+            "current shares": 80,
             "last price": 19.85,
             "last price date": "2025-4-7",
             "last dividend": 0.365,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 42.7978018967334,
-            "avg sell": 43.31681623931623
+            "avg sell": 45.545135212888376
         },
         {
             "ticker": "JNJ",
@@ -13255,18 +13263,26 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 7
+                },
+                {
+                    "b/s": "s",
+                    "date": "2026-4-21",
+                    "price": 17.375,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 12
                 }
             ],
             "dividends": [],
-            "cost basis": 19.743652564102565,
-            "current shares": 312,
+            "cost basis": 19.83839866666667,
+            "current shares": 300,
             "last price": 15.48,
             "last price date": "2026-4-13",
             "last dividend": 0,
             "last yield date": "2021-11-16",
             "track": 1,
             "avg buy": 19.467935928143717,
-            "avg sell": 15.557772727272726
+            "avg sell": 16.199147058823527
         },
         {
             "ticker": "ROK",
@@ -15940,6 +15956,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 100
+                },
+                {
+                    "b/s": "b",
+                    "date": "2026-4-24",
+                    "price": 46.9,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 75
                 }
             ],
             "dividends": [
@@ -16148,14 +16172,14 @@
                     "total": 103.49999999999999
                 }
             ],
-            "cost basis": 32.883820000000036,
-            "current shares": 50,
+            "cost basis": 41.293528000000016,
+            "current shares": 125,
             "last price": 43.03,
             "last price date": "2025-4-7",
             "last dividend": 0.64,
             "last yield date": "2022-9-23",
             "track": true,
-            "avg buy": 51.51737162162161,
+            "avg buy": 50.73916292134831,
             "avg sell": 50.599457812500006
         },
         {
