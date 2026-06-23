@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 204266.83200029802,
+        "portfolio value": 205487.182000298,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -8877,6 +8877,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 9
+                },
+                {
+                    "b/s": "b",
+                    "date": "2026-6-23",
+                    "price": 263.845,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 10
                 }
             ],
             "dividends": [
@@ -8993,16 +9001,100 @@
                     "amount": 1.65,
                     "shares": 50,
                     "total": 82.5
+                },
+                {
+                    "date": "2022-11-09",
+                    "amount": 1.65,
+                    "shares": 50,
+                    "total": 82.5
+                },
+                {
+                    "date": "2023-02-09",
+                    "amount": 1.65,
+                    "shares": 50,
+                    "total": 82.5
+                },
+                {
+                    "date": "2023-05-09",
+                    "amount": 1.66,
+                    "shares": 50,
+                    "total": 83.0
+                },
+                {
+                    "date": "2023-08-09",
+                    "amount": 1.66,
+                    "shares": 50,
+                    "total": 83.0
+                },
+                {
+                    "date": "2024-02-08",
+                    "amount": 1.66,
+                    "shares": 25,
+                    "total": 41.5
+                },
+                {
+                    "date": "2024-05-09",
+                    "amount": 1.67,
+                    "shares": 25,
+                    "total": 41.75
+                },
+                {
+                    "date": "2024-08-09",
+                    "amount": 1.67,
+                    "shares": 25,
+                    "total": 41.75
+                },
+                {
+                    "date": "2024-11-12",
+                    "amount": 1.67,
+                    "shares": 25,
+                    "total": 41.75
+                },
+                {
+                    "date": "2025-02-10",
+                    "amount": 1.67,
+                    "shares": 10,
+                    "total": 16.7
+                },
+                {
+                    "date": "2025-05-09",
+                    "amount": 1.68,
+                    "shares": 10,
+                    "total": 16.8
+                },
+                {
+                    "date": "2025-08-08",
+                    "amount": 1.68,
+                    "shares": 10,
+                    "total": 16.8
+                },
+                {
+                    "date": "2025-11-10",
+                    "amount": 1.68,
+                    "shares": 10,
+                    "total": 16.8
+                },
+                {
+                    "date": "2026-02-10",
+                    "amount": 1.68,
+                    "shares": 19,
+                    "total": 31.919999999999998
+                },
+                {
+                    "date": "2026-05-08",
+                    "amount": 1.69,
+                    "shares": 19,
+                    "total": 32.11
                 }
             ],
-            "cost basis": 23.50551578947365,
-            "current shares": 19,
-            "last price": 227.48,
-            "last price date": "2025-4-7",
+            "cost basis": 84.69568275862068,
+            "current shares": 29,
+            "last price": 263.845,
+            "last price date": "2026-6-23",
             "last dividend": 1.65,
             "last yield date": "2022-10-18",
             "track": true,
-            "avg buy": 135.30430821917807,
+            "avg buy": 139.56062251655626,
             "avg sell": 141.2503413919414
         },
         {
@@ -13807,7 +13899,7 @@
             "avg sell": 294.4424404761904
         },
         {
-            "ticker": "SQ",
+            "ticker": "XYZ",
             "transactions": [
                 {
                     "b/s": "b",
@@ -13880,17 +13972,25 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 15
+                },
+                {
+                    "b/s": "b",
+                    "date": "2026-6-23",
+                    "price": 72.12,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 6
                 }
             ],
             "dividends": [],
-            "cost basis": 107.01342500000001,
-            "current shares": 20,
+            "cost basis": 98.96109615384617,
+            "current shares": 26,
             "last price": 71.28,
             "last price date": "2024-5-13",
             "last dividend": 0,
             "last yield date": "2020-3-11",
             "track": 1,
-            "avg buy": 150.51018085106384,
+            "avg buy": 141.635820754717,
             "avg sell": 182.7285185185185
         },
         {
