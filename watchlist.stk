@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 210016.22200029803,
+        "portfolio value": 215928.12200029806,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -13924,18 +13924,26 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 2
+                },
+                {
+                    "b/s": "s",
+                    "date": "2026-8-20",
+                    "price": 1602.0,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 2
                 }
             ],
             "dividends": [],
-            "cost basis": -2884.7378571428567,
-            "current shares": 7,
+            "cost basis": -4679.432999999999,
+            "current shares": 5,
             "last price": 595.63,
             "last price date": "2026-2-9",
             "last dividend": 0,
             "last yield date": "2025-02-24",
             "track": 1,
             "avg buy": 49.89010989010989,
-            "avg sell": 294.4424404761904
+            "avg sell": 324.85075581395347
         },
         {
             "ticker": "STLA",
