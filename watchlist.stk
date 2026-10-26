@@ -1,6 +1,6 @@
 [
     {
-        "portfolio value": 214736.86200029805,
+        "portfolio value": 216130.06200029803,
         "exposure target": 0.025,
         "dividend target": 0.0325,
         "average yield": NaN
@@ -4342,18 +4342,26 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 20
+                },
+                {
+                    "b/s": "s",
+                    "date": "2026-10-09",
+                    "price": 200.37,
+                    "commission": 0.0,
+                    "fees": 0.03,
+                    "shares": 5
                 }
             ],
             "dividends": [],
-            "cost basis": 197.41,
-            "current shares": 20,
+            "cost basis": 196.4213333333333,
+            "current shares": 15,
             "last price": 197.41,
             "last price date": "2025-05-19",
             "last dividend": 0,
             "last yield date": "2025-05-19",
             "track": 1,
             "avg buy": 197.41,
-            "avg sell": 197.41
+            "avg sell": 200.37
         },
         {
             "ticker": "CVS",
@@ -11867,6 +11875,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 33
+                },
+                {
+                    "b/s": "s",
+                    "date": "2026-10-09",
+                    "price": 34.75,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 53
                 }
             ],
             "dividends": [
@@ -11895,15 +11911,15 @@
                     "total": 8.0
                 }
             ],
-            "cost basis": 84.2069245283019,
-            "current shares": 53,
+            "cost basis": 0,
+            "current shares": 0,
             "last price": 108.674,
             "last price date": "2023-12-22",
             "last dividend": 0,
             "last yield date": "2023-12-22",
             "track": 1,
             "avg buy": 84.67201886792454,
-            "avg sell": 84.67201886792454
+            "avg sell": 34.75
         },
         {
             "ticker": "NVDA",
@@ -12599,6 +12615,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 150
+                },
+                {
+                    "b/s": "s",
+                    "date": "2026-10-09",
+                    "price": 15.45,
+                    "commission": 0.0,
+                    "fees": 0.06,
+                    "shares": 175
                 }
             ],
             "dividends": [
@@ -12771,15 +12795,15 @@
                     "total": 87.0
                 }
             ],
-            "cost basis": 21.515302666666667,
-            "current shares": 375,
+            "cost basis": 26.82214250000001,
+            "current shares": 200,
             "last price": 15.1,
             "last price date": "2025-11-6",
             "last dividend": 0.26,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 33.44333853006681,
-            "avg sell": 40.34512332695984
+            "avg sell": 34.10350931232092
         },
         {
             "ticker": "PXLW",
@@ -13134,6 +13158,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 10
+                },
+                {
+                    "b/s": "s",
+                    "date": "2026-10-09",
+                    "price": 174.37,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 15
                 }
             ],
             "dividends": [
@@ -13252,15 +13284,15 @@
                     "total": 22.5
                 }
             ],
-            "cost basis": 37.35005666666663,
-            "current shares": 30,
+            "cost basis": -99.66988666666676,
+            "current shares": 15,
             "last price": 127.46,
             "last price date": "2025-4-7",
             "last dividend": 0.75,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 80.95258370927317,
-            "avg sell": 83.88132574525746
+            "avg sell": 87.41603958333333
         },
         {
             "ticker": "RIVN",
@@ -13940,18 +13972,26 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 2
+                },
+                {
+                    "b/s": "s",
+                    "date": "2026-10-08",
+                    "price": 1585.68,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 3
                 }
             ],
             "dividends": [],
-            "cost basis": -4679.432999999999,
-            "current shares": 5,
+            "cost basis": -14077.102499999999,
+            "current shares": 2,
             "last price": 595.63,
             "last price date": "2026-2-9",
             "last dividend": 0,
             "last yield date": "2025-02-24",
             "track": 1,
             "avg buy": 49.89010989010989,
-            "avg sell": 324.85075581395347
+            "avg sell": 367.3506179775281
         },
         {
             "ticker": "STLA",
@@ -14551,6 +14591,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 3
+                },
+                {
+                    "b/s": "s",
+                    "date": "2026-10-09",
+                    "price": 778.34,
+                    "commission": 0.0,
+                    "fees": 0.1,
+                    "shares": 6
                 }
             ],
             "dividends": [
@@ -14747,15 +14795,15 @@
                     "total": 18.5
                 }
             ],
-            "cost basis": -680.9042384615382,
-            "current shares": 13,
+            "cost basis": -1931.6992999999998,
+            "current shares": 7,
             "last price": 853.9,
             "last price date": "2026-8-20",
             "last dividend": 0.7,
             "last yield date": "2022-12-14",
             "track": true,
             "avg buy": 57.8022018387553,
-            "avg sell": 70.38884985590778
+            "avg sell": 76.45700257142857
         },
         {
             "ticker": "T",
@@ -15353,6 +15401,14 @@
                     "commission": 0.0,
                     "fees": 0.0,
                     "shares": 13
+                },
+                {
+                    "b/s": "s",
+                    "date": "2026-10-09",
+                    "price": 154.2,
+                    "commission": 0.0,
+                    "fees": 0.0,
+                    "shares": 20
                 }
             ],
             "dividends": [
@@ -15555,15 +15611,15 @@
                     "total": 39.9
                 }
             ],
-            "cost basis": 108.7124583333334,
-            "current shares": 48,
+            "cost basis": 76.22135714285719,
+            "current shares": 28,
             "last price": 95.72,
             "last price date": "2025-4-7",
             "last dividend": 1.08,
             "last yield date": "2022-10-18",
             "track": true,
             "avg buy": 97.7292527173913,
-            "avg sell": 89.2631213235294
+            "avg sell": 97.58836217948718
         },
         {
             "ticker": "TM",
